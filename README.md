@@ -10,3 +10,7 @@ This is the project developed for ProTalento, Group 4
 * Oscar Restrepo
 * Silvia Alejandra
 * Janeth Rocio
+
+## Workflow
+[Trello](https://trello.com/b/caELoKKh
+)
