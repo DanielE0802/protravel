@@ -12,5 +12,4 @@ This is the project developed for ProTalento, Group 4
 * Janeth Rocio
 
 ## Workflow
-[Trello](https://trello.com/b/caELoKKh
-)
+[Trello](https://trello.com/b/caELoKKh)
