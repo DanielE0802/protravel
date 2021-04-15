@@ -1,8 +1,8 @@
 import React from 'react';
 import reactDOM from 'react-dom';
 import './index.css';
-import NavBar from  './components/NavBar';
+import Home from  './components/Home';
 
 const container =  document.getElementById('app');
 
-reactDOM.render(< NavBar />,container);
+reactDOM.render(< Home />,container);
