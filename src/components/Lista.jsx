@@ -30,10 +30,6 @@ const Lista = () => {
                     <ListItemText>
                         Registrarse
                     </ListItemText>
-                    
-                  
-                    
-
                 </ListItem>
                 <Divider/>
                 <ListItem button>
@@ -43,9 +39,6 @@ const Lista = () => {
                     <ListItemText>
                         Detinos
                     </ListItemText>
-                    
-                    
-
                 </ListItem>
              
             </List>
