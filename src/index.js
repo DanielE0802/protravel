@@ -1,8 +1,8 @@
 import React from 'react';
 import reactDOM from 'react-dom';
 import './index.css';
-import Home from  './components/Home';
+import SelectorPrincipal from  './components/SelectorPrincipal';
 
 const container =  document.getElementById('app');
 
-reactDOM.render(< Home />,container);
+reactDOM.render(< SelectorPrincipal />,container);
