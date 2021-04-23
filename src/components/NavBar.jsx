@@ -4,17 +4,19 @@ import Menu from '../img/menu.png'
 import Lista from './Lista';
 import Nav from './Nav';
 import './scss/NavBar.scss'
+import clsx from 'clsx';
+import { makeStyles } from '@material-ui/core/styles';
 
-class NavBar extends React.Component{
-    render(){
-        return(
+export class NavBar extends React.Component {
+    render() {
+        return (
             <div>
-                <Nav/>
-                <Lista/>
-            </div>
-        );
-            
-    };
-};
+                  <Nav></Nav>
 
-export default NavBar;
+                  <p></p>
+            </div>
+        )
+    }
+}
+
+export default NavBar

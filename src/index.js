@@ -4,7 +4,8 @@ import './index.css';
 import SlideDestinos from './components/SlideDestinos';
 import NavBar from './components/NavBar';
 import Nav from './components/Nav';
+import Home from './pages/Home';
 
 const container =  document.getElementById('app');
 
-reactDOM.render(< NavBar />,container);
+reactDOM.render(< Home />,container);
