@@ -1,0 +1,33 @@
+.LoginContainer{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+
+}
+
+.imagen{
+width: 50%;
+}
+
+.LoginTexto{
+    text-align: center;
+    transform: translate(-12%,-50px);
+    width: 40%;
+    align-self: center;
+}
+
+.boton{
+    transform: translate(0,20px);
+}
+
+.TextoInput{
+    height: 10px;
+}
+
+.correo,.nombre, .contraseña, .confirmar{
+    width: 100%;
+}
+
+h1, h2, h3, h4{
+    color: #1769aa;
+}
