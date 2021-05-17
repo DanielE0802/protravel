@@ -1,7 +1,7 @@
 import React from 'react';
 import reactDOM from 'react-dom';
 import './index.css';
-import Home from './pages/Home';
+import Home from './pages/home';
 
 const container =  document.getElementById('app');
 
