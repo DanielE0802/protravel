@@ -1,0 +1,93 @@
+.imagen{
+    height: 99vh;
+    width: 50vw;
+}
+
+.texto{
+    text-align: center;
+    align-self: center;
+    width: 400px;
+}
+
+h1,h2,h3,h4 {
+    color: #1769aa;
+}
+
+@media screen and (max-width: 960px) {
+    .imagen{
+        display: none
+        ;
+    }
+}
+/* 
+.LoginTexto {
+    text-align: center;
+    transform: translate(-12%, -50px);
+    width: 40%;
+    align-self: center;
+}
+
+.boton {
+    transform: translate(0, 20px);
+}
+
+.TextoInput {
+    height: 10px;
+}
+
+.correo,
+.nombre,
+.contraseña,
+.confirmar {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #1769aa;
+}
+
+.Recuperar_contraseña {
+    display: block;
+    color: #1769aa;
+    text-decoration: none;
+    text-align: end;
+    transform: translate(-15%, 0);
+}
+
+@media screen and (max-width: 750px) {
+    .LoginContainer {
+        display: flex;
+        height: 100vh;
+        justify-content: space-between;
+
+    }
+
+    .imagen {
+        width: 100%;
+    }
+
+    .LoginTexto {
+        text-align: center;
+        transform: translate(-12%, -50px);
+        width: 40%;
+        align-self: center;
+    }
+
+    .boton {
+        transform: translate(0, 20px);
+    }
+
+    .TextoInput {
+        height: 10px;
+    }
+
+    .correo,
+    .nombre,
+    .contraseña,
+    .confirmar {
+        width: 100%;
+    }
+} */
