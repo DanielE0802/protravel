@@ -18,7 +18,6 @@ class NavBar extends React.Component{
     render(){
         return(
             <div>
-
                 <header>    
                    <h1>ProTravel</h1>   
                  </header>
@@ -72,12 +71,8 @@ class NavBar extends React.Component{
                     <FacebookIcon></FacebookIcon>
                     <InstagramIcon></InstagramIcon>
                     <YouTubeIcon></YouTubeIcon>
-                   
-                   
-
-                
-
                    </div>
+
                 </footer>
 
 
