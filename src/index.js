@@ -8,4 +8,4 @@ import Destinos from  './components/Destinos';
 
 const container =  document.getElementById('app');
 
-reactDOM.render(< Login />,container);
+reactDOM.render(< Register />,container);

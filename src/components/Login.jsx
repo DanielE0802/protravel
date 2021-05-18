@@ -1,24 +1,24 @@
 import React from 'react';
 import './scss/Login.css';
 import Imagen1 from '../img/LoginIMG.jpg';
-import Button from '@material-ui/core/Button';
-import TextField from '@material-ui/core/TextField';
-
+import { Button, TextField, Grid} from '@material-ui/core';
 
 class LogIn extends React.Component {
     render() {
         return (
-            <div className="LoginContainer">
-                <img className="imagen" src={Imagen1} />
+            <Grid container className="contenedor">
+                <Grid item xs={0} md={6}>
+                    <img className="imagen" src={Imagen1} />
+                </Grid>
 
-                <div className="LoginTexto">
+                <Grid className="texto" item xs={12} md={6}>
 
-                    <h2>Ingresa con tu cuenta</h2>
-                    <h4>Es fácil y rápido</h4>
                     <form>
+                        <h2>Ingresa con tu cuenta</h2>
+                        <h4>Es fácil y rápido</h4>
                         <h4 className="TextoInput">Correo electronico</h4>
                         <TextField
-                            label="Ingrese su correo electronico"
+                            label="Ingrese su correo"
                             color="primary"
                             className="InputMaterial correo"
                             variant="outlined"
@@ -33,13 +33,15 @@ class LogIn extends React.Component {
                             variant="outlined"
                         />
                     </form>
+                    <a href={"https://www.google.com"} className="Recuperar_contraseña"><h6>Olvidé mi contraseña</h6></a>
                     <Button className="boton" variant="contained" color="primary">
                         Ingresar
                         </Button>
-                </div>
-            </div>
-        );
+                </Grid>
 
+
+            </Grid>
+        );
     };
 };
 
