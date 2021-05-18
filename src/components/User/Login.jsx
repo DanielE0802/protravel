@@ -1,6 +1,6 @@
 import React from 'react';
-import './scss/Login.css';
-import Imagen1 from '../img/LoginIMG.jpg';
+import '../scss/Login.css';
+import Imagen1 from '../../img/LoginIMG.jpg';
 import { Button, TextField, Grid} from '@material-ui/core';
 
 class LogIn extends React.Component {
