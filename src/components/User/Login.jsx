@@ -4,6 +4,7 @@ import Imagen1 from '../../img/LoginIMG.jpg';
 import { Button, TextField, Grid } from '@material-ui/core';
 import Back from '../Back';
 
+
 class LogIn extends React.Component {
     render() {
         return (
@@ -49,8 +50,10 @@ class LogIn extends React.Component {
                         </Button>
                 </Grid>
 
-
+                
             </Grid>
+
+
         );
     };
 };
