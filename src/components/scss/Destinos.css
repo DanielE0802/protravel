@@ -10,3 +10,8 @@
 .ancho_region{
     width: 250px;
 }
+
+a{
+    text-decoration: none;
+    color: #424242;
+}
