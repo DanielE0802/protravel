@@ -1,0 +1,12 @@
+.imagen_region{
+    width: 60px;
+    border-radius: 10px;
+}
+
+.texto_region{
+    padding-left: 10px;
+}
+
+.ancho_region{
+    width: 250px;
+}

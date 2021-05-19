@@ -10,7 +10,6 @@ import ChatIcon from '@material-ui/icons/Chat';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 import RestaurantIcon from '@material-ui/icons/Restaurant';
-import ThumbUp from '@material-ui/icons/ThumbUp';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import '../components/scss/desnity.scss'
