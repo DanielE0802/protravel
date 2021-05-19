@@ -1,19 +1,23 @@
 import React from 'react';
 import '../scss/Login.css';
 import Imagen1 from '../../img/LoginIMG.jpg';
-import { Button, TextField, Grid} from '@material-ui/core';
+import { Button, TextField, Grid } from '@material-ui/core';
+import Back from '../Back';
 
 class LogIn extends React.Component {
     render() {
         return (
             <Grid container className="contenedor">
-                <Grid item xs={0} md={6}>
-                    <img className="imagen" src={Imagen1} />
+                <Grid item xs={0} md={5}>
+                    <img className="imagen" src={Imagen1} alt="" />
                 </Grid>
 
-                <Grid className="texto" item xs={12} md={6}>
 
-                    <form>
+                <Grid className="texto" item xs={12} md={7 }>
+                <Grid style={{ transform: "translate(-300px, 10px)" }}>
+                    <Back />
+                </Grid>
+                    <form >
                         <h2>Ingresa con tu cuenta</h2>
                         <h4>Es fácil y rápido</h4>
                         <h4 className="TextoInput">Correo electronico</h4>
@@ -33,9 +37,15 @@ class LogIn extends React.Component {
                             variant="outlined"
                         />
                     </form>
-                    <a href={"https://www.google.com"} className="Recuperar_contraseña"><h6>Olvidé mi contraseña</h6></a>
-                    <Button className="boton" variant="contained" color="primary">
+                    <div>
+                        <a href="/contraseña"><h6 className="Recuperar_contraseña">Olvidé mi contraseña</h6></a>
+                    </div>
+                    <br />
+                    <Button variant="contained" color="primary">
                         Ingresar
+                        </Button>
+                    <Button className="boton" variant="contained" color="primary" href="/register">
+                        Registrarse
                         </Button>
                 </Grid>
 

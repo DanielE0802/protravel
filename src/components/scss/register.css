@@ -1,30 +1,16 @@
-/* .LoginContainer{
+.TextField{
+    width: 400px;
+}
+
+.SelectContainer{
     display: flex;
-    height: 100vh;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.imagen{
-width: 50%;
+.Ciudad{
+    margin-left: 10px;
 }
 
-.LoginTexto{
-    transform: translate(-12%,0);
-    width: 40%;
+.confirmar{
+    margin-top: 10px;
 }
-
-.boton{
-    transform: translate(0,20px);
-}
-
-.TextoInput{
-    height: 10px;
-}
-
-.correo,.nombre, .contraseña, .confirmar{
-    width: 70%;
-}
-
-h1, h2, h3, h4{
-    color: #1769aa;
-} */
