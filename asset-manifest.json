@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/protravel/static/css/main.80a34943.chunk.css",
+    "main.js": "/protravel/static/js/main.5a7624c1.chunk.js",
+    "main.js.map": "/protravel/static/js/main.5a7624c1.chunk.js.map",
+    "runtime-main.js": "/protravel/static/js/runtime-main.ae7d786a.js",
+    "runtime-main.js.map": "/protravel/static/js/runtime-main.ae7d786a.js.map",
+    "static/js/2.6cb54e12.chunk.js": "/protravel/static/js/2.6cb54e12.chunk.js",
+    "static/js/2.6cb54e12.chunk.js.map": "/protravel/static/js/2.6cb54e12.chunk.js.map",
+    "index.html": "/protravel/index.html",
+    "static/css/main.80a34943.chunk.css.map": "/protravel/static/css/main.80a34943.chunk.css.map",
+    "static/js/2.6cb54e12.chunk.js.LICENSE.txt": "/protravel/static/js/2.6cb54e12.chunk.js.LICENSE.txt",
+    "static/media/Img1.1c6345d1.jpg": "/protravel/static/media/Img1.1c6345d1.jpg",
+    "static/media/comunidad.93016b02.jpg": "/protravel/static/media/comunidad.93016b02.jpg",
+    "static/media/destinos.896e42a3.jpg": "/protravel/static/media/destinos.896e42a3.jpg",
+    "static/media/globo.cb12cdb5.png": "/protravel/static/media/globo.cb12cdb5.png",
+    "static/media/mundo.9d849412.png": "/protravel/static/media/mundo.9d849412.png",
+    "static/media/planea_tu_viaje.a36f068d.jpg": "/protravel/static/media/planea_tu_viaje.a36f068d.jpg",
+    "static/media/promos.d9314138.jpg": "/protravel/static/media/promos.d9314138.jpg",
+    "static/media/region_amazonia.5e930ccd.webp": "/protravel/static/media/region_amazonia.5e930ccd.webp",
+    "static/media/region_andina.f806fa52.webp": "/protravel/static/media/region_andina.f806fa52.webp",
+    "static/media/region_caribe.8cf3c3bf.webp": "/protravel/static/media/region_caribe.8cf3c3bf.webp",
+    "static/media/region_insular.a7475587.webp": "/protravel/static/media/region_insular.a7475587.webp",
+    "static/media/region_orinoquia.9b66d132.webp": "/protravel/static/media/region_orinoquia.9b66d132.webp",
+    "static/media/region_pacifica.f5ded9b9.webp": "/protravel/static/media/region_pacifica.f5ded9b9.webp",
+    "static/media/variedades.270c215f.jpg": "/protravel/static/media/variedades.270c215f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ae7d786a.js",
+    "static/js/2.6cb54e12.chunk.js",
+    "static/css/main.80a34943.chunk.css",
+    "static/js/main.5a7624c1.chunk.js"
+  ]
+}
