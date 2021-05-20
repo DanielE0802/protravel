@@ -8,12 +8,15 @@ import {ThemeProvider} from '@material-ui/core/styles'
 // import SlidesDestinos from '../components/SlideDestinos'
 import SwipeableTextMobileStepper from '../components/SlideTargets'
 import SectionsDestiny from '../components/SectionsDestiny'
+import Search from '../components/Search'
+
 
 const Home = () => {
     return (
         <ThemeProvider>
             <NavBar></NavBar>
             <SwipeableTextMobileStepper/>
+            <Search/>
             <SectionsDestiny/>
         </ThemeProvider>
     )
