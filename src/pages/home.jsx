@@ -9,7 +9,8 @@ import {ThemeProvider} from '@material-ui/core/styles'
 import SwipeableTextMobileStepper from '../components/SlideTargets'
 import SectionsDestiny from '../components/SectionsDestiny'
 import Search from '../components/Search'
-
+import Destinos from '../components/Destinos'
+import MainSelector from '../components/MainSelector'
 
 const Home = () => {
     return (
@@ -18,6 +19,8 @@ const Home = () => {
             <SwipeableTextMobileStepper/>
             <Search/>
             <SectionsDestiny/>
+            <MainSelector/>
+            <Destinos/>
         </ThemeProvider>
     )
 }
