@@ -1,16 +1,16 @@
-.TextField{
-    width: 400px;
-}
-
-.SelectContainer{
+.selectores{
     display: flex;
     justify-content: center;
 }
 
-.Ciudad{
+.inputlabel{
+    transform: translate(-20px);
+}
+
+.inputlabel2{
     margin-left: 10px;
 }
 
-.confirmar{
-    margin-top: 10px;
+.select2{
+    transform: translate(40px);
 }
