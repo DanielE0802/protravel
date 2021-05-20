@@ -99,10 +99,10 @@ export default function ScrollableTabsButtonForce() {
         <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
+       
       </TabPanel>
       <TabPanel value={value} index={6}>
-        <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
+        
       </TabPanel>
     </div>
   );
