@@ -14,6 +14,7 @@ import MainSelector from "../components/MainSelector";
 import SlidePlanes from "../components/SlidePlanes";
 import Search from "../components/Search";
 
+
 const Home = () => {
   return (
     <ThemeProvider>

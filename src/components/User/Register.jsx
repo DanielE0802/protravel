@@ -1,21 +1,9 @@
 import React from 'react';
-import { MenuItem, Select, InputLabel, Typography, Grid, Box, Paper, Link, Checkbox, FormControlLabel, TextField, CssBaseline, Button, Avatar } from '@material-ui/core/';
+import { MenuItem, Select, InputLabel, Typography, Grid, Paper, Link, Checkbox, FormControlLabel, TextField, CssBaseline, Button, Avatar } from '@material-ui/core/';
 import { makeStyles } from '@material-ui/core/styles';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import '../scss/register.css';
-
-function Copyright() {
-    return (
-        <Typography variant="body2" color="textSecondary" align="center">
-            {'Copyright © '}
-            <Link color="inherit" href="https://material-ui.com/">
-                Your Website
-      </Link>{' '}
-            {new Date().getFullYear()}
-            {'.'}
-        </Typography>
-    );
-}
+import Back from '../Back';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -56,12 +44,13 @@ export default function SignInSide() {
             <CssBaseline />
             <Grid item xs={false} sm={4} md={7} className={classes.image} />
             <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
+                <Back />
                 <div className={classes.paper}>
                     <Avatar className={classes.avatar}>
                         <LockOutlinedIcon />
                     </Avatar>
                     <Typography component="h1" variant="h5">
-                        Sign in
+                        Registrate
           </Typography>
                     <form className={classes.form} noValidate>
                         <TextField
@@ -70,7 +59,7 @@ export default function SignInSide() {
                             required
                             fullWidth
                             id="name"
-                            label="Name"
+                            label="Nombre"
                             name="name"
                             autoFocus
                         />
@@ -81,7 +70,7 @@ export default function SignInSide() {
                             required
                             fullWidth
                             id="email"
-                            label="Email Address"
+                            label="Correo Electronico"
                             name="email"
                             autoComplete="email"
                             autoFocus
@@ -92,7 +81,7 @@ export default function SignInSide() {
                             required
                             fullWidth
                             name="password"
-                            label="Password"
+                            label="Contraseña"
                             type="password"
                             id="password"
                             autoComplete="current-password"
@@ -103,7 +92,7 @@ export default function SignInSide() {
                             required
                             fullWidth
                             name="confirm_password"
-                            label="Confirm password"
+                            label="Confirmar contraseña"
                             type="password"
                             id="confirm_password"
                             autoComplete="current-password"
@@ -136,7 +125,7 @@ export default function SignInSide() {
                         <br />
                         <FormControlLabel
                             control={<Checkbox value="remember" color="primary" />}
-                            label="Remember me"
+                            label="Recuerdame"
                         />
                         <Button
                             type="submit"
@@ -145,23 +134,20 @@ export default function SignInSide() {
                             color="primary"
                             className={classes.submit}
                         >
-                            Sign In
+                            Registrate
             </Button>
                         <Grid container>
                             <Grid item xs>
                                 <Link href="#" variant="body2">
-                                    Forgot password?
+                                    ¿Olvidaste tu contraseña?
                 </Link>
                             </Grid>
                             <Grid item>
                                 <Link href="#" variant="body2">
-                                    {"Don't have an account? Sign Up"}
+                                    {"¿No tienes cuenta? Registrate"}
                                 </Link>
                             </Grid>
                         </Grid>
-                        <Box mt={5}>
-                            <Copyright />
-                        </Box>
                     </form>
                 </div>
             </Grid>
