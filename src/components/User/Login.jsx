@@ -11,6 +11,7 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import Footer from '../Footer';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -109,6 +110,7 @@ export default function SignInSide() {
           </form>
         </div>
       </Grid>
+      <Footer/>
     </Grid>
   );
 }
