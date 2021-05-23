@@ -13,6 +13,11 @@ import RestaurantIcon from '@material-ui/icons/Restaurant';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import '../components/scss/desnity.scss'
+import data from '../data/placeHolderDestinos.json'
+import { Grid } from '@material-ui/core';
+import AtraccionesComponent from './AtraccionesComponent';
+
+console.log(data.data)
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -84,9 +89,18 @@ export default function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
+      <Grid container
+  direction="row"
+  justify="center"
+  alignItems="center"
+>
+      <img style={{width:"50%", alignSelf:"center"}} src={data.data.img} alt=""></img>
+        <p style={{padding:"5px 40px 40px 40px"}}>{data.data.Información_General[0].descripcion}</p>
+      </Grid>
+ 
       </TabPanel>
       <TabPanel value={value} index={1}>
+        <AtraccionesComponent data={data.data} ></AtraccionesComponent>
         <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
       </TabPanel>
       <TabPanel value={value} index={2}>

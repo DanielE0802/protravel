@@ -1,0 +1,69 @@
+{
+  "data": {
+    "id": 1,
+    "ciudad": "Cartagena",
+    "img": "http://www.colombiaaprende.edu.co/sites/default/files/files_public/imagenes_agenda/shutterstock_1534914158.jpg",
+    "galery": [
+      {
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/semana/5X46RECTVRF6ZGZE3UVYAVBDIE.jpg",
+        "lugar": "Bocagrande, Cartagena"
+      },
+      {
+        "img": "https://visorcaribe.com/wp-content/uploads/2020/03/Hyatt-Regency-Cartagena-P016-Bay-View-with-Old-City.16x9.jpg",
+        "lugar": "Vista aerea playa Bocagrande, Cartagena"
+      },
+      {
+        "img": "http://amchamcartagena.org/wp-content/uploads/cartagena_torre_reloj.jpg",
+        "lugar": "Torre de reloj, Cartagena"
+      },
+      {
+        "img": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/K2W4WU3HBNHW5NUA3FBFHDNA4M.jpg",
+        "lugar": "Playa Blanca, Cartagena"
+      },
+      {
+        "img": "https://www.eluniversal.com.co/sites/default/files/201611/acuario.jpg",
+        "lugar": "Acuario de playa Blanca, Cartagena"
+      }
+    ],
+    "Información_General": [
+      {
+        "descripcion": "Cartagena es una ciudad que está ubicada a orillas del Mar Caribe. Sus calles coloridas llenas de encanto la hacen la puerta de entrada a Suramérica. En Colombia, se encuentra al norte del país, y es la capital de la región de Bolívar. ‘La Heroica’, como la llaman, contempla a su alrededor varios archipiélagos e islas que son paraísos para un verdadero descanso. Cartagena, suma a sus encantos los atractivos de una intensa vida nocturna, festivales culturales y paisajes exuberantes. Las playas de la ciudad te invitan a hacer turismo, descansar y divertirte con la refrescante brisa y las tibias aguas del mar. De la misma manera, El tiempo en Cartagena de Indias es muy agradable, pues su clima tropical te permitirá gozar de sus playas y otros encantos. La temperatura en Cartagena durante todo el año es de 27°C en promedio. Un clima ideal para conocer la ciudad amurallada, los restaurantes, entre otros lugares emblemáticos de ‘La Heroica’. Además, Cartagena cuenta con una excelente oferta gastronómica y una importante infraestructura hotelera y turística. Este fantástico destino guarda los secretos de la historia en su ciudad amurallada, en sus balcones y en sus angostos caminos de piedra que sirvieron de inspiración a Gabriel García Márquez, ganador del premio Nobel de Literatura en 1982. Enmarcada por una hermosa bahía, Cartagena de Indias es una de las ciudades más bellas y mejor conservadas de América; un tesoro que, hoy en día, es uno de los destinos turísticos más visitados de Colombia."
+      }
+    ],
+    "Que_Hacer": {
+      "descripcion": "Indudablemente, debes conocer el patrimonio arquitectónico y cultural de la ciudad recorriendo su centro histórico, el cual se encuentra rodeado por largos kilómetros de antiguas murallas que conforman la ciudad amurallada. La belleza y la importancia de este paisaje de Cartagena hicieron que fuera declarada Patrimonio Histórico de la Humanidad por la Unesco en 1984. En La Heroica, además de palpar cientos de años de historia en calles empedradas, podrás explorar el impresionante Castillo de San Felipe de Barajas, que data del siglo XVII. De esta manera, podrás conocer acerca de la historia de Cartagena y una descripción detallada de la ciudad. Así mismo, podrás asombrarte con un recorrido por las iglesias antiguas y por monumentos famosos de Cartagena de Indias como los dedicados a la India Catalina, a los Zapatos Viejos y a los Pegasos. Otra de las actividades que puedes considerar si te estás preguntando qué hacer en Cartagena, es visitar el Museo Naval o el Centro Comercial La Serrezuela. En estas caminatas, además de disfrutar de la agradable temperatura de Cartagena, podrás apreciar los ritmos locales que suenan en las calles y las artesanías que engalanan los comercios. Por otro lado, si te estás preguntando qué ver en Cartagena, te animamos a que disfrutes de un grafiti tour por el barrio Getsemaní Al caer la noche, el encanto de la zona colonial es perfecto para que recorras la ciudad sobre un carruaje guiado por caballos. Es una experiencia que te transportará en el tiempo.",
+      "recomendaciones": [
+        "El mejor tiempo o temporada para viajar a Cartagena varía poco durante el año y depende de tus intereses. Enero es ideal para disfrutar de eventos culturales como el Hay Festival, un gran encuentro en torno a la escritura, y el Festival de Música de Cartagena. Otra gran época para visitar las playas y hermosos paisajes de Cartagena es entre finales de noviembre y finales de abril. Un buen periodo teniendo en cuenta que el clima se encuentra más seco y fresco por la brisa del mar.",
+        "Para llegar a Cartagena de Indias, si vienes desde el extranjero, puedes tomar un crucero o un avión. Aerolíneas como American Airlines, JetBlue, Interjet, KLM, Delta y Copa vuelan directamente al Aeropuerto Internacional Rafael Núñez de Cartagena.",
+        "Si ya te encuentras en el país, puedes tomar un vuelo con Avianca, LATAM, VivaAir o Wingo, entre otras. También puedes rentar un auto desde ciudades como Barranquilla, y Santa Marta, con trayectos que tardarán 2 y 4 horas.",
+        "Transportarse es muy sencillo, especialmente en taxi, ya que no son muy largas las distancias en las zonas turísticas. Sin embargo, te recomendamos que verifiques los precios de los taxis con anterioridad para que evites inconvenientes por sobrecostos.",
+        "Las opciones de alojamiento son diversas e incluyen desde hostales económicos, hasta los tradicionales hoteles coloniales, pasando por los exclusivos hoteles boutique.",
+        "Por último, en caso de cualquier duda, acude a los numerosos puntos de información que encontrarás en las zonas turísticas de la ciudad"
+      ]
+    },
+    "Atracciones": {
+      "Playas": [
+        {
+          "nombre": "Palmitario",
+          "img": "https://positostravelers.com/wp-content/uploads/2020/04/tierabomba-playa-palmarito-1.jpg",
+          "Lanchas": "Salen desde la playa de Castillo Grande, detrás del hospital de Bocagrande. Trayecto 10 minutos.",
+          "precio": "Desde $110.000 COP"
+        },
+        {
+          "nombre": "Punta Arena",
+          "img": "https://positostravelers.com/wp-content/uploads/2020/04/tierrabomba-bombabeach.jpg",
+          "Lanchas": "Salen desde el muelle de la Bodeguita y desde Bocagrande. Trayecto 15 minutos.",
+          "precio": "Desde $110.000 COP"
+        },
+        {
+          "nombre": "Playa Blanca",
+          "Lanchas": "La principal y más visitada de Barú por ser pública. Es una playa muy bonita pero en temporada alta puede ser una experiencia no muy agradable por la cantidad de visitantes y vendedores. Puedes llegar con un tour de pasadía o por tu propia cuenta.",
+          "img": "https://positostravelers.com/wp-content/uploads/2020/04/playa-blanca-2.jpg",
+          "precio": "desde $95.000 COP",
+          "extra": "(valor por persona, incluye transporte)."
+        }
+        
+      ]
+    }
+  }
+}

@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function SimpleList() {
+export default function Regiones() {
     const classes = useStyles();
 
     return (

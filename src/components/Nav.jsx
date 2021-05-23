@@ -86,7 +86,7 @@ export default function Nav() {
             className={classes.cajaPadding}
           >
             <Toolbar>
-              <a href="/" className={classes.bar} style={myStyleA}>
+              <a href="/protravel" className={classes.bar} style={myStyleA}>
                 <Typography variant="h6" style={{ display: "flex" }}>
                   <img
                     style={{ width: "45px", height: "45px" }}
