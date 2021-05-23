@@ -11,7 +11,8 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import Footer from '../Footer';
+import Back from '../Back';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,6 +53,7 @@ export default function SignInSide() {
       <CssBaseline />
       <Grid item xs={false} sm={4} md={7} className={classes.image} />
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
+      <Back/>
         <div className={classes.paper}>
           <Avatar className={classes.avatar}>
             <LockOutlinedIcon />
@@ -110,7 +112,6 @@ export default function SignInSide() {
           </form>
         </div>
       </Grid>
-      <Footer/>
     </Grid>
   );
 }
