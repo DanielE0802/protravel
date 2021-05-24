@@ -14,12 +14,12 @@ export default function IconLabelButtons(props) {
   const classes = useStyles();
 
   return (
-    <div>
+    <div style={{color: "#FFF"}}>
       <Button
         href="/"
         variant="contained"
         color="primary"
-        className={(classes.button, "back")}
+        className={classes.button}
         startIcon={<ArrowBackIosIcon />}
       >
         Back
