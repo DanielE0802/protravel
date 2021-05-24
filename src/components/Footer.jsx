@@ -19,21 +19,21 @@ class Footer extends React.Component {
                 quas hic neque dolor deserunt delectus ex? Commodi eum veniam ex eos voluptate dolorum? Pariatur.</p>
                         <div className="info">
                             <button> <b> Mas información</b>
-                                <p class="boton"></p>
+                                <p className="boton"></p>
                             </button>
                         </div>
                     </div>
                 </main>
                 <footer>
                     <div className="footer">
-                        <div class="suscribete">
+                        <div className="suscribete">
                             <h2> Suscribete!</h2>
                             <input type="email" placeholder="Escribe tu correo" required id="suscribete" />
                             <button> <b> Suscribete!</b>
-                                <p class="boton"></p>
+                                <p className="boton"></p>
                             </button>
                         </div>
-                        <div class="direccion">
+                        <div className="direccion">
                             <h2> Dirección</h2>
                             <p>
                                 <RoomRoundedIcon />(+57) 3205472340
@@ -42,7 +42,7 @@ class Footer extends React.Component {
                                 <EmailIcon />correo@informacion.com
                             </p>
                         </div>
-                        <div class="nosotros">
+                        <div className="nosotros">
                             <h2>Acerca de nosotros</h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id architecto exercitationem hic sunt
                             soluta.
@@ -51,9 +51,9 @@ class Footer extends React.Component {
                     Numquam, asperiores obcaecati.</p>
                         </div>
                     </div>
-                    <div class="derechos">
+                    <div className="derechos">
                         <p>©  2020. Todos los derechos reservados</p>
-                        <div class="redes">
+                        <div className="redes">
                             <a href="/">
                             <InstagramIcon />
                             </a>

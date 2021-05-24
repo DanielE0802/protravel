@@ -5,18 +5,16 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Avatar from '@material-ui/core/Avatar';
-import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
-
-
+import Puntuacion from './Puntuacion';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: '40%',
+    maxWidth: '80%',
+    marginTop: 50,
+    marginLeft: '10%',
+
   },
   media: {
     height: 0,
@@ -45,32 +43,30 @@ export default function RecipeReviewCard() {
       <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
-            R
+            D
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="Daniel Estupiñan Ramos"
+        subheader="Mayo 23, 2021"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          This impressive paella is a perfect party dish and a fun meal to cook together with your
-          guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          Oscar, te quedo perfecto, gracias por tu trabajo. :)
+          <br/>
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
-        </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
-        </IconButton>
+        <Puntuacion/>
       </CardActions>
-      
     </Card>
   );
 }

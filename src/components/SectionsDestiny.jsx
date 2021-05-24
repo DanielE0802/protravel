@@ -12,7 +12,11 @@ import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 import RestaurantIcon from '@material-ui/icons/Restaurant';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import '../components/scss/desnity.scss'
+import '../components/scss/desnity.scss';
+import Reseñas from './Reseñas';
+import Comentar from './Comentar';
+
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -99,11 +103,11 @@ export default function ScrollableTabsButtonForce() {
         <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
       </TabPanel>
       <TabPanel value={value} index={5}>
-       
+        <Comentar />
+        <Reseñas />
+        <Reseñas />
       </TabPanel>
-      <TabPanel value={value} index={6}>
-        
-      </TabPanel>
+
     </div>
   );
 }

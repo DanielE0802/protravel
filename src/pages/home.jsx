@@ -15,7 +15,6 @@ import Destinos from "../components/Destinos";
 import MainSelector from "../components/MainSelector";
 import SlidePlanes from "../components/SlidePlanes";
 
-
 const Home = () => {
   return (
     <ThemeProvider>
