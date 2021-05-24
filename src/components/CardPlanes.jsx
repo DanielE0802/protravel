@@ -7,7 +7,6 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import Img1 from "../img/Img1.jpg";
 import theme from "./theme/themeconfig";
 
 const useStyles = makeStyles({
@@ -16,11 +15,12 @@ const useStyles = makeStyles({
   },
 });
 
-export default function CardPlanes() {
+const CardPlanes = props =>{
   const classes = useStyles();
 
   return (
     <MuiThemeProvider theme={theme}>
+    
       <Card
         className={classes.root}
         style={{
@@ -34,24 +34,21 @@ export default function CardPlanes() {
             component="img"
             alt="Contemplative Reptile"
             height="140"
-            image={Img1}
+            image={props.url}
             title="Contemplative Reptile"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              Valle Del Cocora
+              {props.destiny}
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
-              El valle de Cocora es un paisaje natural localizado en la
-              cordillera central de los Andes colombianos, específicamente en el
-              departamento del Quindío, en el área de influencia del Parque
-              nacional natural Los Nevados.
+            {props.destinyDescription}
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
           <Button size="small" color="primary">
-            COP 150.000
+            COP {props.destinyPrice}
           </Button>
           <Button size="small" color="primary">
             Más información
@@ -61,3 +58,9 @@ export default function CardPlanes() {
     </MuiThemeProvider>
   );
 }
+
+// export default function CardPlanes() {
+ 
+// }
+
+export default CardPlanes

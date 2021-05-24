@@ -88,9 +88,18 @@ export default function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
+      <Grid container
+  direction="row"
+  justify="center"
+  alignItems="center"
+>
+      <img style={{width:"50%", alignSelf:"center"}} src={data.data.img} alt=""></img>
+        <p style={{padding:"5px 40px 40px 40px"}}>{data.data.Información_General[0].descripcion}</p>
+      </Grid>
+ 
       </TabPanel>
       <TabPanel value={value} index={1}>
+        <AtraccionesComponent data={data.data} ></AtraccionesComponent>
         <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
       </TabPanel>
       <TabPanel value={value} index={2}>

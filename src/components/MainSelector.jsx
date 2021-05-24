@@ -13,35 +13,48 @@ const images = [
     url: ImagenPlanea,
     title: 'Planea tu viaje',
     width: '20%',
+    href:"/planeaTuViaje",
   },
   {
     url: ImagenDestinos,
     title: 'Destinos',
     width: '20%',
+    href:"/destinos",
   },
   {
     url: ImagenVariedades,
     title: 'Variedades',
     width: '20%',
+    href:"/variedades",
   },
   {
     url: ImagenComunidad,
     title: 'Comunidad',
     width: '20%',
+    href:"/comunidad",
   },
   {
     url: ImagenPromos,
     title: 'Promos',
     width: '20%',
+    href:"/promos",
   },
 ];
 
 const useStyles = makeStyles((theme) => ({
+  div:{
+    display:"flex",
+    justifyContent:"center",
+    marginBottom:"5vw"
+  },
+
   root: {
     display: 'flex',
     flexWrap: 'wrap',
     minWidth: 300,
-    width: '100%',
+    width: '94%',
+    border:"4px solid rgba(255, 255, 255, 0.8)",
+    borderRadius: "4px"
   },
   image: {
     position: 'relative',
@@ -109,11 +122,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ButtonBases() {
+export default function MainSelector() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.div} >
+<div className={classes.root}>
       {images.map((image) => (
         <ButtonBase
         
@@ -125,6 +139,7 @@ export default function ButtonBases() {
             width: image.width,
           }}
         >
+        <a href={image.href}>
           <span
             className={classes.imageSrc}
             style={{
@@ -143,8 +158,11 @@ export default function ButtonBases() {
               <span className={classes.imageMarked} />
             </Typography>
           </span>
+          </a>
         </ButtonBase>
       ))}
     </div>
+    </div>
+    
   );
 }

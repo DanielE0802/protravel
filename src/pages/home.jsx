@@ -10,19 +10,25 @@ import { ThemeProvider } from "@material-ui/core/styles";
 // import SlidesDestinos from '../components/SlideDestinos'
 // import SwipeableTextMobileStepper from "../components/SlideTargets";
 // import SectionsDestiny from "../components/SectionsDestiny";
-import Search from "../components/Search";
-import Destinos from "../components/Destinos";
 import MainSelector from "../components/MainSelector";
 import SlidePlanes from "../components/SlidePlanes";
+import Search from "../components/Search";
 
 const Home = () => {
   return (
     <ThemeProvider>
-      <NavBar></NavBar>
-      <Search />
-      <MainSelector />
-      <Destinos />
-      <SlidePlanes></SlidePlanes>
+      <div
+        style={{
+          backdropFilter: "blur(10px)",
+          backgroundColor: "rgba(36,36,36,.8)",
+        }}
+      >
+        <NavBar></NavBar>
+        <div className="homepage"></div>
+        <Search></Search>
+        <MainSelector />
+        <SlidePlanes></SlidePlanes>
+      </div>
     </ThemeProvider>
   );
 };

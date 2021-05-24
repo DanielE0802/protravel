@@ -8,13 +8,18 @@ import {ThemeProvider} from '@material-ui/core/styles'
 // import SlidesDestinos from '../components/SlideDestinos'
 import SwipeableTextMobileStepper from '../components/SlideTargets'
 import SectionsDestiny from '../components/SectionsDestiny'
+// import data from './data/placeHolderDestinos.json'
+// const dataDestinos = data.data
+import data from '../data/placeHolderDestinos.json'
+import Regiones from '../components/Regiones'
 
-const Destinos = () => {
+const Destinos = props => {
     return (
         <ThemeProvider>
             <NavBar></NavBar>
-            <SwipeableTextMobileStepper/>
-            <SectionsDestiny/>
+            <SwipeableTextMobileStepper data={data}/>
+            <SectionsDestiny data={data}/>
+            <Regiones></Regiones>
             
         </ThemeProvider>
     )
