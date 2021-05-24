@@ -40,7 +40,7 @@ export default function SignInSide() {
     const classes = useStyles();
 
     return (
-        <Grid container component="main" className={classes.root}>
+        <Grid container component="main" className={classes.root}  style={{padding:"0px"}}>
             <CssBaseline />
             <Grid item xs={false} sm={4} md={7} className={classes.image} />
             <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
@@ -138,12 +138,12 @@ export default function SignInSide() {
             </Button>
                         <Grid container>
                             <Grid item xs>
-                                <Link href="#" variant="body2">
+                                <Link href="" variant="body2">
                                     ¿Olvidaste tu contraseña?
                 </Link>
                             </Grid>
                             <Grid item>
-                                <Link href="#" variant="body2">
+                                <Link href="" variant="body2">
                                     {"¿No tienes cuenta? Registrate"}
                                 </Link>
                             </Grid>
