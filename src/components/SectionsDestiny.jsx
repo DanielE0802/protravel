@@ -15,7 +15,11 @@ import Box from '@material-ui/core/Box';
 import '../components/scss/desnity.scss';
 import Reseñas from './Reseñas';
 import Comentar from './Comentar';
+import data from '../data/placeHolderDestinos.json'
+import { Grid } from '@material-ui/core';
+import AtraccionesComponent from './AtraccionesComponent';
 
+console.log(data.data)
 
 
 function TabPanel(props) {
