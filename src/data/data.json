@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "image": "http://www.lurecartagena.com/wp-content/uploads/2019/12/DSC01173-HDR-Edit-CMYK.jpg",
+        "cols" : 2
+    },
+    {
+        "id":2,
+        "image": "https://cf.bstatic.com/images/hotel/max1024x768/739/73933794.jpg",
+        "cols" : 1
+    },
+    {
+        "id":3,
+        "image": "https://thumbnails.trvl-media.com/NcwL-cnufjKWBXQFgACIs1sN66o=/773x530/smart/filters:quality(60)/images.trvl-media.com/hotels/6000000/5620000/5610100/5610092/c6c2c353_z.jpg",
+        "cols" : 1
+    },
+    {
+        "id":4,
+        "image": "https://www.hotelcasasanagustin.com/img/gallery/gallery_19.jpg",
+        "cols" : 2
+    }
+]

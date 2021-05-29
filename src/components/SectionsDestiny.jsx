@@ -18,6 +18,7 @@ import Comentar from './Comentar';
 import data from '../data/placeHolderDestinos.json'
 import { Grid } from '@material-ui/core';
 import AtraccionesComponent from './AtraccionesComponent';
+import Hotel from './Hoteles';
 
 console.log(data.data)
 
@@ -107,7 +108,7 @@ export default function ScrollableTabsButtonForce() {
         <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
+      <Hotel/>
       </TabPanel>
       <TabPanel value={value} index={3}>
         <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
