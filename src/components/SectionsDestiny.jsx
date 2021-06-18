@@ -16,9 +16,12 @@ import '../components/scss/desnity.scss';
 import Reseñas from './Reseñas';
 import Comentar from './Comentar';
 import data from '../data/placeHolderDestinos.json'
+import dataHoteles from '../data/dataHoteles.json'
 import { Grid } from '@material-ui/core';
 import AtraccionesComponent from './AtraccionesComponent';
 import Hotel from './Hoteles';
+import ResultadoHoteles from './ResultadoHoteles';
+
 
 console.log(data.data)
 
@@ -93,22 +96,24 @@ export default function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-      <Grid container
-  direction="row"
-  justify="center"
-  alignItems="center"
->
-      <img style={{width:"50%", alignSelf:"center"}} src={data.data.img} alt=""></img>
-        <p style={{padding:"5px 40px 40px 40px"}}>{data.data.Información_General[0].descripcion}</p>
-      </Grid>
- 
+        <Grid container
+          direction="row"
+          justify="center"
+          alignItems="center"
+        >
+          <img style={{ width: "50%", alignSelf: "center" }} src={data.data.img} alt=""></img>
+          <p style={{ padding: "5px 40px 40px 40px" }}>{data.data.Información_General[0].descripcion}</p>
+        </Grid>
+
       </TabPanel>
       <TabPanel value={value} index={1}>
         <AtraccionesComponent data={data.data} ></AtraccionesComponent>
         <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
       </TabPanel>
       <TabPanel value={value} index={2}>
-      <Hotel/>
+        <Hotel />
+        <ResultadoHoteles data={dataHoteles.data} ></ResultadoHoteles>
+        
       </TabPanel>
       <TabPanel value={value} index={3}>
         <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>

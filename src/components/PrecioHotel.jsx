@@ -11,7 +11,8 @@ import SelectDate from './SelectDate';
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 345,
+        maxWidth: 480,
+        minWidth: 440,
     },
     media: {
         height: 20,
@@ -33,7 +34,6 @@ export default function MediaCard() {
                     <Typography gutterBottom variant="h5" component="h2">
                         Hotel
                     </Typography>
-
                     <h2>$ Precio /noche</h2>
 
                 </CardContent>

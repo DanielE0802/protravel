@@ -24,7 +24,7 @@ class Hoteles extends React.Component {
                     ))}
                 </GridList>
                 <h1 style={{ display: 'flex', justifyContent: 'start', paddingTop: 40 }}>Lugar</h1>
-                <h3 >
+                <h3>
                     <RoomIcon style={{ color: blue[500] }} />Ubicacion
                 </h3>
                 <p>

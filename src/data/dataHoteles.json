@@ -1,0 +1,26 @@
+{
+  "data": {
+    "Atracciones": {
+      "Hoteles": [
+        {
+          "nombre": "Hotel 1",
+          "img": "https://bolivarense.com/wp-content/uploads/2020/07/hoteles-colombia.jpg",
+          "descripcion": "Salen desde la playa de Castillo Grande, detrás del hospital de Bocagrande. Trayecto 10 minutos.",
+          "precio": "Desde $110.000 COP"
+        },
+        {
+          "nombre": "Hotel 2",
+          "img": "https://cdn.forbes.co/2020/02/sofitel-legend-santa-clara-outdoor-pool.jpg",
+          "Descripcion": "Salen desde el muelle de la Bodeguita y desde Bocagrande. Trayecto 15 minutos.",
+          "precio": "Desde $110.000 COP"
+        },
+        {
+          "nombre": "Hotel 3",
+          "Descripcion": "La principal y más visitada de Barú por ser pública. Es una playa muy bonita pero en temporada alta puede ser una experiencia no muy agradable por la cantidad de visitantes y vendedores. Puedes llegar con un tour de pasadía o por tu propia cuenta.",
+          "img": "https://revistadiners.com.co/wp-content/uploads/2020/03/biohabitat_800x534.jpg",
+          "precio": "desde $95.000 COP"
+        }
+      ]
+    }
+  }
+}
