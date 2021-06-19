@@ -12,16 +12,16 @@ import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 import RestaurantIcon from '@material-ui/icons/Restaurant';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import '../components/scss/desnity.scss';
+import './destiny.scss';
 import Reseñas from './Reseñas';
 import Comentar from './Comentar';
-import data from '../data/placeHolderDestinos.json'
-import dataHoteles from '../data/dataHoteles.json'
+import data from '../../data/placeHolderDestinos.json'
+import dataHoteles from '../../data/dataHoteles.json'
 import { Grid } from '@material-ui/core';
 import AtraccionesComponent from './AtraccionesComponent';
 import Hotel from './Hoteles';
-import ResultadoHoteles from './ResultadoHoteles';
-import Pagos from './Checkout';
+import ResultadoHoteles from '../ResultadoHoteles';
+import Pagos from '../Payments/Checkout';
 
 
 console.log(data.data)

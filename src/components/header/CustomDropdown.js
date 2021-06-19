@@ -18,7 +18,7 @@ import Popper from "@material-ui/core/Popper";
 // core components
 import Button from "./Button";
 
-import styles from "./customDropdownStyle";
+import styles from "../styles/customDropdownStyle";
 
 const useStyles = makeStyles(styles);
 

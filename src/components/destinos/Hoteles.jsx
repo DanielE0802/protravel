@@ -1,6 +1,6 @@
 import React from 'react';
 import { GridList, GridListTile } from '@material-ui/core';
-import dataList from '../data/data.json';
+import dataList from '../../data/data.json';
 import Paginacion from './Paginacion';
 import RoomIcon from '@material-ui/icons/Room';
 import { blue } from '@material-ui/core/colors';

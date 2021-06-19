@@ -10,11 +10,11 @@ import { ThemeProvider } from "@material-ui/core/styles";
 // import SlidesDestinos from '../components/SlideDestinos'
 // import SwipeableTextMobileStepper from "../components/SlideTargets";
 // import SectionsDestiny from "../components/SectionsDestiny";
-import MainSelector from "../components/MainSelector";
-import SlidePlanes from "../components/SlidePlanes";
-import Search from "../components/Search";
-import Header from "../components/Header";
-import HeaderLinks from "../components/Headerlinks";
+import MainSelector from "../components/home/MainSelector";
+import SlidePlanes from "../components/home/SlidePlanes";
+import Search from "../components/home/Search";
+import Header from "../components/header/Header";
+import HeaderLinks from "../components/header/Headerlinks";
 // import ProductHowItWorks from "../components/ProductHowItWorks";
 const dashboardRoutes = [];
 const Home = (props) => {

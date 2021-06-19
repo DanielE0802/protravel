@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./scss/search.css";
-import "../js/search";
-import logo from "../img/mundo.png";
+import "../scss/search.css";
+import "../../js/search";
+import logo from "../../img/mundo.png";
 
 export default class Search extends Component {
   render() {
