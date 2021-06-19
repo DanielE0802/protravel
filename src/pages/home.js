@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../components/NavBar";
+// import NavBar from "../components/NavBar";
 import { ThemeProvider } from "@material-ui/core/styles";
 // import SlidePlanes from '../components/SlidePlanes'
 // import BannerHomePage from '../components/BannerHomePage'
@@ -13,8 +13,12 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import MainSelector from "../components/MainSelector";
 import SlidePlanes from "../components/SlidePlanes";
 import Search from "../components/Search";
-
-const Home = () => {
+import Header from "../components/Header";
+import HeaderLinks from "../components/Headerlinks";
+// import ProductHowItWorks from "../components/ProductHowItWorks";
+const dashboardRoutes = [];
+const Home = (props) => {
+  const { ...rest } = props;
   return (
     <ThemeProvider>
       <div
@@ -23,7 +27,20 @@ const Home = () => {
           backgroundColor: "rgba(36,36,36,.8)",
         }}
       >
-        <NavBar></NavBar>
+        {/* <NavBar></NavBar> */}
+        <Header
+        style={{position:"sticky"}}
+        color="transparent"
+        routes={dashboardRoutes}
+        brand="ProTravel"
+        rightLinks={<HeaderLinks />}
+        fixed
+        changeColorOnScroll={{
+          height: 200,
+          color: "#3EB049",
+        }}
+        {...rest}
+      />
         <div className="homepage"></div>
         <Search></Search>
         <MainSelector />
