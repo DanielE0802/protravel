@@ -46,7 +46,7 @@ export default function ComplexGrid(props) {
                   {props.nombre}
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                  Lanchas: {props.Lanchas}
+                  Descripción: {props.descripcion}
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
                 {props.extra}
