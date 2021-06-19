@@ -21,6 +21,7 @@ import { Grid } from '@material-ui/core';
 import AtraccionesComponent from './AtraccionesComponent';
 import Hotel from './Hoteles';
 import ResultadoHoteles from './ResultadoHoteles';
+import Pagos from './Checkout';
 
 
 console.log(data.data)
@@ -126,6 +127,7 @@ export default function ScrollableTabsButtonForce() {
         <Reseñas />
         <Reseñas />
       </TabPanel>
+      <Pagos/>
 
     </div>
   );

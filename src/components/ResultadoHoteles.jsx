@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
-import CardReturn from './CardReturn'
+import CardReturnHotel from './CardReturnHotel'
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
@@ -27,16 +27,14 @@ function ResultadoHoteles(props) {
           console.log(Element)
           return (
             <div>
-              <CardReturn nombre={Element.nombre} src={Element.img} precio={Element.precio} descripcion={Element.descripcion} />
+              <CardReturnHotel nombre={Element.nombre} src={Element.img} precio={Element.precio} descripcion={Element.descripcion} />
             </div>
           )
         })}
       </Typography>
-
-
-
     </div>
   );
 }
 
 export default ResultadoHoteles;
+
