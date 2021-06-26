@@ -3,7 +3,7 @@ import { Typography, Grid, Paper, TextField, CssBaseline, Button, Avatar } from 
 import { makeStyles } from '@material-ui/core/styles';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import '../scss/register.scss';
-import Back from '../Back';
+import Back from './Back';
 import Select from '../Select';
 
 const useStyles = makeStyles((theme) => ({

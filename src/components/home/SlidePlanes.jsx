@@ -1,7 +1,7 @@
 import React from "react";
 import CardPlanes from "./CardPlanes";
 
-import "./scss/home.css";
+import "../scss/home.css";
 
 class SlidePlanes extends React.Component {
   render() {

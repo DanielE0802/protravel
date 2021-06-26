@@ -2,11 +2,11 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import Typography from '@material-ui/core/Typography';
-import ImagenPlanea from '../img/planea_tu_viaje.jpg';
-import ImagenDestinos from '../img/destinos.jpg';
-import ImagenVariedades from '../img/variedades.jpg';
-import ImagenComunidad from '../img/comunidad.jpg';
-import ImagenPromos from '../img/promos.jpg';
+import ImagenPlanea from '../../img/planea_tu_viaje.jpg';
+import ImagenDestinos from '../../img/destinos.jpg';
+import ImagenVariedades from '../../img/variedades.jpg';
+import ImagenComunidad from '../../img/comunidad.jpg';
+import ImagenPromos from '../../img/promos.jpg';
 
 const images = [
   {
