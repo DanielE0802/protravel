@@ -22,6 +22,8 @@ import AtraccionesComponent from './AtraccionesComponent';
 import Hotel from './Hoteles';
 import ResultadoHoteles from '../ResultadoHoteles';
 import Pagos from '../Payments/Checkout';
+import '../scss/destinos.scss';
+
 
 
 console.log(data.data)
