@@ -1,26 +1,110 @@
 
 #app > div > switch > header{
-    color: #30713D;
+    color: #122d53 ;
 
 }
 
 #app > div > switch > div.makeStyles-root-296 > header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorDefault.MuiPaper-elevation4 > div > div.MuiTabs-scroller.MuiTabs-scrollable > span{
-    background: #3EB049;
+    background: #0067F5 ;
 }
 
 .MuiTab-textColorPrimary.Mui-selected{
-    color: #3EB049 !important;
+    color: #0067F5  !important;
 }
 
 .MuiPaginationItem-textPrimary.Mui-selected{
-    background: #3EB049 !important;
+    background: #0067F5  !important;
 
 }
 
 #scrollable-force-tabpanel-2 > div > p > div:nth-child(1) > div:nth-child(6) > div:nth-child(2) > div > div > button{
-    color: #3EB049;
+    color: #0067F5 ;
 }
 
 #scrollable-force-tabpanel-5 > div > p > div:nth-child(1) > div > div > button{
-    background: #3EB049;
+    background: #0067F5 ;
+}
+
+.makeStyles-appBar-1, .makeStyles-imageMarked-95{
+    background: #0067F5 !important;
+
+}
+
+.makeStyles-root-88, .makeStyles-image-89:hover .makeStyles-imageTitle-94, .makeStyles-image-89.makeStyles-focusVisible-90 .makeStyles-imageTitle-94{
+    border: 4px solid #0067F5 !important;
+}
+
+
+
+
+
+
+
+
+.Restaurantes, .Souvenires{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    justify-items: center;
+}
+
+.TarjetaRestaurante{
+    max-width: 270px;
+    margin-top: 40px;
+}
+
+.TarjetaSouvenir{
+    max-width: 270px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@media screen and (max-width: 1200px) {
+    .Restaurantes{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 900px) {
+    .Restaurantes{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .TarjetaRestaurante{
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 690px) {
+    .Restaurantes{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .TarjetaRestaurante{
+        max-width: 450px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+    .Souvenires{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .TarjetaSouvenir{
+        max-width: 380px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .Souvenires{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .TarjetaSouvenir{
+        max-width: 480px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Souvenires{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .TarjetaSouvenir{
+        max-width: 480px;
+    }
 }

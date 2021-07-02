@@ -53,7 +53,7 @@ export default function ComplexGrid(props) {
                 </Typography>
               </Grid>
               <Grid item>
-                <Typography variant="body2" style={{ cursor: 'pointer' }}>
+                <Typography variant="body2" style={{ cursor: 'pointer', color: '#0067F5'}}>
                   Mas Info
                 </Typography>
               </Grid>

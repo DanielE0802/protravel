@@ -7,7 +7,7 @@ import CardActions from '@material-ui/core/CardActions';
 import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
-import Puntuacion from './Puntuacion';
+import PuntuacionReadOnly from './PuntuacionReadOnly';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,20 +52,20 @@ export default function RecipeReviewCard() {
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
           Oscar, te quedo perfecto, gracias por tu trabajo. :)
-          <br/>
-          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
-          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
-          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
-          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
-          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
-          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
-          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
-          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
-          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. 
+          <br />
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
+          Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <Puntuacion/>
+        <PuntuacionReadOnly />
       </CardActions>
     </Card>
   );

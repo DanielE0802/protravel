@@ -7,6 +7,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import BotonComentar from './BotonComentar';
+import Puntuar from './Puntuar';
 
 export default function FormDialog() {
     const [open, setOpen] = React.useState(false);
@@ -30,6 +31,7 @@ export default function FormDialog() {
                     <DialogContentText>
                         ¡Cuentale a los demas usuarios tu experiencia en este lugar!
                     </DialogContentText>
+                    <Puntuar></Puntuar>
                     <TextField
                         autoFocus
                         margin="dense"
@@ -40,7 +42,7 @@ export default function FormDialog() {
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={handleClose} color="primary">
-                        Cancel
+                        Cancelar
           </Button>
                     <Button onClick={handleClose} color="primary">
                         Comentar

@@ -3,7 +3,7 @@ import { GridList, GridListTile } from '@material-ui/core';
 import dataList from '../../data/data.json';
 import Paginacion from './Paginacion';
 import RoomIcon from '@material-ui/icons/Room';
-import { green } from '@material-ui/core/colors';
+import { blue } from '@material-ui/core/colors';
 import KitchenIcon from '@material-ui/icons/Kitchen';
 import WifiIcon from '@material-ui/icons/Wifi';
 import PetsIcon from '@material-ui/icons/Pets';
@@ -25,7 +25,7 @@ class Hoteles extends React.Component {
                 </GridList>
                 <h1 style={{ display: 'flex', justifyContent: 'start', paddingTop: 40 }}>Lugar</h1>
                 <h3>
-                    <RoomIcon style={{ color: green[500] }} />Ubicacion
+                    <RoomIcon style={{ color: blue[500] }} />Ubicacion
                 </h3>
                 <p>
                     Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar
@@ -39,16 +39,16 @@ class Hoteles extends React.Component {
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginLeft:'5%', marginRight:'5%'}}>
                     <div>
                         <p>
-                            <KitchenIcon style={{ color: green[500] }} />Cocina
+                            <KitchenIcon style={{ color: blue[500] }} />Cocina
                     </p>
                         <p>
-                            <WifiIcon style={{ color: green[500] }} />Wifi
+                            <WifiIcon style={{ color: blue[500] }} />Wifi
                     </p>
                         <p>
-                            <PetsIcon style={{ color: green[500] }} />Se permite mascotas
+                            <PetsIcon style={{ color: blue[500] }} />Se permite mascotas
                     </p>
                         <p>
-                            <PoolIcon style={{ color: green[500] }} />Pscina
+                            <PoolIcon style={{ color: blue[500] }} />Pscina
                     </p>
                     </div>
                     <div style={{marginTop:-80}}>

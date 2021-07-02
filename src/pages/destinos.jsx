@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {ThemeProvider} from '@material-ui/core/styles'
 // import MainSelector from '../components/MainSelector';
 // import Destinos from '../components/Destinos';
@@ -11,7 +10,6 @@ import SectionsDestiny from '../components/destinos/SectionsDestiny'
 // import data from './data/placeHolderDestinos.json'
 // const dataDestinos = data.data
 import data from '../data/placeHolderDestinos.json'
-import Regiones from '../components/Regiones'
 import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
 const dashboardRoutes = [];
@@ -34,7 +32,6 @@ const Destinos = props => {
       />
             <SwipeableTextMobileStepper data={data}/>
             <SectionsDestiny data={data}/>
-            <Regiones></Regiones>
             
         </ThemeProvider>
     )

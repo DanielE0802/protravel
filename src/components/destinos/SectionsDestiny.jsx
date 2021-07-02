@@ -23,6 +23,9 @@ import Hotel from './Hoteles';
 import ResultadoHoteles from '../ResultadoHoteles';
 import Pagos from '../Payments/Checkout';
 import '../scss/destinos.scss';
+import Restaurantes from './Restaurantes';
+import Souvenir from './Souvenir';
+import Promos from './Promociones/Promos';
 
 
 
@@ -111,25 +114,44 @@ export default function ScrollableTabsButtonForce() {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <AtraccionesComponent data={data.data} ></AtraccionesComponent>
-        <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
+        <Promos></Promos>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Hotel />
         <ResultadoHoteles data={dataHoteles.data} ></ResultadoHoteles>
-        
+
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
+        <div className="Restaurantes" style={{ marginTop: -200}}>
+          <Restaurantes></Restaurantes>
+          <Restaurantes></Restaurantes>
+          <Restaurantes></Restaurantes>
+          <Restaurantes></Restaurantes>
+          <Restaurantes></Restaurantes>
+          <Restaurantes></Restaurantes>
+          <Restaurantes></Restaurantes>
+          <Restaurantes></Restaurantes>
+        </div>
       </TabPanel>
       <TabPanel value={value} index={4}>
-        <p>texttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttext texttexttexttexttexttexttexttexttexttexttexttext texttexttexttexttexttext</p>
+      <div className="Souvenires">
+      <Souvenir></Souvenir>
+      <Souvenir></Souvenir>
+      <Souvenir></Souvenir>
+      <Souvenir></Souvenir>
+      <Souvenir></Souvenir>
+      <Souvenir></Souvenir>
+      <Souvenir></Souvenir>
+      <Souvenir></Souvenir>
+      </div>
+
       </TabPanel>
       <TabPanel value={value} index={5}>
         <Comentar />
         <Reseñas />
         <Reseñas />
       </TabPanel>
-      <Pagos/>
+      <Pagos />
 
     </div>
   );

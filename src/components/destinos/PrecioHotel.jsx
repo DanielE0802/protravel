@@ -42,7 +42,7 @@ export default function MediaCard() {
             <SelectDate />
             <CardActions style={{ display: 'flex', justifyContent: 'center' }}>
                 <Button size="small" color="primary" >
-                    Comprobar disponibilidad
+                    Añadir al carrito
         </Button>
             </CardActions>
         </Card>
