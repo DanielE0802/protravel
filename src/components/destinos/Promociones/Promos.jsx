@@ -15,7 +15,7 @@ class Promos extends React.Component {
                 </div>
                 <div>
                     <h1>Aprovecha todas  las promociones del momento</h1>
-                    <p>Lista de cupones promocionales y códigos promocionales. ¡Compre más barato!</p>
+                    <h2 style={{ display: 'flex', justifyContent:'center'}}>Lista de cupones promocionales y códigos promocionales. ¡Compre más barato!</h2>
                     <TarjetaPromo></TarjetaPromo>
                     <TarjetaPromo></TarjetaPromo>
                     <TarjetaPromo></TarjetaPromo>

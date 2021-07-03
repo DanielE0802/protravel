@@ -23,11 +23,11 @@ class Hoteles extends React.Component {
                         </GridListTile>
                     ))}
                 </GridList>
-                <h1 style={{ display: 'flex', justifyContent: 'start', paddingTop: 40 }}>Lugar</h1>
-                <h3>
+                <h1 style={{ display: 'flex', justifyContent: 'start', paddingTop: 40, marginLeft:'5%', marginRight:'5%' }}>Lugar</h1>
+                <h3 style={{ display: 'flex', marginLeft:'5%', marginRight:'5%'}}>
                     <RoomIcon style={{ color: blue[500] }} />Ubicacion
                 </h3>
-                <p>
+                <p style={{ display: 'flex', justifyContent: 'space-between', marginLeft:'5%', marginRight:'5%'}}>
                     Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar
                     Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar
                     Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar

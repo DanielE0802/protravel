@@ -41,11 +41,15 @@ const useStyles = makeStyles(({ palette, breakpoints }) => ({
     flexBasis: '33.33%',
     display: 'flex',
     backgroundColor: '#fff',
+    flexDirection: 'column',
+    paddingTop:30,
   },
   media: {
     margin: 'auto',
     width: 80,
     height: 80,
+    display: 'flex',
+    flexDirection: 'column',
     borderRadius: '50%',
   },
   right: {
@@ -119,9 +123,10 @@ export const PlaneTicketCardDemo = React.memo(function PlaneTicketCard() {
         <CardMedia
           className={styles.media}
           image={
-            'https://dejpknyizje2n.cloudfront.net/marketplace/products/yin-yang-two-fighting-dragons-sticker-1538772130.3390164.png'
+            'https://revistadiners.com.co/wp-content/uploads/2020/03/biohabitat_800x534.jpg'
           }
         />
+        <h2><a href=''>%</a> de descuento</h2>
       </div>
       <VerticalTicketRip
         classes={{
