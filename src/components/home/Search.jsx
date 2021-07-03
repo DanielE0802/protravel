@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../scss/search.css";
+import "../scss/general.scss"
 import "../../js/search";
 import logo from "../../img/mundo.png";
 
