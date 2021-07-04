@@ -1,23 +1,32 @@
 #app > div > switch > main > div.MuiPaper-root.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-8.MuiGrid-grid-md-5.MuiPaper-elevation6 > div:nth-child(1) > a{
-    background: #0067F5 ;
+    background: linear-gradient(280deg, rgba(13,197,231,1) 10%, rgba(8,159,237,1) 40%, rgba(6,143,239,1) 65%, rgba(1,114,243,1) 88%) !important;
 }
 
 #app > div > switch > main > div.MuiPaper-root.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-8.MuiGrid-grid-md-5.MuiPaper-elevation6 > div.makeStyles-paper-3 > form > button{
-    background: #0067F5 ;
+    background: linear-gradient(280deg, rgba(13,197,231,1) 10%, rgba(8,159,237,1) 40%, rgba(6,143,239,1) 65%, rgba(1,114,243,1) 88%) !important;
 }
 
 .MuiCheckbox-colorPrimary.Mui-checked{
     color: #0067F5 !important;
 }
 
-#app > div > switch > main > div.MuiPaper-root.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-8.MuiGrid-grid-md-5.MuiPaper-elevation6 > div.makeStyles-paper-3 > form > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true > a{
-    color: #0067F5 !important;
-}
 
 #app > div > switch > main > div.MuiPaper-root.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-8.MuiGrid-grid-md-5.MuiPaper-elevation6 > div.makeStyles-paper-3 > form > div.MuiGrid-root.MuiGrid-container > div:nth-child(2) > a{
     color: #0067F5 !important;
 }
 
+
+#app > div > switch > main > div.MuiPaper-root.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-8.MuiGrid-grid-md-5.MuiPaper-elevation6 > div.makeStyles-paper-366 > form > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true > a, #app > div > switch > main > div.MuiPaper-root.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-8.MuiGrid-grid-md-5.MuiPaper-elevation6 > div.makeStyles-paper-366 > form > div.MuiGrid-root.MuiGrid-container > div:nth-child(2) > a{
+    color: #0067F5 !important;
+
+}
+
 .makeStyles-avatar-4{
     background-color: #9F060B !important;
 }
+
+.datos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
