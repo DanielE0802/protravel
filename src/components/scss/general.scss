@@ -4,14 +4,6 @@
 }
 
 
-// #app > div > switch > header{
-//     color: #fff ;
-//     backdrop-filter: blur(10px);
-//     background-color: #181818a4 !important;
-//     padding-top: 15px !important;
-// }
-
-
 #app > div > switch > div > div.makeStyles-div-87{
     margin: 0;
 }
@@ -68,3 +60,12 @@ body::-webkit-scrollbar-track ,div::-webkit-scrollbar-track {
     border-radius: 10px;  
 }
 
+#app > div > switch > div.MuiGrid-root-90.MuiGrid-container-91.MuiGrid-align-items-xs-center-99.MuiGrid-justify-xs-center-108 > div > div.MuiPaper-root-193.makeStyles-header-88.MuiPaper-elevation0-196{
+    background-color: #ffffff85;
+    border-radius: 31px 31px 0px 0px;
+}
+
+#app > div > switch > div.MuiGrid-root-90.MuiGrid-container-91.MuiGrid-align-items-xs-center-99.MuiGrid-justify-xs-center-108 > div > div.MuiPaper-root-193.MuiMobileStepper-root-251.MuiMobileStepper-positionStatic-254.MuiPaper-elevation0-196{
+    border-radius: 0px 0px 31px 31px;
+    background-color: #ffffff85;
+}

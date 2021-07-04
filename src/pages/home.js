@@ -1,21 +1,13 @@
 import React from "react";
-// import NavBar from "../components/NavBar";
 import { ThemeProvider } from "@material-ui/core/styles";
-// import SlidePlanes from '../components/SlidePlanes'
-// import BannerHomePage from '../components/BannerHomePage'
-// import MainSelector from '../components/MainSelector';
-// import Destinos from '../components/Destinos';
-// // import theme from '../components/theme/themeconfig'
-// import Contenedor from '../components/Contenedor'
-// import SlidesDestinos from '../components/SlideDestinos'
-// import SwipeableTextMobileStepper from "../components/SlideTargets";
-// import SectionsDestiny from "../components/SectionsDestiny";
 import MainSelector from "../components/home/MainSelector";
 import SlidePlanes from "../components/home/SlidePlanes";
 import Search from "../components/home/Search";
 import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
-// import ProductHowItWorks from "../components/ProductHowItWorks";
+import FooterDemo from "../components/footer/Footer";
+
+
 const dashboardRoutes = [];
 const Home = (props) => {
   const { ...rest } = props;
@@ -46,6 +38,7 @@ const Home = (props) => {
         <Search></Search>
         <MainSelector />
         <SlidePlanes></SlidePlanes>
+        <FooterDemo></FooterDemo>
       </div>
     </ThemeProvider>
   );

@@ -1,8 +1,6 @@
 
 #app > div > switch > header{
     color: #fff ;
-    backdrop-filter: blur(10px);
-    background-color: #181818a4 !important;
     padding-top: 15px !important;
 
 }
@@ -109,3 +107,97 @@
         max-width: 480px;
     }
 }
+.leftDestiny{
+    margin-left: 5vw;
+    width: 42%;
+
+
+    div.makeStyles-root-94 > p > div > div > div > div > div{
+        &:nth-child(1){
+            width: 40%;
+    
+            button{
+                width: 100%;
+            }
+        }
+
+        &:nth-child(2){
+            flex-direction: column;
+        }
+    }
+
+}
+
+.containerDestiny{
+    display: flex;
+}
+
+
+.search-boxxx{
+    margin-bottom: 25px;
+    width: 20vw;
+    transition: width 0.4s ease;
+    z-index: 999;
+    background: #2f3640;
+    height: 60px;
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.527), 0 7px 12px -5px rgba(0, 0, 0, 0.678);
+    backdrop-filter: blur(4px);
+    background-color: #181818a4 ;
+
+    i{
+        color: rgba(211, 211, 211, 0.932);
+    }
+  }
+  
+  .search-btn{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: 0.4s;
+  }
+  
+  .search-boxxx:hover > .search-txt{
+    width: calc(28vw - 60px);
+    padding: 0 6px;
+   
+  }
+  
+  .search-boxxx:hover > .search-btn{
+    background: white;
+    
+  }
+
+  .search-boxxx:hover{
+    width: 28vw;
+    i{
+        color: #000;
+    }
+  }
+  
+  .search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+  }
+
+  .search-txt::placeholder{
+      color: rgb(167, 167, 167);
+  }
+
+  #app > div > switch > div.containerDestiny > div.leftDestiny > div.makeStyles-root-94 > p > div > div{
+      padding-bottom: 10px;
+  }

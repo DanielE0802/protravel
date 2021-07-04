@@ -3,7 +3,8 @@ import {ThemeProvider} from '@material-ui/core/styles'
 import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
 import Promos from '../components/promociones/Promos'
-
+import FooterDemo from '../components/footer/Footer';
+import SlideDestiny from "../components/general/SlideDestiny"
 
 
 const dashboardRoutes = [];
@@ -28,11 +29,12 @@ const Destinos = props => {
         }}
         {...rest}
       />
+      <SlideDestiny></SlideDestiny>
       <Promos></Promos>
-      
+  
 
 
-
+        <FooterDemo></FooterDemo>
         </ThemeProvider>
 
     )

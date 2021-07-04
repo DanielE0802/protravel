@@ -6,6 +6,9 @@ import HeaderLinks from "../components/header/Headerlinks";
 import dataHoteles from '../data/dataHoteles.json'
 import Map from "../components/destinos/Map"
 import Footer from '../components/footer/Footer'
+import SlideDestiny from "../components/general/SlideDestiny"
+import SearchDestiny from '../components/general/SearchDestiny';
+import "../components/scss/destinos.scss"
 
 const dashboardRoutes = [];
 
@@ -15,8 +18,8 @@ const Destinos = props => {
     return (
         <ThemeProvider>
            <Header
-        style={{position:"sticky"}}
-        color="dark"
+        style={{position:"sticky" }}
+        color="transparent"
         routes={dashboardRoutes}
         brand="ProTravel"
         rightLinks={<HeaderLinks />}
@@ -27,9 +30,20 @@ const Destinos = props => {
         }}
         {...rest}
       />
+      <SlideDestiny></SlideDestiny>
+      <div className="containerDestiny">
 
+      
+      <div className="leftDestiny">
+      <SearchDestiny></SearchDestiny>
       <ResultadoHoteles data={dataHoteles.data} ></ResultadoHoteles>
+
+      </div>
+      <div className="rigthDestiny">
       <Map></Map>
+      </div>
+      </div>
+
           
             <Footer></Footer>
         </ThemeProvider>

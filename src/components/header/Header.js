@@ -15,7 +15,7 @@ import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "../styles/headerStyle";
-
+import { Link } from "react-router-dom";
 const useStyles = makeStyles(styles);
 
 export default function Header(props) {
@@ -66,13 +66,14 @@ export default function Header(props) {
       <Toolbar className={classes.container}>
         {leftLinks !== undefined ? brandComponent : null}
         <div className={classes.flex}>
+        <Link to="/" style={{color:"#fff"}}>
           {leftLinks !== undefined ? (
             <Hidden smDown implementation="css">
               {leftLinks}
             </Hidden>
           ) : (
             brandComponent
-          )}
+          )}</Link>
         </div>
         <Hidden smDown implementation="css">
           {rightLinks}
@@ -128,12 +129,6 @@ Header.propTypes = {
   brand: PropTypes.string,
   fixed: PropTypes.bool,
   absolute: PropTypes.bool,
-  // this will cause the sidebar to change the color from
-  // props.color (see above) to changeColorOnScroll.color
-  // when the window.pageYOffset is heigher or equal to
-  // changeColorOnScroll.height and then when it is smaller than
-  // changeColorOnScroll.height change it back to
-  // props.color (see above)
   changeColorOnScroll: PropTypes.shape({
     height: PropTypes.number.isRequired,
     color: PropTypes.oneOf([
