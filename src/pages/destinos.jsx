@@ -12,6 +12,8 @@ import SectionsDestiny from '../components/destinos/SectionsDestiny'
 import data from '../data/placeHolderDestinos.json'
 import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
+import Footer from '../components/footer/Footer'
+
 const dashboardRoutes = [];
 const Destinos = props => {
     const { ...rest } = props;
@@ -32,7 +34,7 @@ const Destinos = props => {
       />
             <SwipeableTextMobileStepper data={data}/>
             <SectionsDestiny data={data}/>
-            
+            <Footer></Footer>
         </ThemeProvider>
     )
 }

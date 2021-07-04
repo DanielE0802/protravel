@@ -2,7 +2,12 @@ import React from 'react'
 import {ThemeProvider} from '@material-ui/core/styles'
 import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
+import Promos from '../components/promociones/Promos'
+
+
+
 const dashboardRoutes = [];
+
 
 const Destinos = props => {
     const { ...rest } = props;
@@ -23,12 +28,13 @@ const Destinos = props => {
         }}
         {...rest}
       />
-
+      <Promos></Promos>
       
 
 
 
         </ThemeProvider>
+
     )
 }
 
