@@ -12,7 +12,6 @@ import {
 } from '@material-ui/core/styles';
 
 import { ColumnToRow, Item } from '@mui-treasury/components/flex';
-import { NavMenu, NavItem } from '@mui-treasury/components/menu/navigation';
 import {
   EmailSubscribe,
   EmailTextInput,
@@ -31,7 +30,6 @@ import {
 import { useMagCategoryMenuStyles } from '@mui-treasury/styles/categoryMenu/mag';
 import { usePoofSocialLinkStyles } from '@mui-treasury/styles/socialLink/poof';
 import { useReadyEmailSubscribeStyles } from '@mui-treasury/styles/emailSubscribe/ready';
-import { usePlainNavigationMenuStyles } from '@mui-treasury/styles/navigationMenu/plain';
 
 const darkTheme = createMuiTheme({ palette: { type: 'dark' } });
 
@@ -120,7 +118,7 @@ const FooterDemo = React.memo(function ArcAppFooter() {
                   useStyles={useReadyEmailSubscribeStyles}
                   inputClearedAfterSubmit
                 >
-                  <EmailTextInput placeholder="Enter your email" />
+                  <EmailTextInput placeholder="Ingresa tu correo electronico" />
                   <SubmitButton>Subscribete</SubmitButton>
                 </EmailSubscribe>
               </Item>
@@ -206,10 +204,9 @@ const FooterDemo = React.memo(function ArcAppFooter() {
                   </CategoryTitle>
                 </CategoryProvider>
                 <SocialProvider useStyles={usePoofSocialLinkStyles}>
-                  <SocialLink brand={'Envelope'} />
-                  <SocialLink brand={'GooglePlus'} />
-                  <SocialLink brand={'Pinterest'} />
-                  <SocialLink brand={'Dribbble'} />
+                  <a href='https://mail.google.com/mail/u/0/#inbox'><SocialLink brand={'Envelope'} /></a>
+                  <a href='https://www.linkedin.com/company/protravel2021/'><SocialLink brand={'LinkedIn'} /></a>
+                  <a href='https://www.instagram.com/protravel01/'><SocialLink brand={'Instagram'} /></a>
                 </SocialProvider>
               </Grid>
             </Grid>
@@ -225,31 +222,16 @@ const FooterDemo = React.memo(function ArcAppFooter() {
               columnStyle={{ alignItems: 'center' }}
               rowStyle={{ alignItems: 'unset' }}
             >
-              <Item grow ml={-2} shrink={0}>
-                <NavMenu useStyles={usePlainNavigationMenuStyles}>
-                  <ColumnToRow at={'sm'}>
-                    <NavItem className={classes.legalLink}>
-                      <p>Terms & Conditions</p>
-                    </NavItem>
-                    <NavItem className={classes.legalLink}>
-                      <p>Privacy Policy</p>
-                    </NavItem>
-                    <NavItem className={classes.legalLink}>
-                      <p>Sitemap</p>
-                    </NavItem>
-                  </ColumnToRow>
-                </NavMenu>
-              </Item>
-              <Item>
+              
+              <Item style={{ margin: 'auto'}}>
                 <Box py={1} textAlign={{ xs: 'center', md: 'right' }}>
                   <Typography
                     component={'p'}
                     variant={'caption'}
                     color={'textSecondary'}
                   >
-                    <p index={1}>
-                      Designed by Anonymous © Fake Studio 2020 All right
-                      reserved
+                    <p index={1} >
+                      Copyright© ProTravel 2021
                     </p>
                   </Typography>
                 </Box>
