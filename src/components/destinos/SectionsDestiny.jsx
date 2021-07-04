@@ -25,6 +25,7 @@ import Pagos from '../Payments/Checkout';
 import '../scss/destinos.scss';
 import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
+import Cuenta from '../User/Cuenta';
 
 
 
@@ -114,7 +115,7 @@ export default function ScrollableTabsButtonForce() {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <AtraccionesComponent data={data.data} ></AtraccionesComponent>
-        
+        <Cuenta> </Cuenta>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Hotel />

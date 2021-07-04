@@ -13,13 +13,14 @@ import Typography from '@material-ui/core/Typography';
 import AddressForm from './AddressForm';
 import PaymentForm from './PaymentForm';
 import Review from './Review';
+import '../scss/pagos.scss';
 
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+        ProTravel 2021
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -117,11 +118,10 @@ export default function Checkout() {
             {activeStep === steps.length ? (
               <React.Fragment>
                 <Typography variant="h5" gutterBottom>
-                  Thank you for your order.
+                  Gracias por tu reserva
                 </Typography>
                 <Typography variant="subtitle1">
-                  Your order number is #2001539. We have emailed your order confirmation, and will
-                  send you an update when your order has shipped.
+                Su número de pedido es #2001539. Hemos enviado por correo electrónico la confirmación de su pedido.
                 </Typography>
               </React.Fragment>
             ) : (
@@ -130,7 +130,7 @@ export default function Checkout() {
                 <div className={classes.buttons}>
                   {activeStep !== 0 && (
                     <Button onClick={handleBack} className={classes.button}>
-                      Back
+                      Atras
                     </Button>
                   )}
                   <Button
@@ -139,7 +139,7 @@ export default function Checkout() {
                     onClick={handleNext}
                     className={classes.button}
                   >
-                    {activeStep === steps.length - 1 ? 'Place order' : 'Next'}
+                    {activeStep === steps.length - 1 ? 'Confirmar' : 'Siguiente'}
                   </Button>
                 </div>
               </React.Fragment>
