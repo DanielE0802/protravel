@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/promos" component={promos} />
           <Route exact path="/variedades" component={variedades} />
           <Route exact path="/comunidad" component={comunidad} />
-          <Route exact path="/destino/cartagena" component={destinoSelected} />
+          <Route exact path="/destinos/cartagena" component={destinoSelected} />
         </switch>
       </BrowserRouter>
     </div>

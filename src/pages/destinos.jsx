@@ -1,37 +1,33 @@
 import React from 'react'
 import {ThemeProvider} from '@material-ui/core/styles'
-// import MainSelector from '../components/MainSelector';
-// import Destinos from '../components/Destinos';
-// // import theme from '../components/theme/themeconfig'
-// import Contenedor from '../components/Contenedor'
-// import SlidesDestinos from '../components/SlideDestinos'
-import SwipeableTextMobileStepper from '../components/SlideTargets'
-import SectionsDestiny from '../components/destinos/SectionsDestiny'
-// import data from './data/placeHolderDestinos.json'
-// const dataDestinos = data.data
-import data from '../data/placeHolderDestinos.json'
 import Header from "../components/header/Header";
+import ResultadoHoteles from "../components/ResultadoHoteles";
 import HeaderLinks from "../components/header/Headerlinks";
+import dataHoteles from '../data/dataHoteles.json'
+import Map from "../components/destinos/Map"
 const dashboardRoutes = [];
+
+
 const Destinos = props => {
     const { ...rest } = props;
     return (
         <ThemeProvider>
            <Header
         style={{position:"sticky"}}
-        color="transparent"
+        color="dark"
         routes={dashboardRoutes}
         brand="ProTravel"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 200,
-          color: "#3EB049",
+          color: "dark",
         }}
         {...rest}
       />
-            <SwipeableTextMobileStepper data={data}/>
-            <SectionsDestiny data={data}/>
+
+      <ResultadoHoteles data={dataHoteles.data} ></ResultadoHoteles>
+      <Map></Map>
             
         </ThemeProvider>
     )

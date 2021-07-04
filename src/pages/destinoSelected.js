@@ -12,11 +12,13 @@ import SectionsDestiny from '../components/destinos/SectionsDestiny'
 import data from '../data/placeHolderDestinos.json'
 import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
+
 const dashboardRoutes = [];
 const Destinos = props => {
     const { ...rest } = props;
     return (
         <ThemeProvider>
+      
            <Header
         style={{position:"sticky"}}
         color="transparent"
@@ -26,12 +28,16 @@ const Destinos = props => {
         fixed
         changeColorOnScroll={{
           height: 200,
-          color: "#3EB049",
+          color: "dark",
         }}
         {...rest}
       />
-            <SwipeableTextMobileStepper data={data}/>
-            <SectionsDestiny data={data}/>
+      <div className="homeDestinySelected">
+      </div>
+        <SwipeableTextMobileStepper data={data}/>
+        <SectionsDestiny data={data}/>
+  
+           
             
         </ThemeProvider>
     )

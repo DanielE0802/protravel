@@ -37,7 +37,8 @@ const Home = (props) => {
         fixed
         changeColorOnScroll={{
           height: 200,
-          color: "#3EB049",
+          color: "dark",
+          
         }}
         {...rest}
       />
