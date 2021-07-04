@@ -5,6 +5,8 @@ import ResultadoHoteles from "../components/ResultadoHoteles";
 import HeaderLinks from "../components/header/Headerlinks";
 import dataHoteles from '../data/dataHoteles.json'
 import Map from "../components/destinos/Map"
+import Footer from '../components/footer/Footer'
+
 const dashboardRoutes = [];
 
 
@@ -28,7 +30,8 @@ const Destinos = props => {
 
       <ResultadoHoteles data={dataHoteles.data} ></ResultadoHoteles>
       <Map></Map>
-            
+          
+            <Footer></Footer>
         </ThemeProvider>
     )
 }
