@@ -112,9 +112,12 @@ import {
     },
     dark: {
       color: "#FFFFFF",
-      backgroundColor: "#212121 !important",
+      backgroundColor: "#181818a4 !important",
       boxShadow:
         "0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(33, 33, 33, 0.46)",
+      backdropFilter: "blur(10px)",
+        //     background-color: ;
+        //     padding-top: 15px !important;
     },
     white: {
       border: "0",
