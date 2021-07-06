@@ -7,12 +7,12 @@ const GradientBtn = () => {
   const chubbyStyles = useGradientBtnStyles({ chubby: true });
   const gutterStyles = usePushingGutterStyles({ cssProp: 'marginBottom', space: 2 });
   return (
-    <div className={gutterStyles.parent}>
+    <div className={gutterStyles.parent} style={{display: 'flex', justifyContent: 'center'}}>
       <div>
-        <Button classes={chubbyStyles}>Actualizar informacion</Button>
+        <Button classes={chubbyStyles} style={{marginRight: 15}}>Actualizar informacion</Button>
       </div>
       <div>
-        <Button classes={chubbyStyles}>Cambiar contraseña</Button>
+        <Button classes={chubbyStyles} style={{marginLeft: 15}}>Cambiar contraseña</Button>
       </div>
     </div>
   );
