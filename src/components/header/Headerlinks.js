@@ -11,6 +11,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 import LanguageIcon from "@material-ui/icons/Language";
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 // @material-ui/icons
 import { Apps, CloudDownload } from "@material-ui/icons";
 // core components
@@ -51,7 +52,24 @@ export default function HeaderLinks(props) {
             <Link to="/register" className={classes.dropdownLink}>
                  Crear cuenta
             </Link>,
-           
+          ]}
+        />
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <CustomDropdown
+          noLiPadding
+          buttonProps={{
+            className: classes.navLink,
+            color: "transparent",
+          }}
+          buttonIcon={ShoppingCartIcon}
+          dropdownList={[
+            <Link to="/login" className={classes.dropdownLink}>
+              Item 1
+            </Link>,
+            <Link to="/register" className={classes.dropdownLink}>
+                 Item 2
+            </Link>,
           ]}
         />
       </ListItem>
