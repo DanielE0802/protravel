@@ -69,3 +69,14 @@ body::-webkit-scrollbar-track ,div::-webkit-scrollbar-track {
     border-radius: 0px 0px 31px 31px;
     background-color: #ffffff85;
 }
+
+#app > div > switch > div > div:nth-child(3) > img{
+    width: 11vw;
+}
+
+
+@media screen and (max-width: 1090px) {
+    #app > div > switch > div > div:nth-child(3) > img{
+        width: 21vw;
+    }
+}
