@@ -58,6 +58,9 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+#app > div > switch > div.makeStyles-root-296 > main > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3 > div.MuiFormControl-root{
+    margin: auto !important;
+}
 @media screen and (max-width: 1200px) {
     .Restaurantes{
         grid-template-columns: repeat(3, 1fr);
@@ -79,6 +82,32 @@
         max-width: 450px;
     }
 }
+
+
+@media screen and (max-width: 470px) {
+    #app > div > switch > div.makeStyles-root-296 > main > div > h1{
+        font-size: 1.9em;
+    }
+    #app > div > switch > div.makeStyles-root-296 > main > div > div.MuiPaper-root.MuiStepper-root.MuiStepper-horizontal.makeStyles-stepper-305.MuiPaper-elevation0 > div > span > span.MuiStepLabel-labelContainer > span{
+        font-size: 0.77em;
+    }
+    #app > div > switch > div.makeStyles-root-296 > main > div > div.MuiPaper-root.MuiStepper-root.MuiStepper-horizontal.makeStyles-stepper-305.MuiPaper-elevation0{
+        flex-direction: column;
+
+    }
+    #app > div > switch > div.makeStyles-root-296 > main > div > div.MuiPaper-root.MuiStepper-root.MuiStepper-horizontal.makeStyles-stepper-305.MuiPaper-elevation0 > div > span > span.MuiStepLabel-labelContainer > span{
+        width: 93px;
+    }
+    #app > div > switch > div.makeStyles-root-296 > main > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-3 > div.MuiFormControl-root > div > div{
+        min-width: 100px;
+    }
+    #inputLabel{
+        min-width: 170px;
+    }
+    
+}
+
+
 
 
 
@@ -201,3 +230,7 @@
   #app > div > switch > div.containerDestiny > div.leftDestiny > div.makeStyles-root-94 > p > div > div{
       padding-bottom: 10px;
   }
+
+#scrollable-force-tabpanel-2 > div > p > div:nth-child(1) > div:nth-child(6) > div:nth-child(2) > div > div > button{
+    color: #fff !important;
+}

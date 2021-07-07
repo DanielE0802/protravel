@@ -24,7 +24,7 @@ const TextFields = () => {
     const inputLabelStyles = roundTextFieldStylesHook.useInputLabel();
     const helperTextStyles = roundTextFieldStylesHook.useHelperText();
     return (
-        <div>
+        <div >
 
             <h1>Mi Cuenta</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -37,6 +37,8 @@ const TextFields = () => {
                     InputProps={{ classes: inputBaseStyles, disableUnderline: true, readOnly: true }}
                     FormHelperTextProps={{ classes: helperTextStyles }}
                     defaultValue="Oscar Eduardo Restrepo Mejia"
+                    style={{marginLeft: 50, marginRight: 50 }}
+
                 />
                 <TextField
                     label={'Nombre de Usuario'}
@@ -46,6 +48,8 @@ const TextFields = () => {
                     InputProps={{ classes: inputBaseStyles, disableUnderline: true, readOnly: true }}
                     FormHelperTextProps={{ classes: helperTextStyles }}
                     defaultValue="OscarRestrepo26"
+                    style={{marginLeft: 50, marginRight: 50 }}
+
                 />
                 <TextField
                     label={'Correo'}
@@ -54,6 +58,7 @@ const TextFields = () => {
                     InputLabelProps={{ shrink: true, classes: inputLabelStyles }}
                     InputProps={{ classes: inputBaseStyles, disableUnderline: true, readOnly: true }}
                     defaultValue="oscarrestrepo2002@gmail.com"
+                    style={{marginLeft: 50, marginRight: 50 }}
                 />
                 <TextField
                     label={'Número telefonico'}
@@ -62,9 +67,14 @@ const TextFields = () => {
                     InputLabelProps={{ shrink: true, classes: inputLabelStyles }}
                     InputProps={{ classes: inputBaseStyles, disableUnderline: true, readOnly: true }}
                     defaultValue="+57 3165034633"
+                    style={{marginLeft: 50, marginRight: 50 }}
+
                 />
             </div>
+            
+            <div style={{display: 'block', width: 250, margin: 'auto', marginTop: 20, marginBottom: 20}}>
             <Select></Select>
+            </div>
 
             <Botones></Botones>
 

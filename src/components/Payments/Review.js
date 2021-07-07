@@ -59,7 +59,7 @@ export default function Review() {
         </Grid>
         <Grid item container direction="column" xs={12} sm={6}>
           <Typography variant="h6" gutterBottom className={classes.title}>
-            Payment details
+            Detalles de pago
           </Typography>
           <Grid container>
             {payments.map((payment) => (

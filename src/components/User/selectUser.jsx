@@ -49,6 +49,7 @@ const MinimalSelect = () => {
         value={val}
         onChange={handleChange}
         inputProps={{ readOnly: true }}
+        
       >
         <MenuItem value={0}>Turista</MenuItem>
         <MenuItem value={1}>Nativo</MenuItem>

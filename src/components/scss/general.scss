@@ -87,3 +87,13 @@ body::-webkit-scrollbar-track ,div::-webkit-scrollbar-track {
         color: #fff;
     }
 }
+#app > div > switch > div > div:nth-child(3) > img{
+    width: 11vw;
+}
+
+
+@media screen and (max-width: 1090px) {
+    #app > div > switch > div > div:nth-child(3) > img{
+        width: 21vw;
+    }
+}

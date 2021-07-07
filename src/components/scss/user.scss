@@ -30,3 +30,68 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+#scrollable-force-tabpanel-1 > div > p > div:nth-child(2) > div.MuiBox-root.MuiBox-root-371{
+    max-width: 200px;
+    min-width: 100px;
+    margin-top: 78px;
+}
+
+.GatsbyCollapsibleMenu-listItem-379:hover, .GatsbyCollapsibleMenu-listItem-379:focus{
+    color: #0067F5 !important;
+}
+
+.GatsbyCollapsibleMenu-listItemSelected-380:after{
+    background: #0067F5 !important;
+}
+
+
+.GatsbyCollapsibleMenu-listItem-379:hover:before, .GatsbyCollapsibleMenu-listItem-379:focus:before{
+    background: #0067F5 !important;
+}
+
+.GatsbyCollapsibleMenu-listItemSelected-380{
+    color:  #0067F5 !important;
+}
+
+.MuiFormLabel-root-408.Mui-focused{
+    color: #0067F5 !important;
+}
+
+.RoundTextField-focused-385:hover:not(.RoundTextField-disabled-387), .RoundTextField-focused-385{
+    border-color: #0067F5 !important;
+}
+
+.MinimalSelect-select-438, .MinimalSelect-icon-439{
+    color: #0067F5 !important;
+}
+
+.MinimalSelect-list-441 li.Mui-selected:hover, .MinimalSelect-list-441 li.Mui-selected{
+    background: #0067F5 !important;
+}
+
+.MinimalSelect-list-441 li:hover{
+    background: #b6d4ff !important;
+}
+
+.makeStyles-root-468{
+    background: linear-gradient(280deg, rgba(13,197,231,1) 10%, rgba(8,159,237,1) 40%, rgba(6,143,239,1) 65%, rgba(1,114,243,1) 88%) !important;
+
+}
+
+#scrollable-force-tabpanel-1 > div > p > div.cuentaContainer{
+    display: flex;
+}
+
+#scrollable-force-tabpanel-1 > div > p > div.cuentaContainer > div:nth-child(2){
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 680px) {
+    #scrollable-force-tabpanel-1 > div > p > div.cuentaContainer{
+        flex-direction: column;
+    }
+
+    #scrollable-force-tabpanel-1 > div > p > div.cuentaContainer > div:nth-child(2){
+        transform: translate(-30px,0);
+    }
+}
