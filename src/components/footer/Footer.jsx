@@ -206,7 +206,7 @@ const FooterDemo = React.memo(function ArcAppFooter() {
                             </CategoryProvider>
                             <SocialProvider useStyles={usePoofSocialLinkStyles}>
                                 <div className='container_redes'>
-                                    <a href='https://mail.google.com/mail/u/0/#inbox'><SocialLink brand={'Envelope'} /></a>
+                                    <a href='mailto:info@protravel.tech'><SocialLink brand={'Envelope'} /></a>
                                     <a href='https://www.linkedin.com/company/protravel2021/'><SocialLink brand={'LinkedIn'} /></a>
                                     <a href='https://www.instagram.com/protravel01/'><SocialLink brand={'Instagram'} /></a>
                                 </div>

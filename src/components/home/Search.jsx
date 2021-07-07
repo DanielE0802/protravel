@@ -14,7 +14,7 @@ export default class Search extends Component {
         <span className="titleHome travel">Travel</span>
         </h2>
         <main>
-          <div className="container" style={{width:"100vw"}}>
+          <div className="container" style={{width:"100%"}}>
             <div className="search-box" style={{background: "rgba(255, 255, 255, 0.2)" }} >
               <div
                 className="search-icon"

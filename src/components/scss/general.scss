@@ -69,3 +69,21 @@ body::-webkit-scrollbar-track ,div::-webkit-scrollbar-track {
     border-radius: 0px 0px 31px 31px;
     background-color: #ffffff85;
 }
+
+
+.makeStyles-drawerPaper-17{
+    box-shadow: 0 4px 20px 0px rgba(7, 7, 7, 0.14), 0 7px 12px -5px rgba(36, 36, 36, 0.46);
+    backdrop-filter: blur(10px);
+    background-color: #181818a4 !important;
+
+    .makeStyles-navLink-36{
+        color: #fff;
+    }
+
+    .makeStyles-button-45 svg{
+        color: #fff;
+    }
+    .makeStyles-navLink-36:hover, .makeStyles-navLink-36:focus{
+        color: #fff;
+    }
+}
