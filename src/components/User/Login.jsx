@@ -11,9 +11,9 @@ import Grid from '@material-ui/core/Grid';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-
+import theme from "../theme/themeconfig";
 import '../scss/user.scss';
-
+import { ThemeProvider } from "@material-ui/core/styles";
 import Back from './Back';
 
 
@@ -53,6 +53,8 @@ export default function SignInSide() {
   const classes = useStyles();
 
   return (
+
+    <ThemeProvider theme={theme}>
     <Grid container component="main" className={classes.root} style={{padding:"0px"}} >
       <CssBaseline />
       <Grid item xs={false} sm={4} md={7} className={classes.image} />
@@ -98,6 +100,7 @@ export default function SignInSide() {
               variant="contained"
               color="primary"
               className={classes.submit}
+              style={{background:"linear-gradient(280deg, #0dc5e7 10%, #089fed 40%, #068fef 65%, #0172f3 88%) !important;"}}
             >
               Ingresar
             </Button>
@@ -117,5 +120,6 @@ export default function SignInSide() {
         </div>
       </Grid>
     </Grid>
+    </ThemeProvider>
   );
 }

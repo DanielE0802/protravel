@@ -8,6 +8,7 @@ import promos from "./pages/promos"
 import variedades from "./pages/variedades"
 import comunidad from "./pages/comunidad"
 import destinoSelected from "./pages/destinoSelected"
+import payments from "./pages/payments"
 import './components/scss/general.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/variedades" component={variedades} />
           <Route exact path="/comunidad" component={comunidad} />
           <Route exact path="/destinos/cartagena" component={destinoSelected} />
+          <Route exact path="/checkout" component={payments} />
         </switch>
       </BrowserRouter>
     </div>

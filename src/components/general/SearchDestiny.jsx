@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class SearchDestiny extends React.Component {
   render() {
@@ -11,9 +12,9 @@ class SearchDestiny extends React.Component {
             name=""
             placeholder="Busca tu destino"
           />
-          <a href="#" class="search-btn">
+          <Link class="search-btn">
             <i class="fas fa-search"></i>
-          </a>
+          </Link>
         </div>
       </div>
     );

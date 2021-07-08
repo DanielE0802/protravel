@@ -1,23 +1,19 @@
 import React from "react";
 import { ThemeProvider } from "@material-ui/core/styles";
-import MainSelector from "../components/home/MainSelector";
-import SlidePlanes from "../components/home/SlidePlanes";
-import Search from "../components/home/Search";
 import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
 import FooterDemo from "../components/footer/Footer";
-import '../components/scss/general.scss'
-import CardOfEvents from "../components/general/CardOfEvents";
+import Checkout from "../components/Payments/Checkout";
+
 
 const dashboardRoutes = [];
-const Home = (props) => {
+const Payments = (props) => {
   const { ...rest } = props;
   return (
     <ThemeProvider>
       <div
         style={{
-          backdropFilter: "blur(10px)",
-          backgroundColor: "rgba(36,36,36,.8)",
+            
         }}
       >
         {/* <NavBar></NavBar> */}
@@ -29,22 +25,22 @@ const Home = (props) => {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 200,
+          height: 80,
           color: "dark",
           
         }}
         {...rest}
       />
-        <div className="homepage"></div>
-        <Search></Search>
-        <MainSelector />
-        <SlidePlanes></SlidePlanes>
-        <CardOfEvents></CardOfEvents>
-        <FooterDemo></FooterDemo>
-
+        <div className="homepage"   style={{background:"url(https://awake.travel/storage/courses/1570748131178881.jpg)", 
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundAttachment: "fixed"
+        }}></div>
+       
+        <Checkout></Checkout>
       </div>
     </ThemeProvider>
   );
 };
 
-export default Home;
+export default Payments;

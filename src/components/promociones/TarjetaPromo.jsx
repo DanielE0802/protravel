@@ -126,7 +126,7 @@ export const PlaneTicketCardDemo = React.memo(function PlaneTicketCard() {
             'https://revistadiners.com.co/wp-content/uploads/2020/03/biohabitat_800x534.jpg'
           }
         />
-        <h2><a href=''>%</a> de descuento</h2>
+        <h2><span>%</span> de descuento</h2>
       </div>
       <VerticalTicketRip
         classes={{
