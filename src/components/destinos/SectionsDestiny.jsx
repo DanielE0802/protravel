@@ -26,7 +26,6 @@ import '../scss/destinos.scss';
 import '../scss/user.scss';
 import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
-import Cuenta from '../User/cuentaDatos';
 import CuentaMenu from '../User/cuentaMenu';
 
 
@@ -117,10 +116,7 @@ export default function ScrollableTabsButtonForce() {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <AtraccionesComponent data={data.data} ></AtraccionesComponent>
-        <div className="cuentaContainer">
-          <CuentaMenu ></CuentaMenu>
-          <Cuenta> </Cuenta>
-        </div>
+        <CuentaMenu></CuentaMenu>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Hotel />
@@ -157,7 +153,6 @@ export default function ScrollableTabsButtonForce() {
         <Reseñas />
         <Reseñas />
       </TabPanel>
-      <Pagos />
 
     </div>
   );

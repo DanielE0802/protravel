@@ -75,8 +75,22 @@ body::-webkit-scrollbar-track ,div::-webkit-scrollbar-track {
 }
 
 
+
+
 @media screen and (max-width: 1090px) {
     #app > div > switch > div > div:nth-child(3) > img{
         width: 21vw;
     }
+}
+
+
+@media screen and (max-width: 770px) {
+    #scrollable-force-tabpanel-1 > div > p > div.makeStyles-root-361{
+        flex-wrap: wrap;
+    }
+}
+
+
+#scrollable-force-tabpanel-1 > div > p > div.makeStyles-root-361 > div.MuiTabs-root.makeStyles-tabs-362.MuiTabs-vertical{
+    min-width: 160px;
 }
