@@ -12,7 +12,7 @@
 
 
 #app > div > switch > main > div.MuiPaper-root.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-8.MuiGrid-grid-md-5.MuiPaper-elevation6 > div.makeStyles-paper-3 > form > div.MuiGrid-root.MuiGrid-container > div:nth-child(2) > a{
-    color: #0067F5 !important;
+    color: #171718 !important;
 }
 
 
@@ -31,7 +31,7 @@
 }
 
 #scrollable-force-tabpanel-1 > div > p > div:nth-child(2) > div.MuiBox-root.MuiBox-root-371{
-    max-width: 200px;
+    max-width: 300px;
     min-width: 100px;
     margin-top: 78px;
 }
@@ -86,12 +86,25 @@
     margin-left: 50px;
 }
 
-@media screen and (max-width: 680px) {
-    #scrollable-force-tabpanel-1 > div > p > div.cuentaContainer{
-        flex-direction: column;
-    }
+#vertical-tabpanel-0 > div > p > div > div > div.makeStyles-parent-1162.makeStyles-parent-1164 > div > button{
+    background: linear-gradient(280deg, rgba(13,197,231,1) 10%, rgba(8,159,237,1) 40%, rgba(6,143,239,1) 65%, rgba(1,114,243,1) 88%) !important;
 
-    #scrollable-force-tabpanel-1 > div > p > div.cuentaContainer > div:nth-child(2){
-        transform: translate(-30px,0);
-    }
+}
+
+#vertical-tabpanel-0 > div > p > div > div > div:nth-child(4) > div > div > div, #vertical-tabpanel-0 > div > p > div > div > div:nth-child(4) > div > div > svg{
+    color: #0067F5 !important;
+
+}
+
+.MinimalSelect-list-424 li.Mui-selected:hover, .MinimalSelect-list-424 li.Mui-selected{
+    background-color: #0067F5 !important;
+}
+
+.MinimalSelect-list-424 li:hover{
+    background: #b6d4ff !important;
+}
+
+#vertical-tabpanel-0 > div > p > div > div > div.makeStyles-parent-452.makeStyles-parent-454 > div > button{
+    background: linear-gradient(280deg, rgba(13,197,231,1) 10%, rgba(8,159,237,1) 40%, rgba(6,143,239,1) 65%, rgba(1,114,243,1) 88%) !important;
+
 }

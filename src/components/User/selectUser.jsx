@@ -4,6 +4,7 @@ import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import '../scss/user.scss'
 
 // Original design here: https://github.com/siriwatknp/mui-treasury/issues/540
 
@@ -48,7 +49,7 @@ const MinimalSelect = () => {
         IconComponent={iconComponent}
         value={val}
         onChange={handleChange}
-        inputProps={{ readOnly: true }}
+        inputProps={{ readOnly: false }}
         
       >
         <MenuItem value={0}>Turista</MenuItem>
