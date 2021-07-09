@@ -105,9 +105,33 @@ body::-webkit-scrollbar-track ,div::-webkit-scrollbar-track {
     #scrollable-force-tabpanel-1 > div > p > div.makeStyles-root-361{
         flex-wrap: wrap;
     }
+
+    #scrollable-force-tabpanel-1 > div > p > div.makeStyles-root-361 > div.MuiTabs-root.makeStyles-tabs-362.MuiTabs-vertical{
+        width: 100%;
+    }
+
 }
 
 
 #scrollable-force-tabpanel-1 > div > p > div.makeStyles-root-361 > div.MuiTabs-root.makeStyles-tabs-362.MuiTabs-vertical{
     min-width: 160px;
+}
+
+.PrivateTabIndicator-colorSecondary-299{
+    background-color: #0067F5 !important;
+}
+
+#vertical-tabpanel-2, #vertical-tabpanel-1{
+    width: 100%;
+}
+#vertical-tabpanel-2 > div > p > div > div > svg, #vertical-tabpanel-1 > div > p > div > div > svg{
+    display: block;
+    margin: auto;
+    color: #0067F5;
+    width: 60px;
+    height: 60px;
+}
+
+.sin_pedidos, .sin_favoritos{
+    margin-top: 40px;
 }

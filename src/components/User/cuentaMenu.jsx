@@ -8,6 +8,8 @@ import Box from '@material-ui/core/Box';
 import MiCuenta from '../User/MiCuenta';
 import SettingsIcon from '@material-ui/icons/Settings';
 import '../scss/general.scss';
+import RemoveShoppingCartIcon from '@material-ui/icons/RemoveShoppingCart';
+import StarBorderIcon from '@material-ui/icons/StarBorder';
 
 
 function TabPanel(props) {
@@ -72,36 +74,38 @@ export default function VerticalTabs() {
         onChange={handleChange}
         aria-label="Vertical tabs example"
         className={classes.tabs}
-        style={{ height: 350 }}
       >
-        <Tab  icon={<SettingsIcon />} label="Mi Cuenta" {...a11yProps(0)} />
+        <Tab icon={<SettingsIcon />} label="Mi Cuenta" {...a11yProps(0)} />
         <Tab label="Pedidos" {...a11yProps(1)} />
         <Tab label="Favoritos" {...a11yProps(2)} />
         <Tab label="Metodos de Pago" {...a11yProps(3)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <div style={{display: 'block'}}>
+        <div style={{ display: 'block' }}>
           <MiCuenta></MiCuenta>
         </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        <div className="container_pedidos">
+          <div className="sin_pedidos">
+          <RemoveShoppingCartIcon></RemoveShoppingCartIcon>
+            <h2>Cuando realices tu primer pedido aparecera aquí</h2>
+          </div>
+        </div>
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <div className="container_favoritos">
+          <div className="sin_favoritos">
+            <StarBorderIcon></StarBorderIcon>
+            <h2>Cuando agregues tus favoritos apareceran aquí</h2>
+          </div>
+        </div>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Item Four
+        metodos de pago
+
       </TabPanel>
-      <TabPanel value={value} index={4}>
-        Item Five
-      </TabPanel>
-      <TabPanel value={value} index={5}>
-        Item Six
-      </TabPanel>
-      <TabPanel value={value} index={6}>
-        Item Seven
-      </TabPanel>
+
     </div>
   );
 }
