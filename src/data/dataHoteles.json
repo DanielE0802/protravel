@@ -3,22 +3,22 @@
     "Atracciones": {
       "Hoteles": [
         {
-          "nombre": "Hotel 1",
-          "img": "https://bolivarense.com/wp-content/uploads/2020/07/hoteles-colombia.jpg",
-          "descripcion": "Salen desde la playa de Castillo Grande, detrás del hospital de Bocagrande. Trayecto 10 minutos.",
-          "precio": "Desde $110.000 COP"
+          "nombre": "Ibis Cartagena Marbella",
+          "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269542727.jpg?k=ee33f4a559c0f9d72892432bbdad83c9921ee7c7c753db58ab8838fca5cdf121&o=&hp=1",
+          "descripcion": "El Ibis Cartagena Marbella ofrece un bar y habitaciones con aire acondicionado en Cartagena de Indias, a 2,8 km del Museo de Arte Moderno de Cartagena. Las instalaciones incluyen un restaurante, recepción 24 horas, centro de negocios y WiFi gratuita.",
+          "precio": "Desde $193.000 COP"
         },
         {
-          "nombre": "Hotel 2",
-          "img": "https://cdn.forbes.co/2020/02/sofitel-legend-santa-clara-outdoor-pool.jpg",
-          "Descripcion": "Salen desde el muelle de la Bodeguita y desde Bocagrande. Trayecto 15 minutos.",
-          "precio": "Desde $110.000 COP"
+          "nombre": "Hotel Ayenda Esperanza AC",
+          "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/300752756.jpg?k=b7b6d235802ee382496904da4d8120e6357a2965fd331bb5a4eb61dba63a8981&o=&hp=1",
+          "Descripcion": "El Hotel Ayenda Esperanza AC se encuentra en Cartagena de Indias, a 12 km del castillo de San Felipe de Barajas, y ofrece vistas a la ciudad. Cuenta con recepción 24 horas, servicio de habitaciones y WiFi gratuita en todas las instalaciones.",
+          "precio": "Desde $73.880 COP"
         },
         {
-          "nombre": "Hotel 3",
-          "Descripcion": "La principal y más visitada de Barú por ser pública. Es una playa muy bonita pero en temporada alta puede ser una experiencia no muy agradable por la cantidad de visitantes y vendedores. Puedes llegar con un tour de pasadía o por tu propia cuenta.",
-          "img": "https://revistadiners.com.co/wp-content/uploads/2020/03/biohabitat_800x534.jpg",
-          "precio": "desde $95.000 COP"
+          "nombre": "Casa Amanzi Hotel Cartagena",
+          "Descripcion": "La Casa Amanzi Hotel Cartagena se encuentra en Cartagena de Indias, a 1 km del centro de convenciones y a 1,4 km del centro comercial Hall Plaza. Ofrece conexión Wi-Fi gratuita y desayuno continental.",
+          "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/270079862.jpg?k=eb80a0574385ed03f2012170734ccde11660b25853d29da9dd53c201e4b76848&o=&hp=1",
+          "precio": "desde $154.000 COP"
         }
       ]
     }

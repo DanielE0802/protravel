@@ -28,6 +28,7 @@ import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
 import CuentaMenu from '../User/cuentaMenu';
 import Equipo from '../Nosotros/Equipo';
+import Informacion from '../destinos/Informacion';
 
 
 
@@ -104,14 +105,7 @@ export default function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <Grid container
-          direction="row"
-          justify="center"
-          alignItems="center"
-        >
-          <img style={{ width: "50%", alignSelf: "center" }} src={data.data.img} alt=""></img>
-          <p style={{ padding: "5px 40px 40px 40px" }}>{data.data.Información_General[0].descripcion}</p>
-        </Grid>
+        <Informacion></Informacion>
 
       </TabPanel>
       <TabPanel value={value} index={1}>

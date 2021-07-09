@@ -10,7 +10,12 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import { useFourThreeCardMediaStyles } from '@mui-treasury/styles/cardMedia/fourThree';
-import Oscar from '../../img/Oscar.jpg'
+import Oscar from '../../img/Oscar.jpg';
+import Daniel from '../../img/Daniel.jpeg';
+import '../scss/Nosotros.scss';
+import AboutUs from './AboutUs';
+
+
 
 const useGridStyles = makeStyles(({ breakpoints }) => ({
   root: {
@@ -25,7 +30,7 @@ const useStyles = makeStyles(() => ({
     borderRadius: 16,
     transition: '0.2s',
     '&:hover': {
-      transform: 'scale(1.1)',
+      transform: 'scale(1.04)',
     },
   },
   card: ({ color }) => ({
@@ -47,7 +52,7 @@ const useStyles = makeStyles(() => ({
   },
   title: {
     fontFamily: 'Roboto',
-    fontSize: '1.5rem',
+    fontSize: '1.3rem',
     color: '#fff',
     textTransform: 'uppercase',
     fontWeight: 500,
@@ -71,7 +76,7 @@ const CustomCard = ({ classes, image, title, subtitle, cargo }) => {
   return (
     <CardActionArea className={classes.actionArea}>
       <Card className={classes.card}>
-        <CardMedia classes={mediaStyles} image={image} />
+        <CardMedia classes={mediaStyles} image={image} style={{ height: 300 }} />
         <CardContent className={classes.content}>
           <Typography className={classes.title} variant={'h1'}>
             {title}
@@ -92,48 +97,53 @@ export const SolidGameCardDemo = React.memo(function SolidGameCard() {
   const styles4 = useStyles({ color: '#0067F5' });
   return (
     <>
-      <Grid classes={gridStyles} container spacing={4} wrap={'nowrap'}>
-        <Grid item>
-          <CustomCard
-            classes={styles}
-            title={'Daniel Estupiñan'}
-            cargo={'Front Developer'}
-            subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
-            image={
-              'https://steamcdn-a.akamaihd.net/apps/dota2/images/blog/play/dota_heroes.png'
-            }
-          />
-        </Grid>
-        <Grid item>
-          <CustomCard
-            classes={styles2}
-            title={'Oscar Restrepo'}
-            cargo={'Front Developer'}
-            subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
-            image={Oscar}
-          />
-        </Grid>
-        <Grid item>
-          <CustomCard
-            classes={styles3}
-            title={'Janeth Rocio'}
-            cargo={'Back Developer'}
-            subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
-            image={'https://images5.alphacoders.com/690/thumb-1920-690653.png'}
-          />
-        </Grid>
-        <Grid item>
-          <CustomCard
-            classes={styles4}
-            title={'Alejandra Lozano'}
-            cargo={'Backend Developer'}
-            subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
-            image={
-              'https://www.itp.net/public/styles/full_img_sml/public/images/2019/05/27/44485-pubg_base1.jpg?itok=EF911Xan'
-            }
-          />
-        </Grid>
-      </Grid>
+      <div>
+        <div>
+          <Grid classes={gridStyles} container spacing={4} wrap={'nowrap'} style={{ overflow: 'scroll' }}>
+            <Grid item>
+              <CustomCard
+                classes={styles}
+                title={'Daniel Estupiñan'}
+                cargo={'Frontend Developer'}
+                subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
+                image={Daniel}
+              />
+            </Grid>
+            <Grid item>
+              <CustomCard
+                classes={styles2}
+                title={'Oscar Restrepo'}
+                cargo={'Frontend Developer'}
+                subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
+                image={Oscar}
+              />
+            </Grid>
+            <Grid item>
+              <CustomCard
+                classes={styles3}
+                title={'Janeth Rocio'}
+                cargo={'Backend Developer'}
+                subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
+                image={'https://images5.alphacoders.com/690/thumb-1920-690653.png'}
+              />
+            </Grid>
+            <Grid item>
+              <CustomCard
+                classes={styles4}
+                title={'Alejandra Lozano'}
+                cargo={'Backend Developer'}
+                subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
+                image={
+                  'https://www.itp.net/public/styles/full_img_sml/public/images/2019/05/27/44485-pubg_base1.jpg?itok=EF911Xan'
+                }
+              />
+            </Grid>
+          </Grid>
+        </div>
+        <div style={{marginTop: 50}}>
+          <AboutUs></AboutUs>
+        </div>
+      </div>
     </>
   );
 });

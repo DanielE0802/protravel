@@ -12,31 +12,25 @@ const images = [
   {
     url: ImagenPlanea,
     title: 'Planea tu viaje',
-    width: '20%',
+    width: '25%',
     href:"/planeaTuViaje",
   },
   {
     url: ImagenDestinos,
     title: 'Destinos',
-    width: '20%',
+    width: '25%',
     href:"/destinos",
   },
   {
     url: ImagenVariedades,
     title: 'Variedades',
-    width: '20%',
+    width: '25%',
     href:"/variedades",
-  },
-  {
-    url: ImagenComunidad,
-    title: 'Comunidad',
-    width: '20%',
-    href:"/comunidad",
   },
   {
     url: ImagenPromos,
     title: 'Promos',
-    width: '20%',
+    width: '25%',
     href:"/promos",
   },
 ];
