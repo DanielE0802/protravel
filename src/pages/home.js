@@ -7,7 +7,7 @@ import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
 import FooterDemo from "../components/footer/Footer";
 import '../components/scss/general.scss'
-import CardOfEvents from "../components/general/CardOfEvents";
+
 
 const dashboardRoutes = [];
 const Home = (props) => {
@@ -39,7 +39,7 @@ const Home = (props) => {
         <Search></Search>
         <MainSelector />
         <SlidePlanes></SlidePlanes>
-        <CardOfEvents></CardOfEvents>
+       
         <FooterDemo></FooterDemo>
 
       </div>
