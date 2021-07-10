@@ -16,7 +16,7 @@ import './destiny.scss';
 import Reseñas from './Reseñas';
 import Comentar from './Comentar';
 import data from '../../data/placeHolderDestinos.json'
-import dataHoteles from '../../data/dataHoteles.json'
+import dataDestinos from '../../data/dataDestinos.json'
 import { Grid } from '@material-ui/core';
 import AtraccionesComponent from './AtraccionesComponent';
 import Hotel from './Hoteles';
@@ -28,8 +28,7 @@ import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
 import CuentaMenu from '../User/cuentaMenu';
 import Equipo from '../Nosotros/Equipo';
-import Informacion from '../destinos/Informacion';
-import CuentaNativos from '../User/Nativos/cuentaMenuNativos'
+import Informacion from '../destinos/Informacion'
 
 
 
@@ -106,7 +105,6 @@ export default function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <CuentaNativos></CuentaNativos>
         <Informacion></Informacion>
 
       </TabPanel>
@@ -116,7 +114,7 @@ export default function ScrollableTabsButtonForce() {
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Hotel />
-        <ResultadoHoteles data={dataHoteles.data} ></ResultadoHoteles>
+        <ResultadoHoteles data={dataDestinos.data} ></ResultadoHoteles>
 
       </TabPanel>
       <TabPanel value={value} index={3}>

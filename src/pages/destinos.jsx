@@ -1,12 +1,12 @@
 import React from 'react'
 import {ThemeProvider} from '@material-ui/core/styles'
 import Header from "../components/header/Header";
-import ResultadoHoteles from "../components/ResultadoHoteles";
+import ResultadoDestinos from "../components/ResultadoDestinos";
 import HeaderLinks from "../components/header/Headerlinks";
 import dataHoteles from '../data/dataHoteles.json'
 import Map from "../components/destinos/Map"
 import Footer from '../components/footer/Footer'
-import SlideDestiny from "../components/general/SlideDestiny"
+import SlideDestiny from "../components/general/slideDestiny"
 import SearchDestiny from '../components/general/SearchDestiny';
 import "../components/scss/destinos.scss"
 
@@ -36,7 +36,7 @@ const Destinos = props => {
       
       <div className="leftDestiny">
       <SearchDestiny></SearchDestiny>
-      <ResultadoHoteles data={dataHoteles.data} ></ResultadoHoteles>
+      <ResultadoDestinos data={dataHoteles.data} ></ResultadoDestinos>
 
       </div>
       <div className="rigthDestiny">
