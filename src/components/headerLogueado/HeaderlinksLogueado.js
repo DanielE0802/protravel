@@ -16,7 +16,7 @@ import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { Apps, CloudDownload } from "@material-ui/icons";
 // core components
 import CustomDropdown from "./CustomDropdownLogueado";
-import Button from "./Button";
+import Button from "./ButtonLogueado";
 
 import styles from "../styles/headerLinksStyle.js";
 
@@ -46,10 +46,10 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={PersonIcon}
           dropdownList={[
-            <Link to="/login" className={classes.dropdownLink}>
+            <Link to="/cuenta" className={classes.dropdownLink}>
               Mi Cuenta
             </Link>,
-            <Link to="/register" className={classes.dropdownLink}>
+            <Link to="/" className={classes.dropdownLink}>
               Cerrar sesión
             </Link>,
           ]}

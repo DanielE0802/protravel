@@ -126,9 +126,11 @@ export default function SignInSide() {
                   );
                   const response = await res.json();
                   console.log(response);
+
                   console.log( JSON.stringify(objPeticion))
                 }
                 subirDatos();
+
               }}
             >
               Ingresar

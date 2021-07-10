@@ -16,7 +16,7 @@ import Icon from "@material-ui/core/Icon";
 import Popper from "@material-ui/core/Popper";
 
 // core components
-import Button from "./Button";
+import Button from "./ButtonLogueado";
 
 import styles from "../styles/customDropdownStyle";
 

@@ -21,6 +21,7 @@ function TabPanel(props) {
       hidden={value !== index}
       id={`vertical-tabpanel-${index}`}
       aria-labelledby={`vertical-tab-${index}`}
+     
       {...other}
     >
       {value === index && (
@@ -50,7 +51,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     backgroundColor: theme.palette.background.paper,
     display: 'flex',
-    height: 224,
+    height: "80vh",
+    paddingTop:"5vh"
   },
   tabs: {
     borderRight: `1px solid ${theme.palette.divider}`,
@@ -81,7 +83,7 @@ export default function VerticalTabs() {
         <Tab label="Metodos de Pago" {...a11yProps(3)} />
       </Tabs>
       <TabPanel value={value} index={0}>
-        <div style={{ display: 'block' }}>
+        <div style={{ display: 'block', paddingTop:"4vh" }}>
           <MiCuenta></MiCuenta>
         </div>
       </TabPanel>

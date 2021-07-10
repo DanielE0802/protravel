@@ -17,19 +17,15 @@ import Reseñas from './Reseñas';
 import Comentar from './Comentar';
 import data from '../../data/placeHolderDestinos.json'
 import dataHoteles from '../../data/dataHoteles.json'
-import { Grid } from '@material-ui/core';
 import AtraccionesComponent from './AtraccionesComponent';
 import Hotel from './Hoteles';
 import ResultadoHoteles from '../ResultadoHoteles';
-import Pagos from '../Payments/Checkout';
 import '../scss/destinos.scss';
 import '../scss/user.scss';
 import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
-import CuentaMenu from '../User/cuentaMenu';
 import Equipo from '../Nosotros/Equipo';
 import Informacion from '../destinos/Informacion';
-import CuentaNativos from '../User/Nativos/cuentaMenuNativos'
 
 
 
@@ -106,7 +102,6 @@ export default function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <CuentaNativos></CuentaNativos>
         <Informacion></Informacion>
 
       </TabPanel>
