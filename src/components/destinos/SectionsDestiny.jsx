@@ -29,6 +29,7 @@ import Souvenir from './Souvenir';
 import CuentaMenu from '../User/cuentaMenu';
 import Equipo from '../Nosotros/Equipo';
 import Informacion from '../destinos/Informacion';
+import CuentaNativos from '../User/Nativos/cuentaMenuNativos'
 
 
 
@@ -105,6 +106,7 @@ export default function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
+        <CuentaNativos></CuentaNativos>
         <Informacion></Informacion>
 
       </TabPanel>
