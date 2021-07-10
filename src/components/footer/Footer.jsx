@@ -31,6 +31,7 @@ import {
 import { useMagCategoryMenuStyles } from '@mui-treasury/styles/categoryMenu/mag';
 import { usePoofSocialLinkStyles } from '@mui-treasury/styles/socialLink/poof';
 import { useReadyEmailSubscribeStyles } from '@mui-treasury/styles/emailSubscribe/ready';
+import { Link } from '@material-ui/core';
 
 const darkTheme = createMuiTheme({ palette: { type: 'dark' } });
 
@@ -130,7 +131,9 @@ const FooterDemo = React.memo(function ArcAppFooter() {
                 <Container disableGutters>
                     <Grid container spacing={4}>
                         <Grid item xs={12} md={4} lg={3} style={{ textAlign: 'center' }}>
+                            <a href="/  ">
                             <Box
+                                
                                 component={'img'}
                                 mt={-3}
                                 width={190}
@@ -139,6 +142,7 @@ const FooterDemo = React.memo(function ArcAppFooter() {
                                 alt=""
                                 borderRadius={12}
                             />
+                            </a>
 
                             <Typography className={classes.info}>
                                 <p index={1}>
@@ -153,21 +157,32 @@ const FooterDemo = React.memo(function ArcAppFooter() {
                                         <CategoryTitle>
                                             <p>Productos</p>
                                         </CategoryTitle>
+                                        <a href="/planeaTuViaje">
                                         <CategoryItem>
                                             <p index={1}>Planea tu viaje</p>
                                         </CategoryItem>
+                                        </a>
+                                        <a href="/destinos">
                                         <CategoryItem>
                                             <p index={1}>Destinos</p>
                                         </CategoryItem>
+                                        </a>
+                                        <a href="/variedades">
                                         <CategoryItem>
                                             <p index={1}>Variedades</p>
                                         </CategoryItem>
+                                        </a>
+                                        <a href="/comunidad">
                                         <CategoryItem>
                                             <p index={1}>Comunidad</p>
                                         </CategoryItem>
+                                        </a>
+
+                                        <a href="/promos"> 
                                         <CategoryItem>
                                             <p index={1}>Promos</p>
                                         </CategoryItem>
+                                        </a>
                                     </CategoryProvider>
                                 </Grid>
                                 <Grid item xs={6} sm={4}>

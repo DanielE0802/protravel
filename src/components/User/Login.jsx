@@ -73,7 +73,7 @@ export default function SignInSide() {
               margin="normal"
               required
               fullWidth
-              id="email"
+              id="emailLogin"
               label="Correo Electronico"
               name="email"
               autoComplete="email"
@@ -87,7 +87,7 @@ export default function SignInSide() {
               name="password"
               label="Contraseña"
               type="password"
-              id="password"
+              id="passwordLogin"
               autoComplete="current-password"
             />
             <FormControlLabel
@@ -95,12 +95,41 @@ export default function SignInSide() {
               label="Recuerdame"
             />
             <Button
-              type="submit"
               fullWidth
               variant="contained"
               color="primary"
               className={classes.submit}
               style={{background:"linear-gradient(280deg, #0dc5e7 10%, #089fed 40%, #068fef 65%, #0172f3 88%) !important;"}}
+              onClick={() => {
+                let email = document.getElementById("emailLogin").value;
+                let password = 
+                  document.getElementById("passwordLogin").value;
+
+                let peticion = [email, password];
+
+                let objPeticion = {
+                  email: peticion[0],
+                  password: peticion[1],
+                };
+
+                async function subirDatos() {
+                  const res = await fetch(
+                    "http://localhost:3001/api/user/login",
+                    {
+                      method: "POST",
+                      headers: {
+                        "Content-Type": "application/json",
+                      },
+                      body: JSON.stringify(objPeticion),
+                      redirect: "follow",
+                    }
+                  );
+                  const response = await res.json();
+                  console.log(response);
+                  console.log( JSON.stringify(objPeticion))
+                }
+                subirDatos();
+              }}
             >
               Ingresar
             </Button>

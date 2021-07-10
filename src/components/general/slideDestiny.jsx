@@ -7,12 +7,12 @@ const data = [
   {
     id: 1,
     image:
-      'https://elcampesino.co/wp-content/uploads/2016/07/e6-1024x685.jpg',
+      'https://i.pinimg.com/originals/6d/81/e7/6d81e72d296fbd5a331bdc9c99d7c844.jpg',
   },
   {
     id: 2,
     image:
-      'https://i.pinimg.com/originals/6d/81/e7/6d81e72d296fbd5a331bdc9c99d7c844.jpg',
+      'https://elcampesino.co/wp-content/uploads/2016/07/e6-1024x685.jpg',
   },
   {
     id: 3,

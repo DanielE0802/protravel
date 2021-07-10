@@ -40,7 +40,7 @@ const Home = (props) => {
         <MainSelector />
         <SlidePlanes></SlidePlanes>
        
-        <FooterDemo></FooterDemo>
+        <FooterDemo style={{backgroundColor:"#fff"}}></FooterDemo>
 
       </div>
     </ThemeProvider>

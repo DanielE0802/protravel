@@ -10,6 +10,8 @@ import comunidad from "./pages/comunidad"
 import destinoSelected from "./pages/destinoSelected"
 import payments from "./pages/payments"
 import './components/scss/general.css'
+import cuenta from "./pages/miCuenta"
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
           <Route exact path="/comunidad" component={comunidad} />
           <Route exact path="/destinos/cartagena" component={destinoSelected} />
           <Route exact path="/checkout" component={payments} />
+          <Route exact path="/cuenta" component={cuenta} />
         </switch>
       </BrowserRouter>
     </div>
