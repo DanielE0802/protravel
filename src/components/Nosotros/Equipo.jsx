@@ -12,6 +12,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import { useFourThreeCardMediaStyles } from '@mui-treasury/styles/cardMedia/fourThree';
 import Oscar from '../../img/Oscar.jpg';
 import Daniel from '../../img/Daniel.jpeg';
+import Janeth from '../../img/Janeth.jpeg';
+import Alejandra from '../../img/Alejandra.jpeg';
 import '../scss/Nosotros.scss';
 import AboutUs from './AboutUs';
 
@@ -124,7 +126,7 @@ export const SolidGameCardDemo = React.memo(function SolidGameCard() {
                 title={'Janeth Rocio'}
                 cargo={'Backend Developer'}
                 subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
-                image={'https://images5.alphacoders.com/690/thumb-1920-690653.png'}
+                image={Janeth}
               />
             </Grid>
             <Grid item>
@@ -133,9 +135,7 @@ export const SolidGameCardDemo = React.memo(function SolidGameCard() {
                 title={'Alejandra Lozano'}
                 cargo={'Backend Developer'}
                 subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
-                image={
-                  'https://www.itp.net/public/styles/full_img_sml/public/images/2019/05/27/44485-pubg_base1.jpg?itok=EF911Xan'
-                }
+                image={Alejandra}
               />
             </Grid>
           </Grid>

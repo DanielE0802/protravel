@@ -58,9 +58,6 @@ export default function ComplexGrid(props) {
                 </Typography>
               </Grid>
             </Grid>
-            <Grid item>
-              <Typography variant="subtitle1">{props.precio}</Typography>
-            </Grid>
           </Grid>
         </Grid>
       </Paper>

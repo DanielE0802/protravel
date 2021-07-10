@@ -156,29 +156,27 @@
     }
 }
 
-.leftDestiny {
+.leftDestiny{
     margin-left: 5vw;
     width: 42%;
 
 
-    div.makeStyles-root-94>p>div>div>div>div>div {
-        &:nth-child(1) {
-
-            button {
+    div.makeStyles-root-94 > p > div > div > div > div > div{
+        &:nth-child(1){
+            width: 40%;
+    
+            button{
                 width: 100%;
             }
         }
 
-        &:nth-child(2) {
+        &:nth-child(2){
             flex-direction: column;
         }
     }
 
 }
 
-#app>div>switch>div.containerDestiny>div.leftDestiny>div.makeStyles-root-94>p>div>div>div {
-    max-width: 410px;
-}
 
 .containerDestiny {
     display: flex;
@@ -251,22 +249,9 @@
     color: rgb(167, 167, 167);
 }
 
-#app>div>switch>div.containerDestiny>div.leftDestiny>div.makeStyles-root-94>p>div>div {
-    padding-bottom: 10px;
-}
 
 #scrollable-force-tabpanel-2>div>p>div:nth-child(1)>div:nth-child(6)>div:nth-child(2)>div>div>button {
     color: #fff !important;
-}
-
-#app>div>switch>div.containerDestiny>div.leftDestiny>div.makeStyles-root-94>p>div>div>div>div>div.MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-true>div.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-2.MuiGrid-item.MuiGrid-direction-xs-column.MuiGrid-grid-xs-true>div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true>h6 {
-    font-weight: 700;
-    font-size: 19px;
-}
-
-#app>div>switch>div.containerDestiny>div.leftDestiny>div.makeStyles-root-94>p>div>div>div>div>div.MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-true>div:nth-child(2)>h6 {
-    font-size: 20px;
-    font-weight: 900;
 }
 
 #scrollable-force-tabpanel-0>div>p>div>div:nth-child(2)>div.MuiCardMedia-root.makeStyles-media-556 {
@@ -274,7 +259,6 @@
 }
 
 #scrollable-force-tabpanel-0>div>p>div>div {
-    display: flex;
     margin-bottom: 30px;
 }
 
@@ -296,6 +280,32 @@
     min-height: 300px;
 }
 
-#scrollable-force-tabpanel-1 > div > p > div:nth-child(2) > div:nth-child(2) > div > div.MuiCardMedia-root.makeStyles-root-396.makeStyles-root-397.makeStyles-img-393{
-    padding-bottom: 20% !important;
+@media screen and (max-width: 1050px) {
+    #app > div > switch > div.containerDestiny{
+        flex-direction: column;
+        
+    }
+    #app > div > switch > div.containerDestiny > div.leftDestiny{
+        width: 80%;
+        align-self: center;
+    }
+    #app > div > switch > div.containerDestiny > div.rigthDestiny{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .leftDestiny div.makeStyles-root-94 > p > div > div > div > div > div:nth-child(1){
+        width: 100%;
+    }
+}
+
+#app > div > switch > div.containerDestiny > div.leftDestiny > div.makeStyles-root-94 > p > div> div > div{
+    margin-bottom: 30px;
+}
+
+#app > div > switch > div.containerDestiny > div.leftDestiny > div.makeStyles-root-94 > p > div> div > div > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-true > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true > h6{
+    font-weight: 900;
+    font-size: 19px;
 }

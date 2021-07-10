@@ -1,0 +1,47 @@
+#scrollable-force-tabpanel-0 > div > p > div.makeStyles-root-302 > div.MuiTabs-root.makeStyles-tabs-303.MuiTabs-vertical{
+    min-width: 160px;
+    min-height: 300px;
+    max-width: 160px;
+}
+
+#vertical-tabpanel-3 > div > p > div > div > div > button{
+    border-radius: 10px;
+    padding: 8px;
+    background: linear-gradient(280deg, rgba(13, 197, 231, 1) 10%, rgba(8, 159, 237, 1) 40%, rgba(6, 143, 239, 1) 65%, rgba(1, 114, 243, 1) 88%);
+    color: #fff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+#vertical-tabpanel-3 > div > p > div > div > div > button:hover{
+    transform: scale(1.03);
+}
+
+#vertical-tabpanel-3 > div > p > div > div > div > div > button{
+    border-radius: 10px;
+    padding: 4px;
+    background: linear-gradient(280deg, rgba(13, 197, 231, 1) 10%, rgba(8, 159, 237, 1) 40%, rgba(6, 143, 239, 1) 65%, rgba(1, 114, 243, 1) 88%);
+    color: #fff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+#vertical-tabpanel-3 > div > p > div > div > div > div > button:hover{
+    transform: scale(1.03);
+
+}
+
+
+#vertical-tabpanel-3 > div > p > div > div > div> img{
+    margin: auto;
+    display: block;
+    max-height: 70px;
+    width: 100%;
+    min-height: 100px;
+}
+
+#vertical-tabpanel-3 > div > p > div > div > div.image-item{
+    margin-right: 10px;
+}
+
+#vertical-tabpanel-3 > div > p > div > div{
+    display: flex;
+}
