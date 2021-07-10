@@ -32,7 +32,7 @@ export const MusicCardDemo = React.memo(function MusicCard() {
     const shadowStyles = useOverShadowStyles({ inactive: true });
     return (
         <div>
-            <Card className={cx(styles.root, shadowStyles.root)}>
+            <Card className={"container_info"} >
                 <CardMedia
                     className={cx(styles.media, mediaStyles.root)}
                     image={
@@ -50,7 +50,7 @@ export const MusicCardDemo = React.memo(function MusicCard() {
                     />
                 </CardContent>
             </Card>
-            <Card className={cx(styles.root, shadowStyles.root)}>
+            <Card className={"container_info"}>
                 <CardContent>
                     <TextInfoContent
                         classes={textCardContentStyles}

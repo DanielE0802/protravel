@@ -56,7 +56,7 @@
 }
 
 .TarjetaSouvenir {
-    max-width: 270px;
+    max-width: 100%;
     margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
@@ -305,7 +305,21 @@
     margin-bottom: 30px;
 }
 
-#app > div > switch > div.containerDestiny > div.leftDestiny > div.makeStyles-root-94 > p > div> div > div > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-true > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true > h6{
+#app > div > switch > div.containerDestiny > div.leftDestiny > div.makeStyles-root-94 > p > div> div > div > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-true > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true > h6, #scrollable-force-tabpanel-2 > div > p > div.makeStyles-root-372 > p > div> div > div > div > div.MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-true > div > div.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-true > h6{
     font-weight: 900;
     font-size: 19px;
+}
+
+
+.container_info{
+    display: flex;
+}
+
+#scrollable-force-tabpanel-2 > div > p > div.makeStyles-root-372 > p > div> div{
+    margin-bottom: 20px;
+}
+
+.TarjetaRestaurante{
+    max-width: 100%;
+    margin: 10px;
 }

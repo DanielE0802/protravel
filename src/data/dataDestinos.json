@@ -1,0 +1,28 @@
+{
+  "data": {
+    "Atracciones": {
+      "Hoteles": [
+        {
+          "nombre": "Hotel Ayenda Esperanza AC",
+          "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/300752681.jpg?k=a70aa3381e0877ab4de56181c46fcce701e1198357e18ef3491f1f9360501b4f&o=&hp=1",
+          "descripcion": "El Hotel Ayenda Esperanza AC se encuentra en Cartagena de Indias, a 12 km del castillo de San Felipe de Barajas, y ofrece vistas a la ciudad. Cuenta con recepción 24 horas, servicio de habitaciones y WiFi gratuita en todas las instalaciones."
+        },
+        {
+          "nombre": "Ibis Cartagena Marbella",
+          "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269542727.jpg?k=ee33f4a559c0f9d72892432bbdad83c9921ee7c7c753db58ab8838fca5cdf121&o=&hp=1",
+          "descripcion": "El Ibis Cartagena Marbella ofrece un bar y habitaciones con aire acondicionado en Cartagena de Indias, a 2,8 km del Museo de Arte Moderno de Cartagena. Las instalaciones incluyen un restaurante, recepción 24 horas, centro de negocios y WiFi gratuita."
+        },
+        {
+          "nombre": "Casa Amanzi Hotel Cartagena",
+          "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/274402607.jpg?k=ccf22a3ca54b5ebf6ee55e823d6b5dcdf86dc0713abb6e5de1d04e4aed6b59ee&o=&hp=1",
+          "descripcion": "La Casa Amanzi Hotel Cartagena se encuentra en Cartagena de Indias, a 1 km del centro de convenciones y a 1,4 km del centro comercial Hall Plaza. Ofrece conexión Wi-Fi gratuita y desayuno continental."
+        },
+        {
+          "nombre": "Casa India Catalina",
+          "img": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/5614856.jpg?k=c9bf8f9a096ba0c508e3d56ebc9c4ac0e5f145820a494a8f95b1039be3e0cd34&o=&hp=1",
+          "descripcion": "Este hotel está ubicado en un bonito edificio republicano, en la histórica ciudad amurallada de Cartagena de Indias. Ofrece habitaciones elegantes con aire acondicionado y cuenta con piscina y conexión Wi-Fi gratuita."
+        }
+      ]
+    }
+  }
+}
