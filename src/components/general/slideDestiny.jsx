@@ -26,7 +26,7 @@ const useStyles = makeStyles(({ palette, breakpoints, spacing }) => ({
     // a must if you want to set arrows, indicator as absolute
     position: 'relative',
     width: '100%',
-    marginTop:'-100px'
+    marginTop:'-110px'
   },
   slide: {
     perspective: 1000, // create perspective
@@ -84,7 +84,7 @@ const ParallaxCarousel = () => {
     data.map(({ id, title, subtitle, image }, i) => (
       <div key={id} className={classes.slide}>
         <div className={classes.imageContainer}>
-          <img className={classes.image} src={image} alt={'slide'} />
+          <img loading="lazy" className={classes.image} src={image} alt={'slide'} />
         </div>
       </div>
     ));

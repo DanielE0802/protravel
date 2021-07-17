@@ -19,7 +19,7 @@ class Hoteles extends React.Component {
                 <GridList cellHeight={200} cols={3}>
                     {dataList.map((data) => (
                         <GridListTile key={data.id} cols={data.cols || 1}>
-                            <img src={data.image} alt="" />
+                            <img loading="lazy" src={data.image} alt="" />
                         </GridListTile>
                     ))}
                 </GridList>

@@ -31,7 +31,7 @@ export default function Regiones() {
                 <a href="/">
                     <ListItem button>
                         <ListItemIcon>
-                            <img className="imagen_region" src={region_amazonia} alt="" />
+                            <img loading="lazy" className="imagen_region" src={region_amazonia} alt="" />
                         </ListItemIcon>
                         <ListItemText className="texto_region" primary="Región Amazonía" />
                     </ListItem>
@@ -39,7 +39,7 @@ export default function Regiones() {
                 <a href="/">
                     <ListItem button>
                         <ListItemIcon>
-                            <img className="imagen_region" src={region_pacifica} alt="" />
+                            <img loading="lazy" className="imagen_region" src={region_pacifica} alt="" />
                         </ListItemIcon>
                         <ListItemText className="texto_region" primary="Región Pacifica" />
                     </ListItem>
@@ -47,7 +47,7 @@ export default function Regiones() {
                 <a href="/">
                     <ListItem button>
                         <ListItemIcon>
-                            <img className="imagen_region" src={region_andina} alt="" />
+                            <img loading="lazy" className="imagen_region" src={region_andina} alt="" />
                         </ListItemIcon>
                         <ListItemText className="texto_region" primary="Región Andina" />
                     </ListItem>
@@ -55,7 +55,7 @@ export default function Regiones() {
                 <a href="/">
                     <ListItem button>
                         <ListItemIcon>
-                            <img className="imagen_region" src={region_caribe} alt="" />
+                            <img loading="lazy" className="imagen_region" src={region_caribe} alt="" />
                         </ListItemIcon>
                         <ListItemText className="texto_region" primary="Región Caribe" />
                     </ListItem>
@@ -63,7 +63,7 @@ export default function Regiones() {
                 <a href="/">
                     <ListItem button>
                         <ListItemIcon>
-                            <img className="imagen_region" src={region_insular} alt="" />
+                            <img loading="lazy" className="imagen_region" src={region_insular} alt="" />
                         </ListItemIcon>
                         <ListItemText className="texto_region" primary="Región Insular" />
                     </ListItem>
@@ -71,7 +71,7 @@ export default function Regiones() {
                 <a href="/">
                     <ListItem button>
                         <ListItemIcon>
-                            <img className="imagen_region" src={region_orinoquia} alt="" />
+                            <img loading="lazy" className="imagen_region" src={region_orinoquia} alt="" />
                         </ListItemIcon>
                         <ListItemText className="texto_region" primary="Región Orinoquía" />
                     </ListItem>

@@ -24,9 +24,6 @@ const useStyles = makeStyles(() => ({
   img: {
     maxHeight: 500,
   },
-  content: {
-    padding: 24,
-  },
   cta: {
     marginTop: 24,
     textTransform: 'initial',
@@ -41,18 +38,29 @@ export const NewsCardDemo = React.memo(function NewsCard() {
   return (
     <Card className={cx(styles.root)}>
       <CardMedia className={(styles.img)}
+        style={{width:"80vw", height:"100px", paddingBottom:"30vh", margin:"auto"}}
         classes={mediaStyles}
         image={Logo}
       />
-      <CardContent className={styles.content}>
+      <CardContent className={styles.content}
+        style={{width:"80vw", height:"50vh", paddingBottom:"30vh", margin:"auto",}}>
         <TextInfoContent
           classes={textCardContentStyles}
           overline={'Turismo y viajes a otro nivel'}
-          heading={'Sobre Nosotros'}
+          heading={'Misión'}
           body={
-            'Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros Sobre nosotros '
+            'Dar a conocer destinos turísticos e integrar todas las culturas, lugares emblemáticos, actividades ecológicas que se realizan en cada región permitiéndole a los viajeros organizar, planear, y ejecutar su viaje de forma óptima con paquetes de viaje accesibles y a la medida según sus  necesidades. '
           }
         />
+        <TextInfoContent
+          classes={textCardContentStyles}
+          overline={''}
+          heading={'Visión'}
+          body={
+            'ProTravel en 10 años busca ser una de las mejores plataformas para viajeros de Latinoamérica aumentando el turismo en regiones que son poco conocidas por los viajeros e implementando nuevas formas de hacer turismo.  '
+          }
+        />
+        
       </CardContent>
     </Card>
   );

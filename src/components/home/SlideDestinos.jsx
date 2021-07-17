@@ -32,13 +32,13 @@ class SlideDestinos extends React.Component {
                     "disableOnInteraction": false
                 }}
             >
-                <SwiperSlide><img src={Img1} alt=""/></SwiperSlide>
-                <SwiperSlide><img src={img2} alt=""/></SwiperSlide>
-                <SwiperSlide><img src={img3} alt=""/></SwiperSlide>
-                <SwiperSlide><img src={img4} alt=""/></SwiperSlide>
-                <SwiperSlide><img src={img4} alt=""/></SwiperSlide>
-                <SwiperSlide><img src={img4} alt=""/></SwiperSlide>
-                <SwiperSlide><img src={img4} alt=""/></SwiperSlide>
+                <SwiperSlide><img  loading="lazy" src={Img1} alt=""/></SwiperSlide>
+                <SwiperSlide><img  loading="lazy" src={img2} alt=""/></SwiperSlide>
+                <SwiperSlide><img loading="lazy" src={img3} alt=""/></SwiperSlide>
+                <SwiperSlide><img loading="lazy" src={img4} alt=""/></SwiperSlide>
+                <SwiperSlide><img loading="lazy" src={img4} alt=""/></SwiperSlide>
+                <SwiperSlide><img loading="lazy" src={img4} alt=""/></SwiperSlide>
+                <SwiperSlide><img loading="lazy" src={img4} alt=""/></SwiperSlide>
                 <br></br>
             </Swiper>
         );

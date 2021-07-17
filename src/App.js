@@ -9,10 +9,10 @@ import variedades from "./pages/variedades"
 import comunidad from "./pages/comunidad"
 import destinoSelected from "./pages/destinoSelected"
 import payments from "./pages/payments"
-import './components/scss/general.css'
 import cuenta from "./pages/miCuenta"
 import homeLogin from "./pages/homeLogin"
-
+import nosotros from "./pages/nosotros"
+import './components/scss/general.css'
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
           <Route exact path="/checkout" component={payments} />
           <Route exact path="/cuenta" component={cuenta} />
           <Route exact path="/homeLogin" component={homeLogin} />
+          <Route exact path="/nosotros" component={nosotros} />
         </switch>
       </BrowserRouter>
     </div>

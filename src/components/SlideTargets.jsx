@@ -115,7 +115,7 @@ const maxSteps = arrayOfGalery.length;
             {arrayOfGalery.map((step, index) => (
               <div key={step.label}>
                 {Math.abs(activeStep - index) <= 2 ? (
-                  <img
+                  <img loading="lazy"
                     className={classes.img}
                     src={step.imgPath}
                     alt={step.label}

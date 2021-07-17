@@ -25,7 +25,6 @@ import '../scss/destinos.scss';
 import '../scss/user.scss';
 import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
-import Equipo from '../Nosotros/Equipo';
 import Informacion from '../destinos/Informacion'
 
 
@@ -108,7 +107,6 @@ export default function ScrollableTabsButtonForce() {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <AtraccionesComponent data={data.data} ></AtraccionesComponent>
-        <Equipo></Equipo>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Hotel />
