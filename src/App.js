@@ -11,6 +11,7 @@ import destinoSelected from "./pages/destinoSelected"
 import payments from "./pages/payments"
 import './components/scss/general.css'
 import cuenta from "./pages/miCuenta"
+import homeLogin from "./pages/homeLogin"
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/destinos/cartagena" component={destinoSelected} />
           <Route exact path="/checkout" component={payments} />
           <Route exact path="/cuenta" component={cuenta} />
+          <Route exact path="/homeLogin" component={homeLogin} />
         </switch>
       </BrowserRouter>
     </div>

@@ -17,16 +17,14 @@ import Reseñas from './Reseñas';
 import Comentar from './Comentar';
 import data from '../../data/placeHolderDestinos.json'
 import dataDestinos from '../../data/dataDestinos.json'
-import { Grid } from '@material-ui/core';
+// import { Grid } from '@material-ui/core';
 import AtraccionesComponent from './AtraccionesComponent';
 import Hotel from './Hoteles';
 import ResultadoHoteles from '../ResultadoHoteles';
-import Pagos from '../Payments/Checkout';
 import '../scss/destinos.scss';
 import '../scss/user.scss';
 import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
-import CuentaMenu from '../User/cuentaMenu';
 import Equipo from '../Nosotros/Equipo';
 import Informacion from '../destinos/Informacion'
 import VistaNativo from '../VistaNativo/Modal'
