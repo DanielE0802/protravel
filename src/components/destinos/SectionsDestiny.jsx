@@ -29,7 +29,7 @@ import Souvenir from './Souvenir';
 import CuentaMenu from '../User/cuentaMenu';
 import Equipo from '../Nosotros/Equipo';
 import Informacion from '../destinos/Informacion'
-
+import VistaNativo from '../VistaNativo/Modal'
 
 
 console.log(data.data)
@@ -105,8 +105,8 @@ export default function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
+      <VistaNativo></VistaNativo>
         <Informacion></Informacion>
-
       </TabPanel>
       <TabPanel value={value} index={1}>
         <AtraccionesComponent data={data.data} ></AtraccionesComponent>
