@@ -12,8 +12,9 @@ class SlidePlanes extends React.Component {
           alignItems: "center",
           flexDirection: "column",
         }}
-      >
-        <h1>Planes y lugares sugeridos</h1>
+      >  
+        <h3 style={{width:"79%", fontFamily:"Roboto", fontSize:"20px", color:"#828282"}}>Nuestros</h3>
+        <h3 style={{width:"79%",  fontFamily:"Roboto", fontSize:"30px", color:"#343434"}}>Lugares sugeridos</h3>
         <div
           style={{
             display: "flex",

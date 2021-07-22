@@ -5,22 +5,26 @@
         {
           "nombre": "Cartagena",
           "img": "https://www.eltiempo.com/files/image_640_428/uploads/2020/03/29/5e81518042bb0.jpeg",
-          "descripcion": "Cartagena es una ciudad que está ubicada a orillas del Mar Caribe. Sus calles coloridas llenas de encanto la hacen la puerta de entrada a Suramérica. En Colombia, se encuentra al norte del país, y es la capital de la región de Bolívar."
+          "descripcion": "Cartagena es una ciudad que está ubicada a orillas del Mar Caribe. Sus calles coloridas llenas de encanto la hacen la puerta de entrada a Suramérica. En Colombia, se encuentra al norte del país, y es la capital de la región de Bolívar.",
+          "to": "destinos/cartagena"
         },
         {
           "nombre": "Medellín",
           "img": "https://www.semana.com/resizer/2noyXlnQe0xA-d-VdDa6-acgYhk=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/KI2722K53VBFVN7BR7OMCXSPWM.jpg",
-          "descripcion": "Medellín es la segunda ciudad en importancia en Colombia y capital de Antioquia. ... La ciudad situada en el centro del Valle de Aburrá, en la Cordillera Central, y es atravesada de sur a norte por el río Aburrá Medellín."
+          "descripcion": "Medellín es la segunda ciudad en importancia en Colombia y capital de Antioquia. ... La ciudad situada en el centro del Valle de Aburrá, en la Cordillera Central, y es atravesada de sur a norte por el río Aburrá Medellín.",
+          "to": "destinos/medellin"
         },
         {
           "nombre": "Bogotá",
           "img": "https://upload.wikimedia.org/wikipedia/commons/2/24/Bogot%C3%A1_Colpatria_Night.jpg",
-          "descripcion": "La principal y más visitada de Barú por ser pública. Es una playa muy bonita pero en temporada alta puede ser una experiencia no muy agradable por la cantidad de visitantes y vendedores. Puedes llegar con un tour de pasadía o por tu propia cuenta."
+          "descripcion": "La principal y más visitada de Barú por ser pública. Es una playa muy bonita pero en temporada alta puede ser una experiencia no muy agradable por la cantidad de visitantes y vendedores. Puedes llegar con un tour de pasadía o por tu propia cuenta.",
+          "to": "destinos/bogota"
         },
         {
           "nombre": "Cali",
           "img": "http://valledellili.org/wp-content/uploads/2018/04/oficina-internacional-cali-fvl.jpg",
-          "descripcion": "Es la tercera ciudad más poblada de Colombia. Está situada en la región Sur del Valle del Cauca, entre la cordillera occidental y la cordillera central de los Andes. La ciudad forma parte del Área Metropolitana de Cali, junto con los municipios aledaños a esta."
+          "descripcion": "Es la tercera ciudad más poblada de Colombia. Está situada en la región Sur del Valle del Cauca, entre la cordillera occidental y la cordillera central de los Andes. La ciudad forma parte del Área Metropolitana de Cali, junto con los municipios aledaños a esta.",
+          "to": "destinos/cali"
         }
       ]
     }

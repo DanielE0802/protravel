@@ -8,7 +8,7 @@ export default class Search extends Component {
   render() {
     return (
       <div style={{display:"flex", justifyContent:"center", flexWrap:"wrap"}}>
-        <img src={logo} alt="logo-Protravel"></img>
+        <img loading="lazy" src={logo} alt="logo-Protravel"></img>
         <h2 style={{width:"100%", marginTop:"-5px"}}> 
         <span className="titleHome pro" >Pro</span>
         <span className="titleHome travel">Travel</span>

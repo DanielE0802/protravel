@@ -78,7 +78,7 @@ const CustomCard = ({ classes, image, title, subtitle, cargo }) => {
   return (
     <CardActionArea className={classes.actionArea}>
       <Card className={classes.card}>
-        <CardMedia classes={mediaStyles} image={image} style={{ height: 300 }} />
+        <CardMedia classes={mediaStyles} image={image} style={{ height: 350 }} />
         <CardContent className={classes.content}>
           <Typography className={classes.title} variant={'h1'}>
             {title}
@@ -99,9 +99,10 @@ export const SolidGameCardDemo = React.memo(function SolidGameCard() {
   const styles4 = useStyles({ color: '#0067F5' });
   return (
     <>
-      <div>
-        <div>
-          <Grid classes={gridStyles} container spacing={4} wrap={'nowrap'} style={{ overflow: 'scroll' }}>
+      <div >
+        <div >
+        <AboutUs></AboutUs>
+          <Grid  classes={gridStyles} container spacing={4} wrap={'nowrap'} style={{ overflow: 'scroll', width:"90%", margin:"auto" }}>
             <Grid item>
               <CustomCard
                 classes={styles}
@@ -141,7 +142,7 @@ export const SolidGameCardDemo = React.memo(function SolidGameCard() {
           </Grid>
         </div>
         <div style={{marginTop: 50}}>
-          <AboutUs></AboutUs>
+         
         </div>
       </div>
     </>

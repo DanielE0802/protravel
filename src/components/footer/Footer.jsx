@@ -96,7 +96,7 @@ const FooterDemo = React.memo(function ArcAppFooter() {
         <Box width={'100%'}>
             <Box px={2} py={6} className={classes.top} position={'relative'}>
                 <div className={classes.overlay}>
-                    <img
+                    <img loading="lazy"
                         src={
                             'https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80'
                         }
@@ -207,7 +207,9 @@ const FooterDemo = React.memo(function ArcAppFooter() {
                                             <p index={1}>Contacto</p>
                                         </CategoryItem>
                                         <CategoryItem>
+                                            <a href="/nosotros">
                                             <p index={1}>Equipo</p>
+                                            </a>
                                         </CategoryItem>
                                     </CategoryProvider>
                                 </Grid>

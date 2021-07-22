@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,9 +36,14 @@ export default function ComplexGrid(props) {
       <Paper className={classes.paper}>
         <Grid container spacing={2}>
           <Grid item>
+
+            <Link to={props.to}>
+
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src={props.src} style={{ width: '100%' }}/>
+              <img loading="lazy" className={classes.img} alt="complex" src={props.src} style={{ width: '100%' }}/>
             </ButtonBase>
+            </Link>
+
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={2}>

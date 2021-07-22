@@ -36,7 +36,7 @@ export default function ComplexGrid(props) {
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src={props.src} style={{ width: '100%' }}/>
+              <img loading="lazy" className={classes.img} alt="complex" src={props.src} style={{ width: '100%' }}/>
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>

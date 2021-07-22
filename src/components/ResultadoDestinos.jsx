@@ -27,7 +27,7 @@ function ResultadoDestinos(props) {
           console.log(Element)
           return (
             <div>
-              <CardReturnHotel nombre={Element.nombre} src={Element.img} precio={Element.precio} descripcion={Element.descripcion} />
+              <CardReturnHotel to={Element.to} nombre={Element.nombre} src={Element.img} precio={Element.precio} descripcion={Element.descripcion} />
             </div>
           )
         })}
