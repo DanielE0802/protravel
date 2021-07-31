@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Servicios from '../VistaNativo/Servicios'
+import Imagenes from './Image';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,6 +23,7 @@ export default function LayoutTextFields() {
   return (
     <div className={classes.root}>
       <div>
+      <Imagenes></Imagenes>
       <h1>Informacion</h1>
         <TextField
           id="outlined-full-width"
