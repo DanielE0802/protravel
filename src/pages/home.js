@@ -7,7 +7,7 @@ import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
 import FooterDemo from "../components/footer/Footer";
 import '../components/scss/general.scss'
-
+import dataHome from '../data/dataHome.json'
 
 const dashboardRoutes = [];
 const Home = (props) => {
@@ -38,7 +38,14 @@ const Home = (props) => {
         <div className="homepage"></div>
         <Search></Search>
         <MainSelector />
-        <SlidePlanes></SlidePlanes>
+        <SlidePlanes title="Nuestro" subtitle="Pacifico Colombiano" data={dataHome[1]}></SlidePlanes>
+        <SlidePlanes estilo={{          display: "flex",
+          alignItems: "center",
+          flexDirection: "column",
+          background:"#fff"}} title="Nuestros" subtitle="Lugares sugeridos" data={dataHome[0]}></SlidePlanes>
+    
+        <SlidePlanes title="Nuestros" subtitle="Lugares sugeridos" data={dataHome[0]}></SlidePlanes>
+        <SlidePlanes title="Nuestros" subtitle="Lugares sugeridos" data={dataHome[0]}></SlidePlanes>
        
         <FooterDemo style={{backgroundColor:"#fff"}}></FooterDemo>
 

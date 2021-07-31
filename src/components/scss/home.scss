@@ -1,0 +1,18 @@
+#app > div > switch > div > div:nth-child(7),#app > div > switch > div > div:nth-child(5),#app > div > switch > div > div:nth-child(6),#app > div > switch > div > div:nth-child(8),#app > div > switch > div > div:nth-child(9){
+    background: #fff;
+    padding-top: 40px;
+}
+
+
+
+#app > div > switch > div > div:nth-child(5){
+    
+    div > div{
+        min-width: 26vw !important;
+
+        img{
+            height: 27vh;
+        }
+
+    }
+}

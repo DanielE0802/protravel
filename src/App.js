@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Login from "./components/User/Login";
@@ -15,6 +15,7 @@ import nosotros from "./pages/nosotros"
 import './components/scss/general.css'
 
 function App() {
+
   return (
     <div>
       <BrowserRouter>
