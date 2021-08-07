@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -15,7 +15,8 @@ import theme from "../theme/themeconfig";
 import '../scss/user.scss';
 import { ThemeProvider } from "@material-ui/core/styles";
 import Back from './Back';
-
+import Swal from 'sweetalert2'
+import { data, error } from 'jquery';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -49,8 +50,15 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SignInSide() {
+export default function SignInSide(props) {
+
+  console.log(props.name)
   const classes = useStyles();
+
+  // const [name, setName] = useState("")
+  // const [nickname, setNickname] = useState("")
+  // const [lastName, setLastName] = useState("")
+  // const [email, setEmail] = useState("")
 
   return (
 
@@ -112,8 +120,9 @@ export default function SignInSide() {
                   password: peticion[1],
                 };
 
-                async function subirDatos() {
-                  const res = await fetch(
+                function subirDatos() {
+                  const updateLogin= async () =>{
+                    let response = await fetch(
                     "http://localhost:3001/api/user/login",
                     {
                       method: "POST",
@@ -122,12 +131,45 @@ export default function SignInSide() {
                       },
                       body: JSON.stringify(objPeticion),
                       redirect: "follow",
-                    }
-                  );
-                  const response = await res.json();
-                  console.log(response);
+                    })
+                    let data = await response.json()
+                    return data
+                  }
 
-                  console.log( JSON.stringify(objPeticion))
+                  let info = updateLogin()
+                  info.then(resp => {
+                    console.log(resp.user);
+
+                    
+                    if(resp.user === undefined){
+                      Swal.fire({
+                      icon: 'error',
+                      title: 'Oops...',
+                      text: 'Ingresa correctamente tus credenciales',
+}
+)
+                    }
+                    else{
+                      Swal.fire({
+                        position: 'bottom-start',
+                        icon: 'success',
+                        title: `Biendevido ${resp.user.name}`,
+                        showConfirmButton: false,
+                        timer: 2500
+                      })
+                      // setName({name: resp.user.name})
+                      // setLastName({lastName: resp.user.surname})
+                      // setNickname({lastName: resp.user.nick})
+                      // setEmail({email: resp.user.email})
+                      
+
+                    }
+
+                  })
+                  // console.log(email)
+                  // console.log(name)
+                  // console.log(nickname)
+                  // console.log(lastName)
                 }
                 subirDatos();
 
