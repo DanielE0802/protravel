@@ -27,6 +27,7 @@ import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
 import Informacion from '../destinos/Informacion'
 import VistaNativo from '../VistaNativo/Modal'
+import Planea from '../PlaneaTuViaje/Planea'
 
 
 console.log(data.data)
@@ -107,6 +108,7 @@ export default function ScrollableTabsButtonForce() {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <AtraccionesComponent data={data.data} ></AtraccionesComponent>
+        <Planea></Planea>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Hotel />

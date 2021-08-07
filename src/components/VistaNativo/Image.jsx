@@ -19,10 +19,11 @@ class App extends React.Component {
         return (
             <ImageUploader
                 withIcon={true}
-                buttonText='Choose images'
+                buttonText='Sube tus imagenes'
                 onChange={this.onDrop}
                 imgExtension={['.jpg', '.gif', '.png', '.gif']}
                 maxFileSize={5242880}
+                
             />
         );
     }
