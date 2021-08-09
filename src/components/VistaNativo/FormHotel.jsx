@@ -19,6 +19,52 @@ const useStyles = makeStyles((theme) => ({
 
 export default function LayoutTextFields() {
   const classes = useStyles();
+  function createHotel(){
+    let hotelName = (document.getElementById("nameHotel")).value
+    let hotelDescripcion = (document.getElementById("descripcionHotel")).value
+    let hotelUbi = (document.getElementById("ubicacionHotel")).value
+
+    let peticion = [hotelName, hotelDescripcion,hotelUbi];
+
+    let objPeticion = {
+      nombre: peticion[0],
+      descripcion: peticion[1],
+      ubicacion:peticion[2]
+    }
+
+    
+    function subirDatos() {
+      const updateLogin= async () =>{
+        let response = await fetch(
+        "http://localhost:3001/api/hotel/registrar",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(objPeticion),
+          redirect: "follow",
+        }
+    
+        )
+        console.log(JSON.stringify(objPeticion))
+        let data = await response.json()
+        console.log(data)
+        return data
+      }
+      let info = updateLogin()
+      info.then(resp => {
+        console.log(resp)
+      })
+    }
+
+    
+
+
+    subirDatos();    
+    console.log(objPeticion)
+  }
+  
 
   return (
     <div className={classes.root}>
@@ -26,19 +72,19 @@ export default function LayoutTextFields() {
       <Imagenes></Imagenes>
       <h1>Informacion</h1>
         <TextField
-          id="outlined-full-width"
           label="Nombre del hotel"
           style={{ margin: 8 }}
           placeholder="Ingresa el nombre del hotel"
           fullWidth
           margin="normal"
+          id="nameHotel"
           InputLabelProps={{
             shrink: true,
           }}
           variant="outlined"
         />
         <TextField
-          id="outlined-full-width"
+          id="descripcionHotel"
           label="Descripción"
           style={{ margin: 8 }}
           placeholder="Ingresa una descripcion"
@@ -50,7 +96,7 @@ export default function LayoutTextFields() {
           variant="outlined"
         />
         <TextField
-          id="outlined-full-width"
+          id="ubicacionHotel"
           label="Ubicación"
           style={{ margin: 8 }}
           placeholder="Ingresa la ubicacion del hotel"
@@ -75,7 +121,9 @@ export default function LayoutTextFields() {
         />
         <Servicios></Servicios>
 
-        <Button variant="outlined" color="primary" style={{margin: 'auto', display: 'block'}}>
+        <Button variant="outlined" color="primary" style={{margin: 'auto', display: 'block'}}
+        onClick={createHotel}
+        >
         Crear
         </Button>
       </div>

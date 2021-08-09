@@ -13,6 +13,10 @@ import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import "../scss/register.scss";
 import Back from "./Back";
 import Select from "../Select";
+import Swal from "sweetalert2"
+import { useHistory } from 'react-router';
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -50,6 +54,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SignInSide() {
   const classes = useStyles();
+  let history = useHistory();
 
   // let getData= getDatas();
 
@@ -180,7 +185,33 @@ export default function SignInSide() {
                     }
                   );
                   const response = await res.json();
-                  console.log(response);
+                  console.log(response.user)
+                  if (response.user === undefined){
+                    Swal.fire({
+                      icon: 'error',
+                      title: 'Oops...',
+                      text: response.message,
+}
+)
+                    
+                  }
+                  else{
+                    Swal.fire({
+                        position: 'bottom-start',
+                        icon: 'success',
+                        title: "Usuario creado correctamente",
+                        showConfirmButton: false,
+                        timer: 4500
+
+
+                      })
+                      setTimeout(()=>{
+                        history.push("/login")
+                      },2000)
+             
+
+                  }
+                  ;
                 }
                 subirDatos();
               }}

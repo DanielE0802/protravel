@@ -17,6 +17,8 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import Back from './Back';
 import Swal from 'sweetalert2'
 import { data, error } from 'jquery';
+import { Redirect, BrowserRouter, Switch } from 'react-router-dom';
+import { useHistory } from 'react-router';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -50,10 +52,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const tokenParse1 = true;
+
 export default function SignInSide(props) {
 
   console.log(props.name)
   const classes = useStyles();
+
+  let history = useHistory();
 
   // const [name, setName] = useState("")
   // const [nickname, setNickname] = useState("")
@@ -108,6 +114,7 @@ export default function SignInSide(props) {
               color="primary"
               className={classes.submit}
               style={{background:"linear-gradient(280deg, #0dc5e7 10%, #089fed 40%, #068fef 65%, #0172f3 88%) !important;"}}
+              id="dataUser"
               onClick={() => {
                 let email = document.getElementById("emailLogin").value;
                 let password = 
@@ -138,7 +145,8 @@ export default function SignInSide(props) {
 
                   let info = updateLogin()
                   info.then(resp => {
-                    console.log(resp.user);
+                    console.log(resp.user)
+                  let dataUser = document.getElementById("dataUser")
 
                     
                     if(resp.user === undefined){
@@ -153,16 +161,27 @@ export default function SignInSide(props) {
                       Swal.fire({
                         position: 'bottom-start',
                         icon: 'success',
-                        title: `Biendevido ${resp.user.name}`,
+                        title: `Bienvenido ${resp.user.name}`,
                         showConfirmButton: false,
-                        timer: 2500
-                      })
-                      // setName({name: resp.user.name})
-                      // setLastName({lastName: resp.user.surname})
-                      // setNickname({lastName: resp.user.nick})
-                      // setEmail({email: resp.user.email})
-                      
+                        timer: 4500
 
+
+                      })
+
+                      // dataUser.setAttribute("iduser", resp.user._id)
+                    dataUser.setAttribute("name", resp.user.name)
+                    dataUser.setAttribute("email", resp.user.email)
+                    dataUser.setAttribute("nick", resp.user.nick)
+                    dataUser.setAttribute("surname", resp.user.surname)
+                    dataUser.setAttribute("image", resp.user.image)
+                    dataUser.setAttribute("login", true)
+                    localStorage.setItem("login", "true")
+                    setTimeout(()=>{
+                      history.push("/")
+                    },
+                    3000)
+                  
+                    
                     }
 
                   })
@@ -172,12 +191,16 @@ export default function SignInSide(props) {
                   // console.log(lastName)
                 }
                 subirDatos();
-
+                
               }}
+
+              tabIndex="0"
             >
               Ingresar
             </Button>
             <Grid container>
+
+            
               <Grid item xs>
                 <Link href="/contraseña" variant="body2">
                   ¿Olvidaste tu contraseña?
@@ -188,6 +211,7 @@ export default function SignInSide(props) {
                   {"¿No tienes cuenta? Registrate"}
                 </Link>
               </Grid>
+
             </Grid>
           </form>
         </div>

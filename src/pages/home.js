@@ -12,6 +12,9 @@ import dataHome from '../data/dataHome.json'
 const dashboardRoutes = [];
 const Home = (props) => {
   const { ...rest } = props;
+
+  
+  
   return (
     <ThemeProvider>
       <div
