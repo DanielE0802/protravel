@@ -1,7 +1,6 @@
 import React from 'react';
 import { GridList, GridListTile } from '@material-ui/core';
 import dataList from '../../data/data.json';
-import Paginacion from './Paginacion';
 import RoomIcon from '@material-ui/icons/Room';
 import { blue } from '@material-ui/core/colors';
 import KitchenIcon from '@material-ui/icons/Kitchen';
@@ -9,6 +8,7 @@ import WifiIcon from '@material-ui/icons/Wifi';
 import PetsIcon from '@material-ui/icons/Pets';
 import PoolIcon from '@material-ui/icons/Pool';
 import PrecioHotel from './PrecioHotel';
+import '../scss/general.scss'
 
 
 
@@ -51,11 +51,10 @@ class Hoteles extends React.Component {
                             <PoolIcon style={{ color: blue[500] }} />Pscina
                     </p>
                     </div>
-                    <div style={{marginTop:-80}}>
+                    <div>
                     <PrecioHotel/>
                     </div>
                 </div>
-                <Paginacion />
             </div>
         );
 

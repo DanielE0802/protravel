@@ -4,6 +4,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Servicios from '../VistaNativo/Servicios'
 import Imagenes from './Image';
+import Imagenes2 from './imagen2';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -69,8 +70,8 @@ export default function LayoutTextFields() {
   return (
     <div className={classes.root}>
       <div>
-      <Imagenes></Imagenes>
-      <h1>Informacion</h1>
+        <Imagenes></Imagenes>
+        <h1>Informacion</h1>
         <TextField
           label="Nombre del hotel"
           style={{ margin: 8 }}

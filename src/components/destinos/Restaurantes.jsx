@@ -53,16 +53,6 @@ export default function RecipeReviewCard() {
   return (
     <Card className={(classes.root, "TarjetaRestaurante")}>
       <CardHeader
-        avatar={
-          <Avatar aria-label="recipe" className={classes.avatar}>
-            N
-          </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
         title="Nombre Restaurante"
         subheader="September 14, 2016"
       />

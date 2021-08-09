@@ -9,6 +9,7 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
 import Menu from '../VistaNativo/MenuNativos'
+import '../scss/Nativos.scss'
 
 
 export default function FormDialog() {

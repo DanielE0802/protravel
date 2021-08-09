@@ -27,6 +27,7 @@ import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
 import Informacion from '../destinos/Informacion'
 import VistaNativo from '../VistaNativo/Modal'
+import Planea from '../PlaneaTuViaje/Planea'
 
 
 console.log(data.data)
