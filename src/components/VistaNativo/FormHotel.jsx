@@ -5,6 +5,8 @@ import Button from '@material-ui/core/Button';
 import Servicios from '../VistaNativo/Servicios'
 import Imagenes from './Image';
 import Imagenes2 from './imagen2';
+import Swal from 'sweetalert2';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -56,6 +58,18 @@ export default function LayoutTextFields() {
       let info = updateLogin()
       info.then(resp => {
         console.log(resp)
+
+        if(resp){
+          Swal.fire({
+            position: 'bottom-start',
+            icon: 'success',
+            title: `Hotel ${resp.user.name} creado correctamente`,
+            showConfirmButton: false,
+            timer: 4500
+
+          })
+
+        }
       })
     }
 

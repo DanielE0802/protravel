@@ -4,7 +4,7 @@ import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
 import Promos from '../components/promociones/Promos'
 import FooterDemo from '../components/footer/Footer';
-import SlideDestiny from "../components/general/slideDestiny"
+import SlideDestiny from "../components/general/SlideDestiny"
 
 
 const dashboardRoutes = [];
