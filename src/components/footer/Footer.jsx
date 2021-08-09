@@ -121,7 +121,7 @@ const FooterDemo = React.memo(function ArcAppFooter() {
                                 inputClearedAfterSubmit
                             >
                                 <EmailTextInput placeholder="Ingresa tu correo electronico" />
-                                <SubmitButton>Subscribete</SubmitButton>
+                                <SubmitButton className="ColorAzul">Subscribete</SubmitButton>
                             </EmailSubscribe>
                         </Item>
                     </ColumnToRow>

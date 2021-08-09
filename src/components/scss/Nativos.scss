@@ -45,3 +45,8 @@
 #vertical-tabpanel-3 > div > p > div > div{
     display: flex;
 }
+
+#scrollable-force-tabpanel-0 > div > p > div:nth-child(1) > button{
+    position: fixed;
+    right: 20px;
+}

@@ -141,6 +141,16 @@ body::-webkit-scrollbar-track ,div::-webkit-scrollbar-track {
     min-height: 300px;
 }
 
-#scrollable-force-tabpanel-0 > div > p > div > div{
-    
+@media (max-width: 700px){
+    #scrollable-force-tabpanel-2 > div > p > div:nth-child(1) > div:nth-child(6){
+    flex-direction: column;
+    }
+    #scrollable-force-tabpanel-2 > div > p > div:nth-child(1) > div > div:nth-child(2){
+        margin-top: 10px;
+    }
+
+}
+
+#scrollable-force-tabpanel-2 > div > p > div.makeStyles-root-569 > p > div{
+    margin-top: 10px;
 }

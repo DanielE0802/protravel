@@ -50,9 +50,17 @@ const useStyles = makeStyles((theme) => ({
 
 export default function CustomizedSelects() {
     const classes = useStyles();
-    const [setAge] = React.useState('');
-    const handleChange = (event) => {
-        setAge(event.target.value);
+    const [setAge1] = React.useState('');
+    const [setAge2] = React.useState('');
+    const [setAge3] = React.useState('');
+    const handleChange1 = (event1) => {
+        setAge1(event1.target.value);
+    };
+    const handleChange2 = (event2) => {
+        setAge2(event2.target.value);
+    };
+    const handleChange3 = (event3) => {
+        setAge3(event3.target.value);
     };
     return (
         <div>
@@ -66,15 +74,15 @@ export default function CustomizedSelects() {
                     <Select
                         labelId="demo-customized-select-label"
                         id="demo-customized-select"
-                        onChange={handleChange}
+                        onChange={handleChange1}
                         input={<BootstrapInput />}
                     >
                         <MenuItem value="">
                             <em>Cancelar</em>
                         </MenuItem>
-                        <MenuItem value={10}>Mañana</MenuItem>
-                        <MenuItem value={20}>Tarde</MenuItem>
-                        <MenuItem value={30}>Noche</MenuItem>
+                        <MenuItem value="10">Mañana</MenuItem>
+                        <MenuItem value="20">Tarde</MenuItem>
+                        <MenuItem value="30">Noche</MenuItem>
                     </Select>
                 </FormControl>
             </div>
@@ -88,15 +96,15 @@ export default function CustomizedSelects() {
                     <Select
                         labelId="demo-customized-select-label"
                         id="demo-customized-select"
-                        onChange={handleChange}
+                        onChange={handleChange2}
                         input={<BootstrapInput />}
                     >
                         <MenuItem value="">
                             <em>Cancelar</em>
                         </MenuItem>
-                        <MenuItem value={10}>Mañana</MenuItem>
-                        <MenuItem value={20}>Tarde</MenuItem>
-                        <MenuItem value={30}>Noche</MenuItem>
+                        <MenuItem value="10">Mañana</MenuItem>
+                        <MenuItem value="20">Tarde</MenuItem>
+                        <MenuItem value="30">Noche</MenuItem>
                     </Select>
                 </FormControl>
             </div>
@@ -110,15 +118,15 @@ export default function CustomizedSelects() {
                     <Select
                         labelId="demo-customized-select-label"
                         id="demo-customized-select"
-                        onChange={handleChange}
+                        onChange={handleChange3}
                         input={<BootstrapInput />}
                     >
                         <MenuItem value="">
                             <em>Cancelar</em>
                         </MenuItem>
-                        <MenuItem value={10}>Mañana</MenuItem>
-                        <MenuItem value={20}>Tarde</MenuItem>
-                        <MenuItem value={30}>Noche</MenuItem>
+                        <MenuItem value="10">Mañana</MenuItem>
+                        <MenuItem value="20">Tarde</MenuItem>
+                        <MenuItem value="30">Noche</MenuItem>
                     </Select>
                 </FormControl>
             </div>

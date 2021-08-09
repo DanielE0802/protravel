@@ -1,90 +1,145 @@
 [
   [
-    
     {
       "name": "Cali",
       "price": "150000",
-      "description": "descripción del plannnnnnn",
+      "description": "Cali (oficialmente, Santiago de Cali) es la capital del departamento del Valle del Cauca en Colombia, y la tercera más poblada del país (Censo 2005). El Área Metropolitana de Cali está conformada por los municipios de Candelaria, Jamundí, Palmira y Yumbo, y está entre las 150 mayores conurbaciones del planeta.      ",
       "url": "https://www.cali.gov.co/gobierno/info/principal/media/pubInt/thumbs/thpub_700x400_155052.jpg"
     },
     {
       "name": "Palmira",
       "price": "150000",
-      "description": "descripción del plannnnnnn",
+      "description": "Palmira es un municipio colombiano del departamento del Valle del Cauca; localizado en la región sur del departamento. Es centro de grandes ingenios azucareros y constituye uno de los más importantes centros comerciales, industriales y agrícolas del Valle del Cauca.",
       "url": "https://investpacific.org/wp-content/uploads/empresas-extranjeras-comprometidas-con-el-desarrollo-de-palmira.jpg"
     }
     ,
     {
       "name": "San Andres",
       "price": "150000",
-      "description": "descripción del plannnnnnn",
+      "description": "Un lugar lleno de mar, sol, naturaleza y belleza, es la isla más grande del Archipiélago, con un delicioso clima de entre 26°C y 29°C podrás disfrutar de sus aguas en los cayos como Rocky Cay, y Johnny Cay y también podrás descubrir el hoyo soplador, un agujero natural compuesto por arrefices coralinos.",
       "url": "https://media.staticontent.com/media/pictures/ecc404e8-9a99-46b0-a56a-ead992b5166e"
     }
     ,
     {
       "name": "Valle Del Cocora",
       "price": "150000",
-      "description": "descripción del plannnnnnn",
+      "description": "El Valle de Cocora es un paisaje natural localizado en un valle montañoso de la cordillera Central de los Andes colombianos, específicamente en el departamento del Quindío, haciendo parte del Parque nacional natural Los Nevados.",
       "url": "https://cdn.baquianos.com/img/blog/2019/21/-m4qx360.jpg"
     }
     ,
     {
       "name":"Playa Blanca",
       "price": "150000",
-      "description": "descripción del plannnnnnn",
+      "description": "Playa Blanca, también conocida como la Playa de Boyacá es una playa natural localizada en la bahía Blanca alrededor de la costa suroccidental del lago de Tota en el departamento de Boyacá (Colombia).",
       "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/36/54/23.jpg"
     }
     ,
     {
       "name": "Santa Marta",
       "price": "150000",
-      "description": "descripción del plannnnnnn",
+      "description": "Oficialmente Distrito Turístico, Cultural e Histórico de Santa Marta, es la capital del departamento de Magdalena, Colombia. ... Santa Marta es la segunda ciudad más antigua de América del Sur, posee un patrimonio arquitectónico inigualable que evoca los tiempos de la bonanza bananera.",
       "url": "https://www.futbolred.com/files/article_main/files/crop/uploads/2021/03/15/604f8d5b36afa.r_1615911851449.0-50-1024-563.jpeg"
     }
     ,
     {
       "name": "Bogotá",
       "price": "150000",
-      "description": "descripción del plannnnnnn",
+      "description": "es la capital y la ciudad más grande de Colombia, tiene alrededor de 8 millones de habitantes. Constituye el centro político, económico, financiero y cultural del país, por lo tanto, es el punto de encuentro de personas de todas las regiones, lo que la hace diversa y multicultural.",
       "url":"https://upload.wikimedia.org/wikipedia/commons/2/24/Bogot%C3%A1_Colpatria_Night.jpg"
     }
     ,
     {
       "name": "Cartagena",
       "price": "150000",
-      "description": "descripción del plannnnnnn",
+      "description": "Cartagena es una ciudad que está ubicada a orillas del Mar Caribe. Sus calles coloridas llenas de encanto la hacen la puerta de entrada a Suramérica. En Colombia, se encuentra al norte del país, y es la capital de la región de Bolívar.",
       "url":"http://www.colombiaaprende.edu.co/sites/default/files/files_public/imagenes_agenda/shutterstock_1534914158.jpg"
     }
   ],
+
   [{
       "name": "Nuquí",
-      "price": "150000",
+      "price": "190.000",
       "description": "Nuquí es uno de los lugares en el Pacífico Colombiano donde se pueden ver las ballenas jorobadas durante su paso por estas cálidas aguas. Este es uno de los paraísos mejor guardados que tiene Colombia, estas playas rodeadas de selva virgen son el lugar perfecto para desconectarse del mundo, para disfrutar solo lo que los sentidos nos brindan.",
       "url": "http://www.eltiempo.com/files/article_multimedia/uploads/2017/09/01/59a99b1bb12bf.jpeg"
     },
     {
       "name": "Bahía Solano",
-      "price": "150000",
+      "price": "210.000",
       "description": "A pocos Kilómetros de la frontera con Panamá este lugar maravilloso del pacífico chocoano es hogar temporal de tortugas, ballenas jorobadas y aves que van cada año en búsqueda de un lugar para tener a sus crías, además de cientos de especies que viven permanentemente allí, formando uno de los ecosistemas más variados del mundo. ",
       "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238279929.jpg?k=0e394435dc2e3e1697030ed313ba2d6ab90fbead8ce433131a462e7174abe45f&o=&hp=1"
     },
     {
-      "name": "Bahía Solano",
-      "price": "150000",
-      "description": "A pocos Kilómetros de la frontera con Panamá este lugar maravilloso del pacífico chocoano es hogar temporal de tortugas, ballenas jorobadas y aves que van cada año en búsqueda de un lugar para tener a sus crías, además de cientos de especies que viven permanentemente allí, formando uno de los ecosistemas más variados del mundo. ",
-      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238279929.jpg?k=0e394435dc2e3e1697030ed313ba2d6ab90fbead8ce433131a462e7174abe45f&o=&hp=1"
+      "name": "Juanchaco y Ladrilleros",
+      "price": "240.000",
+      "description": "Ubicado en el Valle del Cauca, este destino es un pueblo de pescadores, tupido de manglares en medio de la selva, donde desembocan caudalosos ríos y los lugareños viven al son de la marimba y la tambora. Una de las actividades más atractivas es el avistamiento de ballenas, que tiene lugar cada año entre los meses de julio y octubre",
+      "url": "http://www.elcolombiano.com/blogs/eshoradeviajar/wp-content/uploads/2015/11/DSC_0610.jpg"
     },
     {
-      "name": "Bahía Solano",
-      "price": "150000",
-      "description": "A pocos Kilómetros de la frontera con Panamá este lugar maravilloso del pacífico chocoano es hogar temporal de tortugas, ballenas jorobadas y aves que van cada año en búsqueda de un lugar para tener a sus crías, además de cientos de especies que viven permanentemente allí, formando uno de los ecosistemas más variados del mundo. ",
-      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238279929.jpg?k=0e394435dc2e3e1697030ed313ba2d6ab90fbead8ce433131a462e7174abe45f&o=&hp=1"
+      "name": "Tumaco",
+      "price": "170.000",
+      "description": "Ubicado en el departamento de Nariño, en el sur de Colombia, cerca a la frontera con Ecuador, este municipio es conocido también como la perla del Pacífico, dado que allí se encontró una de las más grandes perlas en los últimos tiempos. Es el segundo puerto marítimo más importante de Colombia y la segunda ciudad más grande de la Costa Pacífica colombiana.",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/TumacoBeach.jpg"
     },
     {
-      "name": "Bahía Solano",
-      "price": "150000",
-      "description": "A pocos Kilómetros de la frontera con Panamá este lugar maravilloso del pacífico chocoano es hogar temporal de tortugas, ballenas jorobadas y aves que van cada año en búsqueda de un lugar para tener a sus crías, además de cientos de especies que viven permanentemente allí, formando uno de los ecosistemas más variados del mundo. ",
-      "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/238279929.jpg?k=0e394435dc2e3e1697030ed313ba2d6ab90fbead8ce433131a462e7174abe45f&o=&hp=1"
+      "name": "Parque Nacional Natural Gorgona",
+      "price": "230.000",
+      "description": "Ubicado en el departamento del Cauca, este parque es un paraíso para la investigación científica y cuna de gran biodiversidad. Se encuentra a 46 km del municipio de Guapi y posee cerca de 61.687 hectáreas, de las cuales 1.660 son insulares o terrestres, que corresponden al 3% del total y el 97% restante corresponde a áreas marinas.",
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/8f/6a/45/gorgona-natural-park.jpg?w=600&h=300&s=1"
     }
-    ]
+    ],
+
+    [{
+      "name": "Cruceros, navegación y tours acuáticos",
+      "price": "310.000",
+      "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/9e/93/57.jpg"
+    },
+    {
+      "name": "Tours en vehículos todoterreno",
+      "price": "150000",
+      "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/09/22/04/3b.jpg"
+    },
+    {
+      "name": "Naturaleza y parques",
+      "price": "150000",
+      "url": "https://www.lavanguardia.com/files/og_thumbnail/uploads/2019/09/09/5fa5360229014.jpeg"
+    },
+    {
+      "name": "Tours y lugares de interés",
+      "price": "150000",
+      "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/0e/a3/27.jpg"
+    },
+    {
+      "name": "Playas",
+      "price": "150000",
+      "url": "https://astelus.com/wp-content/viajes/San-Andres-una-isla-paradisiaca-del-Caribe.jpg"
+    }
+    ],
+    
+
+  [{
+    "name": "Flyboard",
+    "price": "61.000",
+    "url": "https://deportesriesgo.com/wp-content/uploads/flyboard-en-Espa%C3%B1a.jpg"
+  },
+  {
+    "name": "Paracaidismo",
+    "price": "210.000",
+    "url": "https://i1.wp.com/revistadiners.com.co/wp-content/uploads/2015/10/3.-parapente-.jpg?fit=1024%2C683&ssl=1"
+  },
+  {
+    "name": "Tirolesa",
+    "price": "240.000",
+    "url": "https://www.grupoxcaret.com/es/wp-content/uploads/2017/04/tirolesa_xplor_10-web.jpg"
+  },
+  {
+    "name": "Surf",
+    "price": "170.000",
+    "url": "https://s1.eestatic.com/2019/07/10/como/agua-como_hacer_412719155_127734819_1024x576.jpg"
+  },
+  {
+    "name": "Senderismo",
+    "price": "230.000",
+    "url": "https://aventurecolombia.com/wp-content/uploads/2020/08/ciudad-perdida-sierra-nevada-de-santa-marta-colombia-41-%C2%A9-Tristan-Quevilly-800x533.jpg.webp"
+  }
+  ]
 ]

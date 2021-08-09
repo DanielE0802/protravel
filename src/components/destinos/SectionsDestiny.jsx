@@ -108,7 +108,6 @@ export default function ScrollableTabsButtonForce() {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <AtraccionesComponent data={data.data} ></AtraccionesComponent>
-        <Planea></Planea>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Hotel />
