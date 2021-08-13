@@ -62,7 +62,7 @@ export default function LayoutTextFields() {
           Swal.fire({
             position: 'bottom-start',
             icon: 'success',
-            title: `Hotel ${resp.user.name} creado correctamente`,
+            title: `Hotel ${resp.name} creado correctamente`,
             showConfirmButton: false,
             timer: 4500
 

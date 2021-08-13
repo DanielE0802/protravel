@@ -136,6 +136,17 @@
     background: linear-gradient(280deg, rgba(13, 197, 231, 1) 10%, rgba(8, 159, 237, 1) 40%, rgba(6, 143, 239, 1) 65%, rgba(1, 114, 243, 1) 88%) !important;
     }
 
-    #app > div > switch > div > div:nth-child(6) > div > div.MuiPaper-root-573.MuiCard-root-572.makeStyles-root-96.MuiPaper-elevation1-577.MuiPaper-rounded-574{
-        width: 33.3%;
-    }
+@media (max-width: 600px){
+
+}
+
+#scrollable-force-tabpanel-2 > div > p > div:nth-child(1){
+    position: fixed;
+    z-index: 100;
+    bottom: 10px;
+    right: 10px;
+}
+
+#app > div > switch > div > div:nth-child(6) > div > div.MuiPaper-root-573.MuiCard-root-572.makeStyles-root-96.MuiPaper-elevation1-577.MuiPaper-rounded-574{
+    width: 33.3%;
+}
