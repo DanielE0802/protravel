@@ -32,9 +32,9 @@ export default function MediaCard() {
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                        Hotel
+                    Ayenda Esperanza AC
                     </Typography>
-                    <h2>$ Precio /noche</h2>
+                    <h2>$ 54.569 /noche</h2>
 
                 </CardContent>
             </CardActionArea>

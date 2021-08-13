@@ -23,18 +23,12 @@ class Hoteles extends React.Component {
                         </GridListTile>
                     ))}
                 </GridList>
-                <h1 style={{ display: 'flex', justifyContent: 'start', paddingTop: 40, marginLeft:'5%', marginRight:'5%' }}>Lugar</h1>
+                <h1 style={{ display: 'flex', justifyContent: 'start', paddingTop: 40, marginLeft:'5%', marginRight:'5%' }}>Ayenda Esperanza AC</h1>
                 <h3 style={{ display: 'flex', marginLeft:'5%', marginRight:'5%'}}>
-                    <RoomIcon style={{ color: blue[500] }} />Ubicacion
+                    <RoomIcon style={{ color: blue[500] }} />Cartagena
                 </h3>
                 <p style={{ display: 'flex', justifyContent: 'space-between', marginLeft:'5%', marginRight:'5%'}}>
-                    Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar
-                    Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar
-                    Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar
-                    Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar
-                    Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar
-                    Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar Descripcion del lugar
-                </p>
+                Hotel Ayenda Marie Real 1808 está localizado en Cartagena de Indias. Cuenta con wi-fi gratis en zonas comunes, campo de golf y recepción 24 hrs, además de servicio de guarda-equipaje gratis.                </p>
                 <h1 style={{ display: 'flex', justifyContent: 'start', paddingTop: 40,  marginLeft:'5%' }}>Servicios</h1>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginLeft:'5%', marginRight:'5%'}}>
                     <div>

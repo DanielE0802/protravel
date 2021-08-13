@@ -19,7 +19,6 @@ import data from '../../data/placeHolderDestinos.json'
 import dataDestinos from '../../data/dataDestinos.json'
 // import { Grid } from '@material-ui/core';
 import AtraccionesComponent from './AtraccionesComponent';
-import Hotel from './Hoteles';
 import ResultadoHoteles from '../ResultadoHoteles';
 import '../scss/destinos.scss';
 import '../scss/user.scss';
@@ -27,8 +26,8 @@ import Restaurantes from './Restaurantes';
 import Souvenir from './Souvenir';
 import Informacion from '../destinos/Informacion'
 import VistaNativo from '../VistaNativo/Modal'
-import Planea from '../PlaneaTuViaje/Planea'
 import Modal from '../VistaNativo/Modal'
+import Mapa from './Map'
 
 
 console.log(data.data)
@@ -104,20 +103,40 @@ export default function ScrollableTabsButtonForce() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-      <VistaNativo></VistaNativo>
+        <VistaNativo></VistaNativo>
         <Informacion></Informacion>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <AtraccionesComponent data={data.data} ></AtraccionesComponent>
+      <div className="containerDestiny">
+          <div className="leftDestiny">
+          <AtraccionesComponent data={data.data} ></AtraccionesComponent>
+
+
+          </div>
+          <div className="rigthDestiny">
+            <Mapa ></Mapa>
+
+          </div>
+
+        </div>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Modal></Modal>
-        <Hotel />
-        <ResultadoHoteles data={dataDestinos.data} ></ResultadoHoteles>
- 
+        <div className="containerDestiny">
+          <div className="leftDestiny">
+            <ResultadoHoteles  data={dataDestinos.data} ></ResultadoHoteles>
+
+          </div>
+          <div className="rigthDestiny">
+            <Mapa ></Mapa>
+
+          </div>
+
+        </div>
+
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <div className="Restaurantes" style={{ marginTop: -200}}>
+        <div className="Restaurantes" style={{ marginTop: -200 }}>
           <Restaurantes></Restaurantes>
           <Restaurantes></Restaurantes>
           <Restaurantes></Restaurantes>
@@ -129,16 +148,16 @@ export default function ScrollableTabsButtonForce() {
         </div>
       </TabPanel>
       <TabPanel value={value} index={4}>
-      <div className="Souvenires">
-      <Souvenir></Souvenir>
-      <Souvenir></Souvenir>
-      <Souvenir></Souvenir>
-      <Souvenir></Souvenir>
-      <Souvenir></Souvenir>
-      <Souvenir></Souvenir>
-      <Souvenir></Souvenir>
-      <Souvenir></Souvenir>
-      </div>
+        <div className="Souvenires">
+          <Souvenir></Souvenir>
+          <Souvenir></Souvenir>
+          <Souvenir></Souvenir>
+          <Souvenir></Souvenir>
+          <Souvenir></Souvenir>
+          <Souvenir></Souvenir>
+          <Souvenir></Souvenir>
+          <Souvenir></Souvenir>
+        </div>
 
       </TabPanel>
       <TabPanel value={value} index={5}>

@@ -32,7 +32,10 @@
     }
     
     @media (max-width: 1100px){
-        #app > div > switch > div.container-home > div:nth-child(5){
+        #app > div > switch > div.container-home > div:nth-child(5),
+    #app > div > switch > div.container-home  > div:nth-child(6),
+    #app > div > switch > div.container-home  > div:nth-child(7),    
+    #app > div > switch > div.container-home  > div:nth-child(8){
     
             div > div{
                 min-width: 50%!important;
@@ -45,7 +48,10 @@
         }
         }
 @media (max-width: 550px){
-    #app > div > switch > div.container-home > div:nth-child(5){
+    #app > div > switch > div.container-home > div:nth-child(5),
+    #app > div > switch > div.container-home  > div:nth-child(6),
+    #app > div > switch > div.container-home  > div:nth-child(7),    
+    #app > div > switch > div.container-home  > div:nth-child(8){
 
         div > div{
             min-width: 100%!important;
