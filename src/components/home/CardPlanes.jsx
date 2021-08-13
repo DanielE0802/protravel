@@ -11,7 +11,7 @@ import theme from "../theme/themeconfig";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: '33.3%',
   },
 });
 
@@ -24,7 +24,8 @@ const CardPlanes = props =>{
       <Card
         className={classes.root}
         style={{
-          minWidth: "300px",
+          minWidth: "33.3%",
+          
           margin: "10px 5px 10px 5px",
           padding: "5px",
         }}

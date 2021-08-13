@@ -30,7 +30,7 @@ const useStyles = makeStyles(() => ({
     borderRadius: 16,
     transition: '0.2s',
     '&:hover': {
-      transform: 'scale(1.04)',
+      transform: 'scale(1.01)',
     },
   },
   card: ({ color }) => ({
@@ -99,17 +99,21 @@ export const SolidGameCardDemo = React.memo(function SolidGameCard() {
     <>
       <div >
         <div >
-        <AboutUs></AboutUs>
-          <Grid  classes={gridStyles} container spacing={4} wrap={'nowrap'} style={{ overflow: 'scroll', width:"90%", margin:"auto" }}>
-            <Grid item>
-              <CustomCard
-                classes={styles}
-                title={'Daniel Estupiñan'}
-                cargo={'Frontend Developer'}
-                subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
-                image={Daniel}
-              />
-            </Grid>
+          <AboutUs></AboutUs>
+          <Grid classes={gridStyles} container spacing={4} wrap={'nowrap'} style={{ overflow: 'scroll', width: "90%", margin: "auto" }}>
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/daniel-estupiñán/" className="margenDerecha">
+              <Grid item>
+                <CustomCard
+                  classes={styles}
+                  title={'Daniel Estupiñan'}
+                  cargo={'Frontend Developer'}
+                  subtitle={'Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio Descripcio '}
+                  image={Daniel}
+                />
+              </Grid>
+            </a>
+
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/oscar-eduardo-restrepo-mejia/" className="margenDerecha">
             <Grid item>
               <CustomCard
                 classes={styles2}
@@ -119,6 +123,9 @@ export const SolidGameCardDemo = React.memo(function SolidGameCard() {
                 image={Oscar}
               />
             </Grid>
+            </a>
+
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/janeth-rocio-mojica-fernandez/" className="margenDerecha">
             <Grid item>
               <CustomCard
                 classes={styles3}
@@ -128,6 +135,9 @@ export const SolidGameCardDemo = React.memo(function SolidGameCard() {
                 image={Janeth}
               />
             </Grid>
+            </a>
+
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/silvia-alejandra-lozano-copete-394b78202/" className="margenDerecha">
             <Grid item>
               <CustomCard
                 classes={styles4}
@@ -137,10 +147,12 @@ export const SolidGameCardDemo = React.memo(function SolidGameCard() {
                 image={Alejandra}
               />
             </Grid>
+            </a>
+
           </Grid>
         </div>
-        <div style={{marginTop: 50}}>
-         
+        <div style={{ marginTop: 50 }}>
+
         </div>
       </div>
     </>

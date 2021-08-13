@@ -52,9 +52,9 @@ const MinimalSelect = () => {
         inputProps={{ readOnly: false }}
         
       >
-        <MenuItem value={0}>Turista</MenuItem>
-        <MenuItem value={1}>Nativo</MenuItem>
-        <MenuItem value={2}>Industria turismo</MenuItem>
+        <MenuItem value={0} className="prueba">Turista</MenuItem>
+        <MenuItem value={1} className="prueba">Nativo</MenuItem>
+        <MenuItem value={2} className="prueba">Industria turismo</MenuItem>
       </Select>
     </FormControl>
   );

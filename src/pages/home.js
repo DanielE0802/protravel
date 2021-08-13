@@ -45,10 +45,7 @@ const Home = (props) => {
         <SlidePlanes title="Nuestro" subtitle="Pacifico Colombiano" data={dataHome[1]}></SlidePlanes>
         <SlidePlanes title="Nuestros" subtitle="Atracciones sugeridas" data={dataHome[2]}></SlidePlanes>
 
-        <SlidePlanes estilo={{          display: "flex",
-          alignItems: "center",
-          flexDirection: "column",
-          background:"#fff"}} title="Nuestros" subtitle="Lugares sugeridos" data={dataHome[0]}></SlidePlanes>
+        <SlidePlanes title="Nuestros" subtitle="Lugares sugeridos" data={dataHome[0]}></SlidePlanes>
     
         <SlidePlanes title="Nuestros" subtitle="Deportes sugeridos" data={dataHome[3]}></SlidePlanes>
         <FooterDemo style={{backgroundColor:"#fff"}}></FooterDemo>
