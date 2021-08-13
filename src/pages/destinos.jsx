@@ -6,7 +6,7 @@ import HeaderLinks from "../components/header/Headerlinks";
 import dataHoteles from '../data/dataHoteles.json'
 import Map from "../components/destinos/Map"
 import Footer from '../components/footer/Footer'
-import SlideDestiny from "../components/general/SlideDestiny"
+import SlideDestiny from "../components/general/slideDestiny"
 import SearchDestiny from '../components/general/SearchDestiny';
 import "../components/scss/destinos.scss"
 

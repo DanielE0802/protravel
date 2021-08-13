@@ -6,6 +6,9 @@ import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import CardReturn from './CardReturn'
+import '../scss/general.scss'
+
+
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
@@ -33,7 +36,7 @@ function AtraccionesComponent(props) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Playas</Typography>
+          <Typography className={classes.heading} style={{fontSize:"1.2rem", fontWeight:"500", color: "#0067F5"}}>Playas</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
