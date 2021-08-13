@@ -28,6 +28,7 @@ import Souvenir from './Souvenir';
 import Informacion from '../destinos/Informacion'
 import VistaNativo from '../VistaNativo/Modal'
 import Planea from '../PlaneaTuViaje/Planea'
+import Modal from '../VistaNativo/Modal'
 
 
 console.log(data.data)
@@ -110,9 +111,10 @@ export default function ScrollableTabsButtonForce() {
         <AtraccionesComponent data={data.data} ></AtraccionesComponent>
       </TabPanel>
       <TabPanel value={value} index={2}>
+        <Modal></Modal>
         <Hotel />
         <ResultadoHoteles data={dataDestinos.data} ></ResultadoHoteles>
-
+ 
       </TabPanel>
       <TabPanel value={value} index={3}>
         <div className="Restaurantes" style={{ marginTop: -200}}>

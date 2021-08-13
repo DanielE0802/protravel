@@ -134,3 +134,10 @@
 @media (max-width: 600px){
 
 }
+
+#scrollable-force-tabpanel-2 > div > p > div:nth-child(1){
+    position: fixed;
+    z-index: 100;
+    bottom: 10px;
+    right: 10px;
+}
