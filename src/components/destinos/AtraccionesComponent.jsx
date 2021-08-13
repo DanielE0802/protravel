@@ -21,7 +21,12 @@ const useStyles = makeStyles((theme) => ({
 
 function AtraccionesComponent(props) {
   let infoAtracciones = props.data.Atracciones.Playas;
+  let infoParques = props.data.Atracciones.ParquesDeDiversiones;
+  let LugaresHistoricos  = props.data.Atracciones.LugaresHistoricos;
 
+
+  console.log(infoParques)
+  console.log(props.data)
 
 
   // infoAtracciones.map(Element=>console.log(Element))
@@ -51,9 +56,54 @@ function AtraccionesComponent(props) {
           </Typography>
         </AccordionDetails>
       </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>Parques de atracciones</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            {infoParques.map((Element) => {
+              console.log(Element)
+              return( 
+                <div>
+                <CardReturn nombre={Element.nombre} src={Element.img} precio={Element.precio} Lanchas={Element.Lanchas} extra={Element.extra} />
+                </div>              
+                )
+            })}
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
       
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>Lugares Historicos</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            {LugaresHistoricos.map((Element) => {
+              console.log(Element)
+              return( 
+                <div>
+                <CardReturn nombre={Element.nombre} src={Element.img} precio={Element.precio} Lanchas={Element.Lanchas} extra={Element.extra} />
+                </div>              
+                )
+            })}
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
       
     </div>
+
+    
   );
 }
 
