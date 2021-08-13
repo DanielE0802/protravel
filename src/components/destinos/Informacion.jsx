@@ -7,7 +7,6 @@ import CardContent from '@material-ui/core/CardContent';
 import TextInfoContent from '@mui-treasury/components/content/textInfo';
 import { useFourThreeCardMediaStyles } from '@mui-treasury/styles/cardMedia/fourThree';
 import { useN04TextInfoContentStyles } from '@mui-treasury/styles/textInfoContent/n04';
-import { useOverShadowStyles } from '@mui-treasury/styles/shadow/over';
 import '../scss/destinos.scss';
 
 
@@ -29,7 +28,6 @@ export const MusicCardDemo = React.memo(function MusicCard() {
     const styles = useStyles();
     const mediaStyles = useFourThreeCardMediaStyles();
     const textCardContentStyles = useN04TextInfoContentStyles();
-    const shadowStyles = useOverShadowStyles({ inactive: true });
     return (
         <div>
             <Card className={"container_info"} >

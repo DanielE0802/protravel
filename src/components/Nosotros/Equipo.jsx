@@ -1,8 +1,6 @@
 import React from 'react';
 import Color from 'color';
-import GoogleFont from 'react-google-font-loader';
 import { makeStyles } from '@material-ui/core/styles';
-import NoSsr from '@material-ui/core/NoSsr';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import CardActionArea from '@material-ui/core/CardActionArea';

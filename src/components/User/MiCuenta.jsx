@@ -6,7 +6,7 @@ import { roundTextFieldStylesHook } from '@mui-treasury/styles/textField/round';
 import Select from './selectUser'
 import Botones from './botonesSelect';
 import '../scss/user.scss';
-import {nameUserLogin,emailUserLogin,nickUserLogin, surnameUserLogin} from "../../js/login"
+import {nameUserLogin,emailUserLogin,nickUserLogin} from "../../js/login"
 
 
 const theme = createMuiTheme({
