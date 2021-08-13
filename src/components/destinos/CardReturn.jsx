@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import '../scss/general.scss'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,13 +37,13 @@ export default function ComplexGrid(props) {
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img loading="lazy" className={classes.img} alt="complex" src={props.src} style={{ width: '100%' }}/>
+              <img loading="lazy" className={(classes.img, "azulClaro")} alt="complex" src={props.src} style={{ width: '100%' }}/>
             </ButtonBase>
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
-                <Typography gutterBottom variant="subtitle1">
+                <Typography gutterBottom variant="subtitle1" className="colorTitle">
                   {props.nombre}
                 </Typography>
                 <Typography variant="body2" gutterBottom>

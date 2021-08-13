@@ -63,7 +63,7 @@ function AtraccionesComponent(props) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Parques de atracciones</Typography>
+          <Typography className={classes.heading} style={{fontSize:"1.2rem", fontWeight:"500", color: "#0067F5"}}>Parques de atracciones</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -85,7 +85,7 @@ function AtraccionesComponent(props) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Lugares Historicos</Typography>
+          <Typography className={classes.heading} style={{fontSize:"1.2rem", fontWeight:"500", color: "#0067F5"}}>Lugares Historicos</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
