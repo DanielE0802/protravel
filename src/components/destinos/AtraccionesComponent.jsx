@@ -19,6 +19,8 @@ const useStyles = makeStyles((theme) => ({
 function AtraccionesComponent(props) {
   let infoAtracciones = props.data.Atracciones.Playas;
 
+
+
   // infoAtracciones.map(Element=>console.log(Element))
 
   const classes = useStyles();

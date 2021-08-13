@@ -28,8 +28,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function ComplexGrid(props) {
-    console.log(props)
   const classes = useStyles();
+
+
+
+
 
   return (
     <div className={classes.root}>

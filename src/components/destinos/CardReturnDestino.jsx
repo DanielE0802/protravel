@@ -27,9 +27,29 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function ComplexGrid(props) {
-    console.log(props)
   const classes = useStyles();
+  // let info="";
+  // function subirDatos() {
+  //   const updateLogin= async () =>{
+  //     let response = await fetch(
+  //     "http://localhost:3001/api/hotel/hotel",
+  //     {
+  //       method: "GET",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       redirect: "follow",
+  //     })
+  //     let data = await response.json()
+  //     return data
+  //   }
 
+  //   info = updateLogin()
+  //   info.then(resp => {
+      
+  //     console.log(resp)
+
+      
   return (
     <div className={classes.root}>
       <Paper className={classes.paper}>
@@ -42,10 +62,10 @@ export default function ComplexGrid(props) {
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={2}>
               <Grid item xs>
-                <Typography gutterBottom variant="subtitle1">
+                <Typography class="titleHotel" gutterBottom variant="subtitle1">
                   {props.nombre}
                 </Typography>
-                <Typography variant="body2" gutterBottom>
+                <Typography class="descriptionHotel" variant="body2" gutterBottom>
                   Descripción: {props.descripcion}
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
@@ -63,4 +83,12 @@ export default function ComplexGrid(props) {
       </Paper>
     </div>
   );
+
+  //   })
+    
+      
+  //     }
+  // subirDatos();
+
+
 }
