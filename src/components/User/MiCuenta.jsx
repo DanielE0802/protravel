@@ -68,7 +68,8 @@ const TextFields = () => {
                     InputLabelProps={{ shrink: true, classes: inputLabelStyles }}
                     InputProps={{ classes: inputBaseStyles, disableUnderline: true, readOnly: true }}
                     defaultValue="+57 3165034633"
-                    style={{marginLeft: 50, marginRight: 50 }}
+                    style={{marginLeft: 50, marginRight: 50}}
+                    className="selectot"
 
                 />
             </div>
