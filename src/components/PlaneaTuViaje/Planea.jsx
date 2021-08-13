@@ -7,8 +7,6 @@ import StepContent from '@material-ui/core/StepContent';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import ResultadoDestinos from '../ResultadoHoteles';
-import Footer from '../footer/Footer';
 import Actividades from '../PlaneaTuViaje/Actividades';
 
 const useStyles = makeStyles((theme) => ({

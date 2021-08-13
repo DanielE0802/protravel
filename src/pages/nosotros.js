@@ -3,7 +3,7 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import Equipo from "../components/Nosotros/Equipo"
 import Header from "../components/header/Header";
 import HeaderLinks from "../components/header/Headerlinks";
-import SlideDestiny from "../components/general/SlideDestiny";
+import SlideDestiny from "../components/general/slideDestiny";
 import FooterDemo from "../components/footer/Footer";
 import '../components/scss/general.scss'
 

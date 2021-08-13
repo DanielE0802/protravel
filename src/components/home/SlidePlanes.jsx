@@ -2,7 +2,6 @@ import React from "react";
 import CardPlanes from "./CardPlanes";
 
 import "../scss/home.scss";
-import { data } from "jquery";
 
 class SlidePlanes extends React.Component {
 

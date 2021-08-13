@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+
 import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -16,8 +16,6 @@ import '../scss/user.scss';
 import { ThemeProvider } from "@material-ui/core/styles";
 import Back from './Back';
 import Swal from 'sweetalert2'
-import { data, error } from 'jquery';
-import { Redirect, BrowserRouter, Switch } from 'react-router-dom';
 import { useHistory } from 'react-router';
 
 
@@ -51,8 +49,6 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(3, 0, 2),
   },
 }));
-
-const tokenParse1 = true;
 
 export default function SignInSide(props) {
 

@@ -30,8 +30,7 @@ import {
 
 import { useMagCategoryMenuStyles } from '@mui-treasury/styles/categoryMenu/mag';
 import { usePoofSocialLinkStyles } from '@mui-treasury/styles/socialLink/poof';
-import { useReadyEmailSubscribeStyles } from '@mui-treasury/styles/emailSubscribe/ready';
-import { Link } from '@material-ui/core';
+import { useReadyEmailSubscribeStyles } from '@mui-treasury/styles/emailSubscribe/ready'
 
 const darkTheme = createMuiTheme({ palette: { type: 'dark' } });
 
