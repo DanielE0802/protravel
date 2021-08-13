@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
+import "../js/hotels"
 import CardReturnDestino from './destinos/CardReturnDestino'
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -12,14 +13,21 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
+
 function ResultadoDestinos(props) {
   let infoAtracciones = props.data.Atracciones.Hoteles;
 
   // infoAtracciones.map(Element=>console.log(Element))
 
-  const classes = useStyles();
+
+ 
+
+
+  let classes =  useStyles();
 
   return (
+    
     <div className={classes.root}>
 
       <Typography>
@@ -27,7 +35,7 @@ function ResultadoDestinos(props) {
           console.log(Element)
           return (
             <div>
-              <CardReturnDestino nombre={Element.nombre} src={Element.img} precio={Element.precio} descripcion={Element.descripcion} />
+              <CardReturnDestino  nombre={Element.nombre} src={Element.img} precio={Element.precio} descripcion={Element.descripcion} />
             </div>
           )
         })}
