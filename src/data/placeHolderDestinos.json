@@ -63,6 +63,55 @@
           "extra": "(valor por persona, incluye transporte)."
         }
         
+      ],
+      "ParquesDeDiversiones" :[
+        {
+          "nombre": "Parque Nacional del Café",
+          "img": "http://imagenes.canalrcn.com/lomaslike/parque-del-cafe-quindio-colombia.jpg",
+          "Lanchas":"Nos encontramos ubicados en el departamento del Quindío, centro occidente del país, inmersos en el mar de verdes del Eje Cafetero colombiano. Considerado como uno de los parques temáticos más importantes de Latinoamérica, una mezcla perfecta entre diversión y aventura que encontrarás en un área de  58 hectáreas con más de 20 atracciones mecánicas y un sinnúmero de atractivos culturales."
+        },
+        {
+          "nombre": "Parque Panaca",
+          "img": "https://www.quindioturismo.com/imagenes/atractivos_turisticos/panaca/foto02.jpg",
+          "Lanchas":"Nuestro Parque cuenta con un asombroso sendero rodeado de naturaleza, el cual te llevará por 10 espectaculares Estaciones en las que encontrarás más de 4.500 animales con los que podrás jugar, interactuar e incluso alimentar. Durante el recorrido visitarás las Estaciones de Ganadería, Especies Menores, Avestruces, Porcicultura, Felina, Granja Integral, Canina, Agronomía y finalmente la majestuosa Estación Equina."
+        },
+        {
+          "nombre": "Parque Salitre Mágico",
+          "img": "http://static.pulzo.com/images/20180828111518/salitre-magico-facebook-1-900x485.jpg",
+          "Lanchas":"Salitre Mágico cuenta en total con 30 atracciones: 10 de alto impacto, 15 infantiles y 5 familiares, como el carrusel, sillas voladoras y minirueda; de alto impacto como la montaña rusa sacacorchos la cual cuenta con caídas libres de 15 metros de altura y un recorrido de 500 metros. Igualmente es importante de destacar la rueda panorámica llamada Millenium desde la que se puede observar una buena panorámica del occidente de la ciudad."
+        },
+        {
+          "nombre": "Parque Mundo Aventura",
+          "img": "https://viajandox.com.co/uploads/attractive_31.jpg",
+          "Lanchas":"Se trata de un parque de diversiones donde el visitante puede disfrutar de la más completa y variada diversión con: Atracciones Mecánicas, Juegos de Destrezas, Escenarios Naturales y Comparsas llenas de personajes animados."
+        },
+        {
+          "nombre": "Parque Piscilago",
+          "img": "https://www.piscilago.co/hubfs/ondaextrema-piscilago-colsubsidio.jpg",
+          "Lanchas":"Salpícate de diversión en nuestras atracciones, sube la adrenalina y sumérgete en recorridos que te permitirán apreciar la biodiversidad del ecosistema. Piscilago es un parque acuático y de conservación ubicado en el kilómetro 105 vía Bogotá – Girardot, a cinco minutos de Melgar."
+        }
+      ],
+      "LugaresHistoricos" :[
+        {
+          "nombre": "Ciudad Amurallada",
+          "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c1/8c/e6/em-cima-da-muaralha.jpg?w=1200&h=-1&s=1",
+          "Lanchas":"La Ciudad Amurallada es el centro histórico de la ciudad de Cartagena de Indias y ha sido declarado tanto patrimonio nacional de Colombia como Patrimonio de la Humanidad. Aquí vivían los nobles y las personas importantes en la época de la Colonia."
+        },
+        {
+          "nombre": "Centro Histórico de Popayán",
+          "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/c1/8c/e6/em-cima-da-muaralha.jpg?w=1200&h=-1&s=1",
+          "Lanchas":"El centro histórico de Popayán, entre los ríos Molino y Ejido y los cerros tutelares, es uno de los mejor conservados de Colombia. Después del terremoto de 1736 la ciudad fue reconstruida y 20 años más tarde se hicieron andenes para evitar la formación de lodo en épocas de lluvia. En el centro se destacan el Palacio Arzobispal, la Torre del Reloj, el Parque Caldas y la Catedral."
+        },
+        {
+          "nombre": "Pueblito Paisa",
+          "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/b4/be/e8/pueblito-paisa.jpg?w=1200&h=-1&s=1",
+          "Lanchas":"Al llegar al cerro, si la idea es hacer ejercicio subir caminando es genial, y al llegar a la cima es mirador es increíble, además la réplica de una plaza de un pueblo antioqueño,las artesanías y el restaurante hacen de una tarde de esparcimiento muy agradable"
+        },
+        {
+          "nombre": "Plaza Cañón de Morgan",
+          "img": "https://viajasanandres.com/wp-content/uploads/2019/11/plaza-morgan.jpg",
+          "Lanchas":"Si quieres pasar un buen rato y tener fotos icónicas de San Andrés, la plaza Cañón de Morgan es una parada obligada, sobre todo si entre tus planes está irte de compras en la isla y aprovechar las ventajas de estar en puerto libre."
+        }
       ]
     }
   }
